@@ -20,46 +20,46 @@
   </button>
 </template>
 <script>
-  export default {
-    name: 'cz-button',
+export default {
+  name: 'cz-button',
 
-    props: {
-      type: {
-        type: String,
-        default: 'default'
-      },
-      size: String,
-      icon: {
-        type: String,
-        default: ''
-      },
-      nativeType: {
-        type: String,
-        default: 'button'
-      },
-      loading: Boolean,
-      disabled: Boolean,
-      plain: Boolean,
-      autofocus: Boolean,
-      round: Boolean,
-      circle: Boolean
+  props: {
+    type: {
+      type: String,
+      default: 'default'
     },
-
-    computed: {
-      buttonSize() {
-        return this.size
-      },
-      buttonDisabled() {
-        return this.disabled
-      }
+    size: String,
+    icon: {
+      type: String,
+      default: ''
     },
+    nativeType: {
+      type: String,
+      default: 'button'
+    },
+    loading: Boolean,
+    disabled: Boolean,
+    plain: Boolean,
+    autofocus: Boolean,
+    round: Boolean,
+    circle: Boolean
+  },
 
-    methods: {
-      handleClick(evt) {
-        this.$emit('click', evt)
-      }
+  computed: {
+    buttonSize () {
+      return this.size
+    },
+    buttonDisabled () {
+      return this.disabled
+    }
+  },
+
+  methods: {
+    handleClick (evt) {
+      this.$emit('click', evt)
     }
   }
+}
 </script>
 <style scoped lang="less">
   .cz-button{
@@ -96,4 +96,3 @@
     background: linear-gradient(to right, #F6A573 , #DE5D89);
   }
 </style>
-

@@ -6,12 +6,12 @@
 </template>
 
 <script>
-    export default {
-        methods: {
-            handleClick: function(){
-                console.log('click button');
-            }
-        }
+export default {
+  methods: {
+    handleClick: function () {
+      console.log('click button')
     }
+  }
+}
 </script>
 <style></style>
