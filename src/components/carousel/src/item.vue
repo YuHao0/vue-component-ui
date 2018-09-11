@@ -114,5 +114,5 @@
 </script>
 
 <style lang="scss" scoped>
-  @import '../sass/item.scss';
+  @import '../scss/item.scss';
 </style>

@@ -194,8 +194,6 @@ export default {
         console.warn('[Element Warn][Carousel]index must be an integer.');
         return;
       }
-      console.log(index);
-      console.log(this.items);
       let length = this.items.length;
       const oldIndex = this.activeIndex;
       if (index < 0) {
@@ -256,5 +254,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '../sass/main.scss';
+  @import '../scss/main.scss';
 </style>

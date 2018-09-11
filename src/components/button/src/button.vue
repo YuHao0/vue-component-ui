@@ -69,7 +69,7 @@ export default {
   }
 };
 </script>
-<style scoped lang="less">
+<style scoped lang="scss">
 .cz-button {
   color: #fff;
   border: 1px solid #e1376c;
