@@ -6,7 +6,8 @@
     @mouseleave.stop="handleMouseLeave">
     <div
       class="el-carousel__container"
-      :style="{ height: height }">
+      :style="{ height: height }"
+      ref="carouselBox">
       <transition name="carousel-arrow-left">
         <button
           type="button"
@@ -42,7 +43,7 @@
         class="el-carousel__indicator"
         :class="{ 'is-active': index === activeIndex }"
         @mouseenter="throttledIndicatorHover(index)"
-        @click.stop="handleIndicatorClick(index)">
+        @click.stop="handleIndicatorClick(index)" :key="index">
         <button class="el-carousel__button"><span v-if="hasLabel">{{ item.label }}</span></button>
       </li>
     </ul>
@@ -52,6 +53,8 @@
 <script>
 import throttle from 'throttle-debounce/throttle';
 import { addResizeListener, removeResizeListener } from '../../../utils/resize-event.js';
+import util from '../../_common/util.js';
+import publicConfig from '../../_common/publicConfig.js';
 
 export default {
   name: 'CzCarousel',
@@ -61,7 +64,10 @@ export default {
       type: Number,
       default: 0
     },
-    height: String,
+    height: {
+      type: String,
+      default: '150px'
+    },
     trigger: {
       type: String,
       default: 'hover'
@@ -83,7 +89,8 @@ export default {
       type: String,
       default: 'hover'
     },
-    type: String
+    type: String,
+    moduleData: Object
   },
 
   data() {
@@ -239,6 +246,10 @@ export default {
   mounted() {
     this.updateItems();
     this.$nextTick(() => {
+      
+      console.log('moduleData:', this.moduleData);
+      console.log('carouselBox:', this.$refs.carouselBox);
+
       addResizeListener(this.$el, this.resetItemPosition);
       if (this.initialIndex < this.items.length && this.initialIndex >= 0) {
         this.activeIndex = this.initialIndex;
