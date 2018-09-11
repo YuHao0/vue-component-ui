@@ -11,6 +11,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "resize-observer-polyfill": "^1.5.0",
+    "throttle-debounce": "^1.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -46,6 +48,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "node-notifier": "^5.1.2",
+    "node-sass": "4.5.3",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -53,10 +56,11 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "sass-loader": "^6.0.6",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
-    "url-loader": "^0.5.8",
+    "url-loader": "^1.1.1",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",

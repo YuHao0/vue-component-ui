@@ -20,6 +20,10 @@
           {
             "path": "/button",
             "title": "Button 按钮"
+          },
+          {
+            "path": "/carousel",
+            "title": "carousel 轮播图"
           }
         ]
       }

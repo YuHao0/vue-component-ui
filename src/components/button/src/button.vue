@@ -4,6 +4,7 @@
     @click="handleClick"
     :disabled="buttonDisabled"
     :type="nativeType"
+    :publicData="publicData"
     :class="[
       type ? 'el-button-' + type : '',
       buttonSize ? 'el-button-' + buttonSize : '',
@@ -15,6 +16,7 @@
         'is-circle': circle
       }
     ]"
+    ref="a"
   >
   <span v-if="$slots.default"><slot></slot></span>
   </button>
@@ -29,6 +31,7 @@ export default {
       default: 'default'
     },
     size: String,
+    publicData: {},
     icon: {
       type: String,
       default: ''
@@ -54,45 +57,51 @@ export default {
     }
   },
 
+  created() {
+    console.log('this:', this)
+    console.log('data:', this.publicData)
+  },
+
   methods: {
     handleClick(evt) {
-      this.$emit('click', evt);
+      this.$emit('click', evt)
     }
   }
 };
 </script>
 <style scoped lang="less">
-  .cz-button{
-    color: #fff;
-    border: 1px solid #E1376C;
-    border-radius: 4px;
-    font-size: 18px;
-    padding: 12px 35px;
-    outline: medium;
-    cursor: pointer;
-    font-weight: bold;
-    background: -webkit-linear-gradient(left, #FF8D46 , #E34077);
-    background: -o-linear-gradient(right, #FF8D46, #E34077);
-    background: -moz-linear-gradient(right, #FF8D46, #E34077);
-    background: linear-gradient(to right, #FF8D46 , #E34077);
-    &:hover{
-      background: -webkit-linear-gradient(left, #F6A573 , #DE5D89);
-      background: -o-linear-gradient(right, #F6A573, #DE5D89);
-      background: -moz-linear-gradient(right, #F6A573, #DE5D89);
-      background: linear-gradient(to right, #F6A573 , #DE5D89);
-    }
-    &:active{
-      background: -webkit-linear-gradient(left, #FF8D46 , #E34077);
-      background: -o-linear-gradient(right, #FF8D46, #E34077);
-      background: -moz-linear-gradient(right, #FF8D46, #E34077);
-      background: linear-gradient(to right, #FF8D46 , #E34077);
-    }
+.cz-button {
+  color: #fff;
+  border: 1px solid #e1376c;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px 35px;
+  outline: medium;
+  cursor: pointer;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #ff8d46, #e34077);
+  background: -o-linear-gradient(right, #ff8d46, #e34077);
+  background: -moz-linear-gradient(right, #ff8d46, #e34077);
+  background: linear-gradient(to right, #ff8d46, #e34077);
+  &:hover {
+    background: -webkit-linear-gradient(left, #f6a573, #de5d89);
+    background: -o-linear-gradient(right, #f6a573, #de5d89);
+    background: -moz-linear-gradient(right, #f6a573, #de5d89);
+    background: linear-gradient(to right, #f6a573, #de5d89);
   }
-  .is-disabled,.is-disabled:active{
-    cursor: default;
-    background: -webkit-linear-gradient(left, #F6A573 , #DE5D89);
-    background: -o-linear-gradient(right, #F6A573, #DE5D89);
-    background: -moz-linear-gradient(right, #F6A573, #DE5D89);
-    background: linear-gradient(to right, #F6A573 , #DE5D89);
+  &:active {
+    background: -webkit-linear-gradient(left, #ff8d46, #e34077);
+    background: -o-linear-gradient(right, #ff8d46, #e34077);
+    background: -moz-linear-gradient(right, #ff8d46, #e34077);
+    background: linear-gradient(to right, #ff8d46, #e34077);
   }
+}
+.is-disabled,
+.is-disabled:active {
+  cursor: default;
+  background: -webkit-linear-gradient(left, #f6a573, #de5d89);
+  background: -o-linear-gradient(right, #f6a573, #de5d89);
+  background: -moz-linear-gradient(right, #f6a573, #de5d89);
+  background: linear-gradient(to right, #f6a573, #de5d89);
+}
 </style>

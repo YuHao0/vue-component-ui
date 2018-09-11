@@ -1,7 +1,11 @@
-import Button from './button';
+import Button from './button'
+import Carousel from './carousel'
+import CarouselItem from './carousel/src/item'
 
 const components = [
-  Button
-];
+  Button,
+  Carousel,
+  CarouselItem
+]
 
 export default components;
