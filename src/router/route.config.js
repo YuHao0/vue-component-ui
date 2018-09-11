@@ -49,5 +49,5 @@ route = route.concat([{
   path: '*',
   redirect: defaultPath
 }]);
-console.log(route);
+
 export default route;
