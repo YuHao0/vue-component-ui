@@ -46,20 +46,20 @@ export default {
   },
 
   computed: {
-    buttonSize () {
-      return this.size
+    buttonSize() {
+      return this.size;
     },
-    buttonDisabled () {
-      return this.disabled
+    buttonDisabled() {
+      return this.disabled;
     }
   },
 
   methods: {
-    handleClick (evt) {
-      this.$emit('click', evt)
+    handleClick(evt) {
+      this.$emit('click', evt);
     }
   }
-}
+};
 </script>
 <style scoped lang="less">
   .cz-button{

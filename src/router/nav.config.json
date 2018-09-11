@@ -1,0 +1,28 @@
+[
+  {
+    "name": "折疯了海淘",
+    "href": "http://zhefengle.com/"
+  },
+  {
+    "name": "超级快递",
+    "href": "http://www.buylabel.com/"
+  },
+  {
+    "name": "开发指南",
+    "children": []
+  },
+  {
+    "name": "组件",
+    "groups": [
+      {
+        "groupName": "Basic",
+        "list": [
+          {
+            "path": "/button",
+            "title": "Button 按钮"
+          }
+        ]
+      }
+    ]
+  }
+]

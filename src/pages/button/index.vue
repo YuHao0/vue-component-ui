@@ -8,7 +8,7 @@
 <script>
 export default {
   methods: {
-    handleClick: function () {
+    handleClick: function() {
       console.log('click button')
     }
   }

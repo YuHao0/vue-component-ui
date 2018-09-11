@@ -1,20 +1,11 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import button from '@/pages/button/index'
+import Vue from 'vue';
+import Router from 'vue-router';
+import routes from './route.config';
+import App from '../App.vue';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'button',
-      component: button
-    },
-    {
-      path: '/button',
-      name: 'button',
-      component: button
-    }
-  ]
-})
+  mode: 'history',
+  routes
+});

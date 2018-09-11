@@ -1,5 +1,5 @@
-import Button from './src/button'
+import Button from './src/button';
 
-Button.name = 'cz-button'
+Button.name = 'cz-button';
 
-export default Button
+export default Button;
