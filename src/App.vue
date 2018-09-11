@@ -63,6 +63,7 @@ export default {
   }
   .page-component__content {
     padding-left: 270px;
+    padding-right: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
   }
