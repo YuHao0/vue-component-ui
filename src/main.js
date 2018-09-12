@@ -15,7 +15,6 @@ Components.forEach(component => {
 Vue.config.productionTip = false;
 
 router.afterEach(route => {
-  console.log(route);
   document.title = route.name || 'Api Union';
 });
 

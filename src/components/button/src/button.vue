@@ -58,8 +58,6 @@ export default {
   },
 
   created() {
-    console.log('this:', this)
-    console.log('data:', this.publicData)
   },
 
   methods: {
