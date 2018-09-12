@@ -1,26 +1,40 @@
 <template>
-  <div class="cz-mixGridLayout">
-    123
+  <div class="cz-mixGridLayout" ref='mixGridLayout'>
+      <div class="aside">
+
+      </div>
+      <div class="content">
+
+      </div>
   </div>
 </template>
 <script>
 export default {
   name: 'cz-mixGridLayout',
   props: {
+    requestData: Object
+  },
+  data() {
+    return {
+      height: '',
+      moduleData: {}
+    }
+  },
+  computed: {
 
   },
 
-  computed: {
-   
+  methods: {
+    
   },
 
   created() {
   },
-
-  methods: {
-    handleClick(evt) {
-      this.$emit('click', evt)
-    }
+  
+  mounted() {
+    this.$nextTick(() => {
+      
+    });
   }
 };
 </script>

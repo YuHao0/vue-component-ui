@@ -252,21 +252,10 @@ export default {
     this.updateItems();
     this.$nextTick(() => {
       this.moduleData = util.extend(publicConfig.modulePublic, this.requestData);
-
-      var paddingList = this.moduleData.padding.split(',');
-
-      this.$refs.carouselBox.style.paddingLeft = paddingList[0] + 'px';
-      this.$refs.carouselBox.style.paddingTop = paddingList[1] + 'px';
-      this.$refs.carouselBox.style.paddingRight = paddingList[2] + 'px';
-      this.$refs.carouselBox.style.paddingBottom = paddingList[3] + 'px';
-      this.$refs.carouselBox.style.borderBottom = this.moduleData.dividerHeight + 'px solid ' + this.moduleData.dividerColor;
-      this.$refs.carouselBox.style.background = `${this.moduleData.backgroundColor} url(${this.moduleData.backgroundImg}) no-repeat center top`;
-
-      this.height = (this.$refs.carouselBox.offsetWidth / this.moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + this.moduleData.dividerHeight + 'px';
+      var style = publicConfig.dealPublicAttr(this.$refs.carouselBox, this.moduleData);
+      this.height = style.height;
       this.interval = this.moduleData.duration;
-
-      this.$refs.carouselIndicators.style.bottom = (parseInt(paddingList[3], 0) + this.moduleData.dividerHeight + 0) + 'px';  // 0为indicators距离底部距离,可配置
-
+      this.$refs.carouselIndicators.style.bottom = (style.paddingBottom + this.moduleData.dividerHeight + 0) + 'px';  // 0为indicators距离底部距离,可配置
       this.$refs.carouselButton.forEach((item, index) => {
         if (this.activeIndex === index) {
           item.style.backgroundColor = this.moduleData.indicatorSelectedColor;
