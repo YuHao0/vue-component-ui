@@ -23,13 +23,21 @@
           },
           {
             "path": "/carousel",
-            "title": "carousel 轮播图"
+            "title": "Carousel 轮播图"
           }
         ]
       },
       {
         "groupName": "Layout",
         "list": [
+          {
+            "path": "/header",
+            "title": "头部标题"
+          },
+          {
+            "path": "/gridLayout",
+            "title": "多列布局"
+          },
           {
             "path": "/mixGridLayout",
             "title": "混合多列布局"

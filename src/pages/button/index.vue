@@ -10,7 +10,7 @@ export default {
     data() {
         return {
             data: {
-                name: 'public'
+                name: 'button'
             }
         }
     },
