@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div style="width: 500px">
         <!-- <cz-header :title='data.modulePuclic.title'></cz-header> -->
-        <cz-carousel trigger='click' :moduleData='moduleData'>
-            <cz-carousel-item v-for='item in moduleData.data.imageList' :key='item.imageUrl'>
+        <cz-carousel trigger='click' :requestData='moduleData.data'>
+            <cz-carousel-item v-for='item in moduleData.data.imageList' :key='item.imageUrl' :moduleData='moduleData'>
                 <img :src='item.imageUrl' />
             </cz-carousel-item>
         </cz-carousel>
@@ -23,12 +23,14 @@
                             {imageUrl: 'http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700'}
                         ],
                         proportion: 1.35,
-                        padding: '0,0,0,0',
+                        padding: '10,10,10,10',
                         duration: 3000,
-                        dividerHeight: 10,
-                        dividerColor: '#f5f5f5',
+                        dividerHeight: 5,
+                        dividerColor: 'blue',
                         indicatorNormalColor: '#0000FF',
-                        indicatorSelectedColor: '#FF0000'
+                        indicatorSelectedColor: '#FF0000',
+                        backgroundColor: '#F00',
+                        backgroundImg: ''
                     }
                 }
             }
@@ -39,19 +41,11 @@
     }
 </script>
 <style lang='scss' scoped>
-    .el-carousel__item h3 {
-        color: #475669;
-        font-size: 14px;
-        opacity: 0.75;
-        line-height: 150px;
-        margin: 0;
-    }
-
-    .el-carousel__item:nth-child(2n) {
-        background-color: #99a9bf;
-    }
-    
-    .el-carousel__item:nth-child(2n+1) {
-        background-color: #d3dce6;
+    .el-carousel__item {
+        text-align: center;
+        img {
+            display: inline-block;
+            height: 100%;
+        }
     }
 </style>

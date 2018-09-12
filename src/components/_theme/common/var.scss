@@ -643,7 +643,7 @@ $--carousel-arrow-hover-background: rgba(31, 45, 61, 0.23) !default;
 $--carousel-indicator-width: 30px !default;
 $--carousel-indicator-height: 2px !default;
 $--carousel-indicator-padding-horizontal: 4px !default;
-$--carousel-indicator-padding-vertical: 12px !default;
+$--carousel-indicator-padding-vertical: 0 !default; // 轮播图底部导航padding
 $--carousel-indicator-out-color: $--border-color-hover !default;
 
 /* Collapse

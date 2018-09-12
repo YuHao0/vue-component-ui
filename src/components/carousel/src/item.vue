@@ -2,6 +2,7 @@
   <div
     v-show="ready"
     class="el-carousel__item"
+    ref="carouselItem"
     :class="{
       'is-active': active,
       'el-carousel__item--card': $parent.type === 'card',
@@ -34,7 +35,8 @@
       label: {
         type: [String, Number],
         default: ''
-      }
+      },
+      moduleData: Object
     },
 
     data() {
@@ -106,6 +108,13 @@
     created() {
       this.$parent && this.$parent.updateItems();
     },
+
+    mounted() {
+    this.$nextTick(() => {
+      var paddingList = this.moduleData.data.padding.split(',');
+      
+    });
+  },
 
     destroyed() {
       this.$parent && this.$parent.updateItems();

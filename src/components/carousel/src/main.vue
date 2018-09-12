@@ -3,11 +3,11 @@
     class="el-carousel"
     :class="{ 'el-carousel--card': type === 'card' }"
     @mouseenter.stop="handleMouseEnter"
-    @mouseleave.stop="handleMouseLeave">
+    @mouseleave.stop="handleMouseLeave"
+    ref="carouselBox">
     <div
       class="el-carousel__container"
-      :style="{ height: height }"
-      ref="carouselBox">
+      :style="{ height: height }">
       <transition name="carousel-arrow-left">
         <button
           type="button"
@@ -36,6 +36,7 @@
     </div>
     <ul
       class="el-carousel__indicators"
+      ref="carouselIndicators"
       v-if="indicatorPosition !== 'none'"
       :class="{ 'el-carousel__indicators--labels': hasLabel, 'el-carousel__indicators--outside': indicatorPosition === 'outside' || type === 'card' }">
       <li
@@ -44,7 +45,7 @@
         :class="{ 'is-active': index === activeIndex }"
         @mouseenter="throttledIndicatorHover(index)"
         @click.stop="handleIndicatorClick(index)" :key="index">
-        <button class="el-carousel__button"><span v-if="hasLabel">{{ item.label }}</span></button>
+        <button class="el-carousel__button" ref="carouselButton"><span v-if="hasLabel">{{ item.label }}</span></button>
       </li>
     </ul>
   </div>
@@ -64,10 +65,6 @@ export default {
       type: Number,
       default: 0
     },
-    height: {
-      type: String,
-      default: '150px'
-    },
     trigger: {
       type: String,
       default: 'hover'
@@ -75,10 +72,6 @@ export default {
     autoplay: {
       type: Boolean,
       default: true
-    },
-    interval: {
-      type: Number,
-      default: 3000
     },
     indicatorPosition: String,
     indicator: {
@@ -90,7 +83,7 @@ export default {
       default: 'hover'
     },
     type: String,
-    moduleData: Object
+    requestData: Object
   },
 
   data() {
@@ -99,7 +92,12 @@ export default {
       activeIndex: 0,
       containerWidth: 0,
       timer: null,
-      hover: false
+      hover: false,
+      height: '150px',
+      interval: 3000,
+      moduleData: {
+        data: {}
+      }
     };
   },
 
@@ -117,6 +115,13 @@ export default {
     activeIndex(val, oldVal) {
       this.resetItemPosition(oldVal);
       this.$emit('change', val, oldVal);
+      this.$refs.carouselButton.forEach((item, index) => {
+        if (val === index) {
+          item.style.backgroundColor = this.moduleData.indicatorSelectedColor;
+        } else {
+          item.style.backgroundColor = this.moduleData.indicatorNormalColor;
+        }
+      });
     },
 
     autoplay(val) {
@@ -246,9 +251,29 @@ export default {
   mounted() {
     this.updateItems();
     this.$nextTick(() => {
-      
-      console.log('moduleData:', this.moduleData);
-      console.log('carouselBox:', this.$refs.carouselBox);
+      this.moduleData = util.extend(publicConfig.modulePublic, this.requestData);
+
+      var paddingList = this.moduleData.padding.split(',');
+
+      this.$refs.carouselBox.style.paddingLeft = paddingList[0] + 'px';
+      this.$refs.carouselBox.style.paddingTop = paddingList[1] + 'px';
+      this.$refs.carouselBox.style.paddingRight = paddingList[2] + 'px';
+      this.$refs.carouselBox.style.paddingBottom = paddingList[3] + 'px';
+      this.$refs.carouselBox.style.borderBottom = this.moduleData.dividerHeight + 'px solid ' + this.moduleData.dividerColor;
+      this.$refs.carouselBox.style.background = `${this.moduleData.backgroundColor} url(${this.moduleData.backgroundImg}) no-repeat center top`;
+
+      this.height = (this.$refs.carouselBox.offsetWidth / this.moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + this.moduleData.dividerHeight + 'px';
+      this.interval = this.moduleData.duration;
+
+      this.$refs.carouselIndicators.style.bottom = (parseInt(paddingList[3], 0) + this.moduleData.dividerHeight + 0) + 'px';  // 0为indicators距离底部距离,可配置
+
+      this.$refs.carouselButton.forEach((item, index) => {
+        if (this.activeIndex === index) {
+          item.style.backgroundColor = this.moduleData.indicatorSelectedColor;
+        } else {
+          item.style.backgroundColor = this.moduleData.indicatorNormalColor;
+        }
+      });
 
       addResizeListener(this.$el, this.resetItemPosition);
       if (this.initialIndex < this.items.length && this.initialIndex >= 0) {
@@ -266,4 +291,21 @@ export default {
 
 <style lang="scss" scoped>
   @import '../scss/main.scss';
+  .el-carousel{
+    background-size: 100%; 
+  }
+  .is-active{
+    .el-carousel__button{
+      width: 20px;
+    }
+  }
+  .el-carousel__button{
+    width: 12px;
+  }
+  .el-carousel__button_circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+  }
 </style>
