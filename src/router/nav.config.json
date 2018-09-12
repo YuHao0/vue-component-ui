@@ -26,6 +26,15 @@
             "title": "carousel 轮播图"
           }
         ]
+      },
+      {
+        "groupName": "Layout",
+        "list": [
+          {
+            "path": "/mixGridLayout",
+            "title": "混合多列布局"
+          }
+        ]
       }
     ]
   }
