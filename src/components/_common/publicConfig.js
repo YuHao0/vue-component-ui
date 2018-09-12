@@ -17,6 +17,7 @@ function dealPublicAttr(node, moduleData) {
   node.style.paddingBottom = paddingList[3] + 'px';
   node.style.borderBottom = moduleData.dividerHeight + 'px solid ' + moduleData.dividerColor;
   node.style.background = `${moduleData.backgroundColor} url(${moduleData.backgroundImg}) no-repeat center top`;
+  node.style.backgroundSize = '100% 100%';
   if (moduleData.proportion) {
     var height = (node.offsetWidth / moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + moduleData.dividerHeight + 'px';
   }
