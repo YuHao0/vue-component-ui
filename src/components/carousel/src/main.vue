@@ -251,7 +251,7 @@ export default {
   mounted() {
     this.updateItems();
     this.$nextTick(() => {
-      this.moduleData = util.extend(publicConfig.modulePublic, this.requestData);
+      util.extend(this.moduleData, publicConfig.modulePublic, this.requestData);
       var style = publicConfig.dealPublicAttr(this.$refs.carouselBox, this.moduleData);
       this.height = style.height;
       this.interval = this.moduleData.duration;

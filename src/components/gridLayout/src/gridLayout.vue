@@ -37,7 +37,7 @@
     },
 
     mounted() {
-      this.girdData = util.extend(publicConfig.modulePublic, this.requestData);
+      util.extend(this.girdData, publicConfig.modulePublic, this.requestData);
       this.gridStyle.gridTemplateColumns = `repeat(${this.girdData.column}, 1fr)`;
       this.gridStyle.gridColumnGap = this.girdData.columnSpacing / 20 + 'rem';
       this.gridStyle.gridRowGap = this.girdData.rowSpacing / 20 + 'rem';

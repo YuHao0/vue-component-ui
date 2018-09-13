@@ -41,6 +41,10 @@
           {
             "path": "/mixGridLayout",
             "title": "混合多列布局"
+          },
+          {
+            "path": "/closetView",
+            "title": "壁橱模块"
           }
         ]
       }

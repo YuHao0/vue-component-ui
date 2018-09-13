@@ -3,14 +3,16 @@ import Header from './header'
 import Carousel from './carousel'
 import CarouselItem from './carousel/src/item'
 import GridLayout from './gridLayout'
-import mixGridLayout from './mixGridLayout'
+import MixGridLayout from './mixGridLayout'
+import ClosetView from './closetView'
 const components = [
   Button,
   Header,
   Carousel,
   CarouselItem,
   GridLayout,
-  mixGridLayout
+  MixGridLayout,
+  ClosetView
 ]
 
 export default components;
