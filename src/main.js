@@ -3,7 +3,8 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-
+import vuescroll from './utils/scroll/vuescroll';
+import './utils/scroll/vuescroll.css';
 import Components from './components/index.js';
 import SideNav from './publicComponents/side-nav';
 
@@ -11,7 +12,7 @@ Vue.component('side-nav', SideNav);
 Components.forEach(component => {
   Vue.component(component.name, component);
 });
-
+Vue.use(vuescroll);
 Vue.config.productionTip = false;
 
 router.afterEach(route => {

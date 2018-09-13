@@ -217,8 +217,11 @@ export default {
         return;
       }
       this.$nextTick(() => {
-        this.hideAllMenu();
         let activeAnchor = this.$el.querySelector('a.active');
+        if (!activeAnchor) {
+          return;
+        }
+        this.hideAllMenu();
         let ul = activeAnchor.parentNode;
         while (ul.tagName !== 'UL') {
           ul = ul.parentNode;

@@ -5,15 +5,14 @@ const modulePublic = {
   dividerHeight: 10,
   dividerColor: '#F5F5F5'
 }
-
+const unit = {
+  radio: 20,
+  name: 'rem'
+};
 function dealPublicAttr(node, moduleData) {
   if (!node) {
     return
   }
-  var unit = {
-    radio: 20,
-    name: 'rem'
-  };
   var paddingList = moduleData.padding.split(',');
   node.style.paddingLeft = paddingList[0] / unit.radio + unit.name;
   node.style.paddingTop = paddingList[1] / unit.radio + unit.name;
@@ -31,10 +30,29 @@ function dealPublicAttr(node, moduleData) {
     paddingBottom: parseInt(paddingList[3], 0)
   }
 }
-  
+
+function dealHeight(node, option) {
+  if (!node) {
+    return
+  }
+  option.padding = option.padding || '0,0,0,0';
+  option.dividerHeight = option.dividerHeight || 0;
+  var paddingList = option.padding.split(',');
+  node.style.paddingLeft = paddingList[0] / unit.radio + unit.name;
+  node.style.paddingTop = paddingList[1] / unit.radio + unit.name;
+  node.style.paddingRight = paddingList[2] / unit.radio + unit.name;
+  node.style.paddingBottom = paddingList[3] / unit.radio + unit.name;
+  if (option.proportion) {
+    var height = (node.offsetWidth / option.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + option.dividerHeight;
+    height = height / unit.radio  + unit.name;
+    node.style.height = height;
+  }
+}
+
 let publicConfig = {
   modulePublic: modulePublic,
-  dealPublicAttr: dealPublicAttr
+  dealPublicAttr: dealPublicAttr,
+  dealHeight: dealHeight
 }
 
 export default publicConfig;

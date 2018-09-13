@@ -57,6 +57,7 @@ export default {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 0;
+    background: #fff;
     & > ul {
       padding-bottom: 50px;
     }
