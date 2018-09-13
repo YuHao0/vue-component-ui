@@ -48,6 +48,7 @@ export default {
     bottom: 0;
     left: 20px;
     transition: padding-top .3s;
+    z-index: 10;
     &.is-extended {
       padding-top: 0;
     }
