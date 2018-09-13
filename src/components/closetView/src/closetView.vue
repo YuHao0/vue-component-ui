@@ -1,9 +1,9 @@
 <template>
   <div class="cz-closetView" ref='closetView'>
     <div class="cz-closetView_headImg" ref="headImg">
-      <img :src="moduleData.headerImg.imageUrl" />
+      <img :src="moduleData.headerImg.imageUrl" draggable="false"/>
     </div>
-    <vue-scroll :ops="scrollOption"> 
+    <vue-scroll :ops="scrollOption">
       <div class="cz-closetView_content" ref="content" :style="{width:width+'px'}">
         <div class="content-img-item" :style='{width:moduleData.goodsItemWidth/fontSizeRadio + "rem"}' v-for='(item,index) in moduleData.goodsList' :key='index'>
           <div class="img-wrap">
@@ -69,10 +69,6 @@ export default {
           padding: this.moduleData.footerPadding
         });
         this.width = this.$refs.closetView.offsetWidth;
-        // this.$refs.mixGridLayout.style.height = style.height;
-        // this.$refs.aside.style.marginRight = this.moduleData.columnSpacing / 20 + 'rem';
-        // this.$refs.aside.style.flex = this.moduleData.leftProportion;
-        // this.$refs.content.style.flex = 1 - this.moduleData.leftProportion;
         console.log(this.moduleData);
     });
   }
@@ -107,9 +103,23 @@ export default {
           user-select: none;
         }
       }
-      .good-content{
-        .good-name{
-          
+      .good-content {
+        color: #262626;
+        white-space: normal;
+        .good-name {
+          word-break: break-all;
+          height: 1.2rem;
+          font-size: 0.55rem;
+          line-height: 0.6rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+        .good-price{
+          margin-top: 0.25rem;
+          font-size: 0.7rem;
         }
       }
     }

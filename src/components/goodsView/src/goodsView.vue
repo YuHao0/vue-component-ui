@@ -2,7 +2,7 @@
   <div class='goodsContainer' ref='goodsContainer' :style='[containerStyle]'>
     <div class='goodsItem' ref='goodsItem' v-for='(item, index) in goodsData.goodsList' :key='index'>
       <div class='itemImg'>
-        <img :src='item.goodsImage.imageUrl' />
+        <img :src='item.goodsImage.imageUrl' draggable="false"/>
       </div>
       <vue-scroll :ops="scrollOption" class="vueScroll">
         <div class="labelBox">
@@ -56,8 +56,8 @@ export default {
   mounted() {
     util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
     console.log('goodsData:', this.goodsData);
-    this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / 20 + 'rem';
-    this.containerStyle.gridRowGap = this.goodsData.rowSpacing / 20 + 'rem';
+    this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
+    this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
     this.$nextTick(() => {
       var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, this.goodsData);
     });
@@ -119,7 +119,6 @@ export default {
       text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      box-orient: vertical;
       -webkit-box-orient: vertical;
     }
     h4{

@@ -94,7 +94,7 @@ export default {
           footerPadding: '22,0,0,0',
           goodsImgPadding: '5,5,5,5',
           backgroundColor: '#FFFFFF',
-          goodsItemWidth: 105,
+          goodsItemWidth: 210,
           dividerHeight: 10,
           dividerColor: '#f5f5f5',
           title: {
@@ -117,6 +117,6 @@ export default {
 </script>
 <style lang='scss'>
 .closet-view-warp {
-    width: 500px;
+    width: 750px;
 }
 </style>
