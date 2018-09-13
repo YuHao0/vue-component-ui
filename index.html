@@ -13,7 +13,9 @@
                     var clientWidth = docEl.clientWidth;
                     if (typeof(clientWidth) == 'number' && clientWidth <= 750) {  //手机端自适应,   基础20
                         docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';
+                        win.fontSize = 20;
                     } else if (typeof(clientWidth) == 'number' && clientWidth > 750) {   //pc端基础为40/2  20 手机端的适配
+                        win.fontSize = 40;
                         docEl.style.fontSize = '40' + 'px';
                     }
                 };

@@ -6,7 +6,7 @@ const modulePublic = {
   dividerColor: '#F5F5F5'
 }
 const unit = {
-  radio: 20,
+  radio: window.fontSize,
   name: 'rem'
 };
 function dealPublicAttr(node, moduleData) {
