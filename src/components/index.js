@@ -5,6 +5,8 @@ import CarouselItem from './carousel/src/item'
 import GridLayout from './gridLayout'
 import MixGridLayout from './mixGridLayout'
 import ClosetView from './closetView'
+import GoodsView from './goodsView'
+
 const components = [
   Button,
   Header,
@@ -12,7 +14,8 @@ const components = [
   CarouselItem,
   GridLayout,
   MixGridLayout,
-  ClosetView
+  ClosetView,
+  GoodsView
 ]
 
 export default components;

@@ -47,6 +47,15 @@
             "title": "壁橱模块"
           }
         ]
+      },
+      {
+        "groupName": "Business",
+        "list": [
+          {
+            "path": "/goodsView",
+            "title": "商品组件"
+          }
+        ]
       }
     ]
   }
