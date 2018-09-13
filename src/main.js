@@ -12,7 +12,13 @@ Vue.component('side-nav', SideNav);
 Components.forEach(component => {
   Vue.component(component.name, component);
 });
-Vue.use(vuescroll);
+Vue.use(vuescroll, {
+  ops: {
+    vuescroll: {
+      zooming: false
+    }
+  }
+});
 Vue.config.productionTip = false;
 
 router.afterEach(route => {

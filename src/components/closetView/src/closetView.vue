@@ -5,9 +5,9 @@
     </div>
     <vue-scroll :ops="scrollOption"> 
       <div class="cz-closetView_content" ref="content" :style="{width:width+'px'}">
-        <div class="content-img-item" :style='{width:moduleData.goodsItemWidth/20 + "rem"}' v-for='(item,index) in moduleData.goodsList' :key='index'>
+        <div class="content-img-item" :style='{width:moduleData.goodsItemWidth/fontSizeRadio + "rem"}' v-for='(item,index) in moduleData.goodsList' :key='index'>
           <div class="img-wrap">
-            <img :src="item.goodsImage.imageUrl">
+            <img :src="item.goodsImage.imageUrl" draggable="false">
           </div>
           <div class="good-content">
             <div class="good-name">{{item.goodsName}}</div>
@@ -31,6 +31,7 @@ export default {
       width: '',
       height: '',
       moduleData: {},
+      fontSizeRadio: window.fontSize,
       scrollOption: {
         vuescroll: {
             mode: 'slide'
@@ -91,11 +92,11 @@ export default {
     }
   }
   .cz-closetView_content {
-    display: flex;
-    // overflow-x: auto;
-    // overflow-y: hidden;
+    display: block;
+    white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     .content-img-item {
+      display: inline-block;
       .img-wrap {
         display: flex;
         align-items: center;
@@ -103,6 +104,12 @@ export default {
         img {
           max-width: 100%;
           max-height: 100%;
+          user-select: none;
+        }
+      }
+      .good-content{
+        .good-name{
+          
         }
       }
     }
