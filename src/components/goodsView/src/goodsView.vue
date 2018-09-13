@@ -116,6 +116,7 @@ export default {
       padding: 0 0.25rem;
       height: 1.8rem;
       overflow: hidden;
+      word-break: break-all;
       text-overflow: ellipsis;
       display: -webkit-box;
       -webkit-line-clamp: 2;
