@@ -10,19 +10,24 @@ function dealPublicAttr(node, moduleData) {
   if (!node) {
     return
   }
+  var unit = {
+    radio: 20,
+    name: 'rem'
+  };
   var paddingList = moduleData.padding.split(',');
-  node.style.paddingLeft = paddingList[0] + 'px';
-  node.style.paddingTop = paddingList[1] + 'px';
-  node.style.paddingRight = paddingList[2] + 'px';
-  node.style.paddingBottom = paddingList[3] + 'px';
-  node.style.borderBottom = moduleData.dividerHeight + 'px solid ' + moduleData.dividerColor;
+  node.style.paddingLeft = paddingList[0] / unit.radio + unit.name;
+  node.style.paddingTop = paddingList[1] / unit.radio + unit.name;
+  node.style.paddingRight = paddingList[2] / unit.radio + unit.name;
+  node.style.paddingBottom = paddingList[3] / unit.radio + unit.name;
+  node.style.borderBottom = moduleData.dividerHeight / unit.radio + unit.name + 'solid ' + moduleData.dividerColor;
   node.style.background = `${moduleData.backgroundColor} url(${moduleData.backgroundImg}) no-repeat center top`;
   node.style.backgroundSize = '100% 100%';
   if (moduleData.proportion) {
-    var height = (node.offsetWidth / moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + moduleData.dividerHeight + 'px';
+    var height = (node.offsetWidth / moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + moduleData.dividerHeight;
+    height = height / unit.radio  + unit.name;
   }
   return {
-    height: height,
+    height: height || '',
     paddingBottom: parseInt(paddingList[3], 0)
   }
 }

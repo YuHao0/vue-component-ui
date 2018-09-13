@@ -32,7 +32,7 @@ export default {
             }
           ],
           proportion: 1.35,
-          rowSpacing: 10,
+          rowSpacing: 20,
           columnSpacing: 10,
           leftProportion: 0.6,
           padding: '10,10,10,10',

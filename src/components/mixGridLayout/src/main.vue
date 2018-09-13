@@ -44,7 +44,7 @@ export default {
     this.$nextTick(() => {
         var style = publicConfig.dealPublicAttr(this.$refs.mixGridLayout, this.moduleData);
         this.$refs.mixGridLayout.style.height = style.height;
-        this.$refs.aside.style.marginRight = this.moduleData.columnSpacing + 'px';
+        this.$refs.aside.style.marginRight = this.moduleData.columnSpacing / 20 + 'rem';
         this.$refs.aside.style.flex = this.moduleData.leftProportion;
         this.$refs.content.style.flex = 1 - this.moduleData.leftProportion;
         console.log(this.moduleData);
