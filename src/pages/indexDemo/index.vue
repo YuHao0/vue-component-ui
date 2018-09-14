@@ -14,7 +14,7 @@
 <script>
 import indexData from './demo.json'
 import Vue from 'vue';
-const componentNameConfig = ['header', 'carousel', 'girdLayout', 'mixGridLayout', 'closetView', 'goodsView'];
+const componentNameConfig = ['header', 'carousel', 'girdLayout', 'mixGridLayout', 'closetView', 'goodsView', '', '', 'goodsHorizontalView'];
 export default {
     data() {
         return {

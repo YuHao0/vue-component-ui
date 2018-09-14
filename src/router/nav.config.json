@@ -63,6 +63,10 @@
           {
             "path": "/goodsView",
             "title": "商品组件"
+          },
+          {
+            "path": "/goodsHorizontalView",
+            "title": "水平商品组件"
           }
         ]
       }

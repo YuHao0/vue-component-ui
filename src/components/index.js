@@ -6,6 +6,7 @@ import GridLayout from './gridLayout'
 import MixGridLayout from './mixGridLayout'
 import ClosetView from './closetView'
 import GoodsView from './goodsView'
+import GoodsHorizontalView from './goodsHorizontalView'
 
 const components = [
   Button,
@@ -15,7 +16,8 @@ const components = [
   GridLayout,
   MixGridLayout,
   ClosetView,
-  GoodsView
+  GoodsView,
+  GoodsHorizontalView
 ]
 
 export default components;
