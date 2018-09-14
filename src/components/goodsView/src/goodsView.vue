@@ -1,20 +1,22 @@
 <template>
   <div class='goodsContainer' ref='goodsContainer' :style='[containerStyle]'>
-    <div class='goodsItem' ref='goodsItem' v-for='(item, index) in goodsData.goodsList' :key='index'>
+    <div class='goodsItem' ref='goodsItem' 
+      v-for='(item, index) in goodsData.goodsList' :key='index'
+      :style="[itemStyle]">
       <div class='itemImg'>
         <img :src='item.goodsImage.imageUrl' draggable="false"/>
       </div>
       <vue-scroll :ops="scrollOption" class="vueScroll">
         <div class="labelBox">
-            <span v-for='label in item.textLabelList' :key='label'>{{label}}</span>
+          <span v-for='label in item.textLabelList' :key='label' :style="[itemStyle.goodsLabelStyle]">{{label}}</span>
         </div>
       </vue-scroll>
-      <h2>{{item.goodsName}}</h2>
-      <h4>{{item.goodsSource}}</h4>
+      <h2 :style="[itemStyle.goodsNameStyle]">{{item.goodsName}}</h2>
+      <h4 :style="[itemStyle.goodsSourceStyle]">{{item.goodsSource}}</h4>
       <div class="priceBox">
-        <span class="curPrice">{{item.curPrice}}</span>
-        <span class="oriPrice">{{item.curPrice}}</span>
-        <span class="stock">{{item.stock}}</span>
+        <span class="curPrice" :style="[itemStyle.curPriceStyle]">{{item.curPrice}}</span>
+        <span class="discount" :style="[itemStyle.discountStyle]">{{item.discount}}</span>
+        <span class="stock" :style="[itemStyle.stockStyle]">{{item.stock}}</span>
       </div>
     </div>
   </div>
@@ -38,6 +40,33 @@ export default {
         gridColumnGap: '',
         gridRowGap: ''
       },
+      itemStyle: {
+        border: '',
+        backgroundColor: '',
+        goodsNameStyle: {
+          color: ''
+        },
+        goodsSourceStyle: {
+          color: ''
+        },
+        curPriceStyle: {
+          color: ''
+        },
+        discountStyle: {
+          color: '',
+          textDecoration: 'none'
+        },
+        stockStyle: {
+          color: ''
+        },
+        goodsLabelStyle: {
+          color: '',
+          backgroundColor: '',
+          border: '',
+          borderRadius: 0
+        }
+      },
+      
       scrollOption: {
         vuescroll: {
           mode: 'slide'
@@ -58,6 +87,18 @@ export default {
     console.log('goodsData:', this.goodsData);
     this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
     this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
+    this.itemStyle.border = `1px solid ${this.goodsData.itemStrokeColor}`;
+    this.itemStyle.backgroundColor = this.goodsData.itemBackgroundColor;
+    this.itemStyle.goodsNameStyle.color = this.goodsData.goodsNameColor;
+    this.itemStyle.goodsSourceStyle.color = this.goodsData.goodsSourceColor;
+    this.itemStyle.curPriceStyle.color = this.goodsData.goodsPriceColor;
+    this.itemStyle.discountStyle.color = this.goodsData.goodsDiscountColor;
+    this.itemStyle.discountStyle.textDecoration = this.goodsData.isShowDiscountStrike ? 'line-through' : 'none';
+    this.itemStyle.stockStyle.color = this.goodsData.goodsStockColor;
+    this.itemStyle.goodsLabelStyle.color = this.goodsData.labelTextColor;
+    this.itemStyle.goodsLabelStyle.backgroundColor = this.goodsData.labelFillColor;
+    this.itemStyle.goodsLabelStyle.border = `1px solid ${this.goodsData.labelStrokeColor}`;
+    this.itemStyle.goodsLabelStyle.borderRadius = this.goodsData.labelCorner + 'px';
     this.$nextTick(() => {
       var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, this.goodsData);
     });
@@ -71,7 +112,6 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   .goodsItem {
-    background: #eee;
     position: relative;
     .vueScroll{
       position: absolute;
@@ -98,9 +138,6 @@ export default {
           font-size: 0.5rem;
           line-height: 0.65rem;
           padding: 0 0.25rem;
-          color: #F47631;
-          border: 1px solid #F47631;
-          border-radius: 4px;
           margin-right: 0.125rem;
           &:last-child{
             margin-right: 0;
@@ -111,7 +148,6 @@ export default {
       margin-top: 0.5rem;
       font-size: 0.65rem;
       line-height: 0.9rem;
-      color: #262626;
       text-align: left;
       padding: 0 0.25rem;
       height: 1.8rem;
@@ -127,23 +163,17 @@ export default {
       text-align: left;
       font-size: 0.6rem;
       padding: 0 0.25rem;
-      color: #F47631;
     }
     .priceBox{
       font-size: 0.6rem;
       text-align: left;
-      color: #666;
       padding: 0.25rem;
       span{
         display: inline-block;
       }
       .curPrice{
         font-size: 0.8rem;
-        color: #333;
         margin-right: 0.25rem;
-      }
-      .oriPrice{
-        color: #999;
       }
       .stock{
         float: right;
