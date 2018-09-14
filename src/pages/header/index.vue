@@ -1,5 +1,5 @@
 <template>
-    <cz-header @click="handleClick" :titleData="titleData"></cz-header>
+    <cz-header @click="handleClick" :requestData="titleData"></cz-header>
 </template>
 
 <script>

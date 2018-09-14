@@ -12,6 +12,15 @@
     "children": []
   },
   {
+    "name": "模块展示",
+    "children": [
+      {
+        "path": "/indexDemo",
+        "title": "首页"
+      }
+    ]
+  },
+  {
     "name": "组件",
     "groups": [
       {

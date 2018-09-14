@@ -21,6 +21,7 @@ function dealPublicAttr(node, moduleData) {
   node.style.borderBottom = moduleData.dividerHeight / unit.radio + unit.name + ' solid ' + moduleData.dividerColor;
   node.style.background = `${moduleData.backgroundColor} url(${moduleData.backgroundImg}) no-repeat center top`;
   node.style.backgroundSize = '100% 100%';
+  
   if (moduleData.proportion) {
     var height = (node.offsetWidth / moduleData.proportion) + parseInt(paddingList[1], 0) + parseInt(paddingList[3], 0) + moduleData.dividerHeight;
     height = height / unit.radio  + unit.name;

@@ -9,21 +9,23 @@
     name: 'cz-header',
 
     props: {
-      titleData: Object
+      requestData: Object
     },
 
     data() {
       return {
-        titleText: ''
+        titleText: '',
+        titleData: {}
       }
     },
 
     mounted() {
+      this.titleData = this.requestData;
       this.$nextTick(() => {
         this.$refs.header.style
         this.titleText = this.titleData.titleText;
-        this.$refs.header.style.height = (this.$refs.header.offsetWidth / this.titleData.titleProportion) + 'px';
-        this.$refs.header.style.lineHeight = (this.$refs.header.offsetWidth / this.titleData.titleProportion) + 'px';
+        this.$refs.header.style.height = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
+        this.$refs.header.style.lineHeight = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
         if (this.titleData.titleGravity === 2) {
           this.$refs.header.style.textAlign = 'right';
         } else if (this.titleData.titleGravity === 1) {
@@ -32,9 +34,9 @@
           this.$refs.header.style.textAlign = 'left';
         }
         this.$refs.header.style.color = this.titleData.titleTextColor;
-        this.$refs.header.style.fontSize = this.titleData.titleTextSize + 'px';
-        this.$refs.header.style.paddingLeft = this.titleData.titlePadding + 'px';
-        this.$refs.header.style.paddingRight = this.titleData.titlePadding + 'px';
+        this.$refs.header.style.fontSize = this.titleData.titleTextSize / window.fontSize + 'rem';
+        this.$refs.header.style.paddingLeft = this.titleData.titlePadding / window.fontSize + 'rem';
+        this.$refs.header.style.paddingRight = this.titleData.titlePadding / window.fontSize + 'rem';
         this.$refs.header.style.fontWeight = this.titleData.isBold ? 'bold' : 'normal';
         this.$refs.header.style.background = `${this.titleData.titleBackgroundColor} url(${this.titleData.titleBackgroundImg}) no-repeat center top`;
       });

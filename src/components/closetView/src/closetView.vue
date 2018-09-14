@@ -3,19 +3,27 @@
     <div class="cz-closetView_headImg" ref="headImg">
       <img :src="moduleData.headerImg.imageUrl" draggable="false"/>
     </div>
-    <vue-scroll :ops="scrollOption">
-      <div class="cz-closetView_content" ref="content" :style="{width:width+'px'}">
-        <div class="content-img-item" :style='{width:moduleData.goodsItemWidth/fontSizeRadio + "rem"}' v-for='(item,index) in moduleData.goodsList' :key='index'>
-          <div class="img-wrap">
-            <img :src="item.goodsImage.imageUrl" draggable="false">
-          </div>
-          <div class="good-content">
-            <div class="good-name">{{item.goodsName}}</div>
-            <div class="good-price">￥{{item.curPrice}}</div>
+    <div ref="scrollContent">
+      <vue-scroll :ops="scrollOption" :style="{marginTop:-moduleData.offset/fontSizeRadio + 'rem'}" :class="{contentShadow:moduleData.showShadow}">
+        <div class="cz-closetView_content" ref="content" :style="{width:width+'px'}">
+          <div class="content-img-item" ref="contentItem"
+            :style='{
+              width:moduleData.goodsItemWidth/fontSizeRadio + "rem",
+              background:moduleData.goodsFillColor,
+              border:"1px solid " + moduleData.goodsStrokeColor
+            }' 
+            v-for='(item,index) in moduleData.goodsList' :key='index'>
+            <div class="img-wrap" ref="itemImg">
+              <img :src="item.goodsImage.imageUrl" draggable="false">
+            </div>
+            <div class="good-content">
+              <div class="good-name" :style="{color:moduleData.goodsNameColor}">{{item.goodsName}}</div>
+              <div class="good-price" :style="{color:moduleData.goodsPriceColor}">￥{{item.curPrice}}</div>
+            </div>
           </div>
         </div>
-      </div>
-    </vue-scroll>
+      </vue-scroll>
+    </div>
   </div>
 </template>
 <script>
@@ -65,12 +73,19 @@ export default {
           padding: this.moduleData.headerPadding,
           proportion: this.moduleData.headerImg.proportion
         });
-        publicConfig.dealHeight(this.$refs.content, {
+        publicConfig.dealHeight(this.$refs.scrollContent, {
           padding: this.moduleData.footerPadding
         });
         this.width = this.$refs.closetView.offsetWidth;
-        console.log(this.moduleData);
+        this.$refs.itemImg.forEach((item)=>{
+           publicConfig.dealHeight(item, {
+            padding: this.moduleData.goodsImgPadding
+          });
+        });
     });
+  },
+  destroyed() {
+    
   }
 };
 </script>
@@ -87,12 +102,16 @@ export default {
       height: 100%;
     }
   }
+  .contentShadow{
+    box-shadow: 0 1px 0 0 #262626;
+  }
   .cz-closetView_content {
     display: block;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     .content-img-item {
       display: inline-block;
+      vertical-align: top;
       .img-wrap {
         display: flex;
         align-items: center;

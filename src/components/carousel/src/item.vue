@@ -35,8 +35,7 @@
       label: {
         type: [String, Number],
         default: ''
-      },
-      moduleData: Object
+      }
     },
 
     data() {
@@ -110,10 +109,9 @@
     },
 
     mounted() {
-    this.$nextTick(() => {
-      var paddingList = this.moduleData.data.padding.split(',');
-      
-    });
+      this.$nextTick(() => {
+        
+      });
   },
 
     destroyed() {

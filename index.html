@@ -16,6 +16,7 @@
                         win.fontSize = 20;
                     } else if (typeof(clientWidth) == 'number' && clientWidth > 750) {   //pc端基础为40/2  20 手机端的适配
                         win.fontSize = 40;
+                        win.isPC = true;
                         docEl.style.fontSize = '40' + 'px';
                     }
                 };

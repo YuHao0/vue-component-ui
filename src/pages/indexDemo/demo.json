@@ -1,0 +1,764 @@
+[
+  {
+    "type": 1,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700"
+        }
+      ],
+      "proportion": 1.35,
+      "padding": "0,0,0,0",
+      "duration": 3000,
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "indicatorNormalColor": "#0000FF",
+      "indicatorSelectedColor": "#FF0000"
+    }
+  },
+  {
+    "type": 6,
+    "data": {
+      "goodsList": [
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594 "
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        }
+      ],
+      "showShadow": false,
+      "goodsFillColor": "#FFFFFF",
+      "goodsStrokeColor": "#FFFFFF",
+      "goodsNameColor": "#262626",
+      "goodsPriceColor": "#262626",
+      "goodsImgProportion": 1.0,
+      "padding": "0,0,0,0",
+      "goodsImgPadding": "5,5,5,5",
+      "backgroundColor": "#FFFFFF",
+      "goodsItemWidth": 105,
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "startTime": 1536635130000,
+      "endTime": 1537006323000,
+      "title": {
+        "titleText": "限时抢购",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 7,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/2720376ff9a656db107f3fab42123241.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/289fe0050cfef12ab6206c08414d374e.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/b6620627bb6caeab8f7d84b44fa8ba25.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/b6620627bb6caeab8f7d84b44fa8ba25.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/b6620627bb6caeab8f7d84b44fa8ba25.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/b6620627bb6caeab8f7d84b44fa8ba25.jpg"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3f62822288946a30fad8a08e860bad3d.jpg"
+        }
+      ],
+      "proportion": 2.34,
+      "padding": "10,10,10,10",
+      "imgWidthProportion": 1.0,
+      "backgroundColor": "#FF0000",
+      "columnSpacing": 10,
+      "dividerHeight": 0,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "滚动翻页",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 2,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zcool.cn/community/01fd2558370cffa8012060c8e1287c.gif"
+        }
+      ],
+      "proportion": 1.5,
+      "column": 1,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,0,10,10",
+      "backgroundColor": "#FFFFFF",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "单列",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 2,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://m.cr173.com/up/2016-7/14681300862801725.gif"
+        },
+        {
+          "imageUrl": "http://upfile.asqql.com/2009pasdfasdfic2009s305985-ts/2016-8/201681819143320307.gif"
+        }
+      ],
+      "proportion": 1.35,
+      "column": 2,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,0,10,10",
+      "backgroundColor": "#FFFFFF",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "两列",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 2,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        }
+      ],
+      "proportion": 1.35,
+      "column": 3,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,0,10,10",
+      "backgroundColor": "#FFFFFF",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "三列",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 2,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700"
+        }
+      ],
+      "proportion": 1.35,
+      "column": 4,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,10,10,10",
+      "backgroundColor": "#E3D397",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "四列",
+        "titleGravity": 0,
+        "titleTextColor": "#262626",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 3,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/3d01fb4054b8e56ca189dbd0f3575235.jpg?imageView2/2/w/1080/h/700"
+        }
+      ],
+      "proportion": 1.35,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "leftProportion": 0.7,
+      "padding": "10,10,10,10",
+      "backgroundImg": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2544843599,385850737&fm=27&gp=0.jpg",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "混合网格",
+        "titleGravity": 1,
+        "titleTextColor": "#E61128",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 3,
+    "data": {
+      "imageList": [
+        {
+          "imageUrl": "http://img.zhefengle.com/4792c74ee604fd81eccb2e0f670b3e48.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/6e2ec23b31c98724d256ef5120ee3f75.jpg?imageView2/2/w/1080/h/700"
+        },
+        {
+          "imageUrl": "http://img.zhefengle.com/1645a78332498c8d40b7129d91dfb3d9.jpg?imageView2/2/w/1080/h/700"
+        }
+      ],
+      "proportion": 1.35,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "leftProportion": 0.6,
+      "padding": "10,10,10,10",
+      "backgroundImg": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2544843599,385850737&fm=27&gp=0.jpg",
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "混合网格",
+        "titleGravity": 1,
+        "titleTextColor": "#E61128",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 4,
+    "data": {
+      "goodsList": [
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594 "
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594"
+        }
+      ],
+      "headerImg": {
+        "proportion": 1.87,
+        "imageUrl": "http://img.zhefengle.com/264055a31a245de5e62e1de97211f2aa.jpg?imageView2/2/w/800/interlace/1/q/93",
+        "labelList": [
+          {
+            "imageUrl": "http://img.zhefengle.com/d029291539d7a79178fb33557efef2b8.jpg",
+            "labelWidth": 60,
+            "labelHeight": 60,
+            "gravity": 0
+          }
+        ]
+      },
+      "offset": 33,
+      "showShadow": true,
+      "goodsFillColor": "#FFFFFF",
+      "goodsStrokeColor": "#DDDDDD",
+      "goodsNameColor": "#262626",
+      "goodsPriceColor": "#262626",
+      "goodsImgProportion": 1.0,
+      "padding": "0,0,0,10",
+      "headerPadding": "12,0,0,0",
+      "footerPadding": "22,0,0,0",
+      "goodsImgPadding": "5,5,5,5",
+      "backgroundColor": "#FFFFFF",
+      "goodsItemWidth": 105,
+      "dividerHeight": 0,
+      "dividerColor": "#f5f5f5",
+      "title": {
+        "titleText": "橱柜组件",
+        "titleGravity": 2,
+        "titleTextColor": "#000",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 4,
+    "data": {
+      "goodsList": [
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/85c8896ee671eb6b6b557170ca2f72b7.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "迪奥 2018秋季新款 红管限量口红 #555 Ultra Kiss",
+          "curPrice": "¥264"
+        }
+      ],
+      "headerImg": {
+        "proportion": 1.87,
+        "imageUrl": "http://img.zhefengle.com/9f07e1099105f0d1f68a867450fd407f.jpg?imageView2/2/w/800/interlace/1/q/93",
+        "labelList": [
+          {
+            "imageUrl": "http://img.zhefengle.com/d029291539d7a79178fb33557efef2b8.jpg",
+            "labelWidth": 60,
+            "labelHeight": 60,
+            "gravity": 0
+          }
+        ]
+      },
+      "offset": 33,
+      "showShadow": true,
+      "goodsFillColor": "#FFFFFF",
+      "goodsStrokeColor": "#DDDDDD",
+      "goodsNameColor": "#262626",
+      "goodsPriceColor": "#262626",
+      "goodsImgProportion": 1.0,
+      "padding": "0,0,0,10",
+      "headerPadding": "12,0,0,0",
+      "footerPadding": "22,0,0,0",
+      "goodsImgPadding": "5,5,5,5",
+      "backgroundColor": "#FFFFFF",
+      "goodsItemWidth": 105,
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5"
+    }
+  },
+  {
+    "type": 5,
+    "data": {
+      "itemStrokeColor": "#666666",
+      "itemBackgroundColor": "#FFFFFF",
+      "itemCorner": 2,
+      "imgProportion": 1.0,
+      "goodsNameColor": "#262626",
+      "goodsSourceColor": "#F47631",
+      "goodsPriceColor": "#262626",
+      "goodsDiscountColor": "#666666",
+      "isShowDiscountStrike": true,
+      "goodsStockColor": "#666666",
+      "backgroundColor": "#FFFFFF",
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,0,10,10",
+      "labelTextColor": "#FF0000",
+      "labelFillColor ": "#FFFFFF ",
+      "labelStrokeColor": "#0000FF",
+      "labelCorner": 2,
+      "dividerHeight": 10,
+      "dividerColor": "#f5f5f5",
+      "goodsList": [
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": [
+            "M",
+            "L",
+            "X",
+            "XL",
+            "XXL",
+            "XXXL",
+            "XXXXL",
+            "XXXXXL"
+          ]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["四色可选"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["小号", "中号", "大号"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["small", "middle", "large"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList ": ["型号1", "型号2", "型号3"]
+        }
+      ],
+      "title": {
+        "titleText": "为您推荐",
+        "titleGravity": 0,
+        "titleTextColor": "#000",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  },
+  {
+    "type": 8,
+    "data": {
+      "imgWidth": 110,
+      "itemStrokeColor": "#FFFFFF",
+      "imgProportion": 1.0,
+      "goodsNameColor": "#262626",
+      "goodsSourceColor": "#F47631",
+      "goodsPriceColor": "#262626",
+      "goodsDiscountColor": "#F47631",
+      "isShowDiscountStrike": false,
+      "goodsStockColor": "#666666",
+      "backgroundColor": "#FFFFFF",
+      "labelCorner": 2,
+      "rowSpacing": 10,
+      "columnSpacing": 10,
+      "padding": "10,0,10,10",
+      "labelTextColor": "#FF0000",
+      "labelFillColor ": "#FFFFFF ",
+      "labelStrokeColor": "#0000FF",
+      "goodsList": [
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": [
+            "M",
+            "L",
+            "X",
+            "XL",
+            "XXL",
+            "XXXL",
+            "XXXXL",
+            "XXXXXL"
+          ]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["四色可选"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["小号", "中号", "大号"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList": ["small", "middle", "large"]
+        },
+        {
+          "goodsImage": {
+            "imageUrl": "http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp"
+          },
+          "goodsName": "BELLAMY'S 贝拉米 Bellamy/贝拉米 贝拉米1段 900g",
+          "curPrice": "¥ 594",
+          "discount": "4.5折",
+          "goodsSource": "海外直邮",
+          "stock": "库存：20",
+          "textLabelList ": ["型号1", "型号2", "型号3"]
+        }
+      ],
+      "title": {
+        "titleText": "为您推荐",
+        "titleGravity": 0,
+        "titleTextColor": "#000",
+        "titleTextSize": 16,
+        "titlePadding": 12,
+        "titleProportion": 7.5,
+        "titleBackgroundColor": "#FFFFFF",
+        "titleBackgroundImg": "",
+        "isBold": true
+      }
+    }
+  }
+]

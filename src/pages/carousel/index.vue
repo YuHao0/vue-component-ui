@@ -1,8 +1,7 @@
 <template>
-<div>
-    <!-- <cz-header @click="handleClick" :titleData="titleData" style='width: 500px'></cz-header> -->
-    <cz-carousel trigger='click' :requestData='moduleData.data' style='width: 500px'>
-        <cz-carousel-item v-for='item in moduleData.data.imageList' :key='item.imageUrl' :moduleData='moduleData'>
+<div style='width: 500px'>
+    <cz-carousel trigger='click' :requestData='moduleData.data'>
+        <cz-carousel-item v-for='item in moduleData.data.imageList' :key='item.imageUrl'>
             <img :src='item.imageUrl' />
         </cz-carousel-item>
     </cz-carousel>

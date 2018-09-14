@@ -40,7 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
   .page-component__nav {
     width: 240px;
     position: fixed;
@@ -64,10 +63,12 @@ export default {
     }
   }
   .page-component__content {
+    padding-top: 60px;
     padding-left: 270px;
     padding-right: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
+    position: relative;
   }
   .content {
     padding-top: 50px;

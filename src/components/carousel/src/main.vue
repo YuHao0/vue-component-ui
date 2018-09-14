@@ -111,7 +111,6 @@ export default {
     items(val) {
       if (val.length > 0) this.setActiveItem(this.initialIndex);
     },
-
     activeIndex(val, oldVal) {
       this.resetItemPosition(oldVal);
       this.$emit('change', val, oldVal);
@@ -250,8 +249,8 @@ export default {
 
   mounted() {
     this.updateItems();
+    util.extend(this.moduleData, publicConfig.modulePublic, this.requestData);
     this.$nextTick(() => {
-      util.extend(this.moduleData, publicConfig.modulePublic, this.requestData);
       var style = publicConfig.dealPublicAttr(this.$refs.carouselBox, this.moduleData);
       this.height = style.height;
       this.interval = this.moduleData.duration;
@@ -263,7 +262,6 @@ export default {
           item.style.backgroundColor = this.moduleData.indicatorNormalColor;
         }
       });
-
       addResizeListener(this.$el, this.resetItemPosition);
       if (this.initialIndex < this.items.length && this.initialIndex >= 0) {
         this.activeIndex = this.initialIndex;
