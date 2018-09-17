@@ -1,11 +1,11 @@
-'use strict'
-const path = require('path')
-const utils = require('./utils')
-const config = require('../config')
-const vueLoaderConfig = require('./vue-loader.conf')
+'use strict';
+const path = require('path');
+const utils = require('./utils');
+const config = require('../config');
+const vueLoaderConfig = require('./vue-loader.conf');
 
-function resolve (dir) {
-  return path.join(__dirname, '..', dir)
+function resolve(dir) {
+  return path.join(__dirname, '..', dir);
 }
 
 const createLintingRule = () => ({
@@ -17,26 +17,39 @@ const createLintingRule = () => ({
     formatter: require('eslint-friendly-formatter'),
     emitWarning: !config.dev.showEslintErrorsInOverlay
   }
-})
+});
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './src/main.js'
+    // app: './src/main.js'
+    app: './src/components/index.js'    
   },
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
-    publicPath: process.env.NODE_ENV === 'production'
-      ? config.build.assetsPublicPath
-      : config.dev.assetsPublicPath
+    publicPath:
+      process.env.NODE_ENV === 'production'
+        ? config.build.assetsPublicPath
+        : config.dev.assetsPublicPath,
+    library: 'czUi', // 模块名称
+    libraryTarget: 'umd', // 输出格式
+    umdNamedDefine: true // 是否将模块名称作为 AMD 输出的命名空间
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
-      'src': path.resolve(__dirname, '../src'),
-      '@': resolve('src'),
+      vue$: 'vue/dist/vue.esm.js',
+      src: path.resolve(__dirname, '../src'),
+      '@': resolve('src')
+    }
+  },
+  externals: {
+    vue: {
+      root: 'Vue',
+      commonjs: 'vue',
+      commonjs2: 'vue',
+      amd: 'vue'
     }
   },
   module: {
@@ -50,7 +63,11 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+        include: [
+          resolve('src'),
+          resolve('test'),
+          resolve('node_modules/webpack-dev-server/client')
+        ]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -70,11 +87,11 @@ module.exports = {
       },
       {
         test: /\.less$/,
-        loader: 'style-loader!css-loader!less-loader',
+        loader: 'style-loader!css-loader!less-loader'
       },
       {
         test: /\.scss$/,
-        loader: 'style!css!sass',
+        loader: 'style!css!sass'
       },
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
@@ -98,4 +115,4 @@ module.exports = {
     tls: 'empty',
     child_process: 'empty'
   }
-}
+};

@@ -7,7 +7,6 @@ import MixGridLayout from './mixGridLayout'
 import ClosetView from './closetView'
 import GoodsView from './goodsView'
 import GoodsHorizontalView from './goodsHorizontalView'
-
 const components = [
   Button,
   Header,
@@ -18,6 +17,27 @@ const components = [
   ClosetView,
   GoodsView,
   GoodsHorizontalView
-]
+];
 
-export default components;
+const install = function(Vue, opts = {}) {
+  components.map(component => {
+    Vue.component(component.name, component);
+  })
+}
+
+if (typeof window !== 'undefined' && window.Vue) {
+  install(window.Vue);
+}
+
+export default {
+  install,
+  Button,
+  Header,
+  Carousel,
+  CarouselItem,
+  GridLayout,
+  MixGridLayout,
+  ClosetView,
+  GoodsView,
+  GoodsHorizontalView
+};

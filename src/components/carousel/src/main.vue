@@ -32,7 +32,7 @@
           <i class="el-icon-arrow-right"></i>
         </button>
       </transition>
-      <slot></slot>
+        <slot></slot>
     </div>
     <ul
       class="el-carousel__indicators"
@@ -80,7 +80,7 @@ export default {
     },
     arrow: {
       type: String,
-      default: 'hover'
+      default: 'never'
     },
     type: String,
     requestData: Object

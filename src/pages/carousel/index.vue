@@ -1,14 +1,15 @@
 <template>
 <div style='width: 500px'>
+     
     <cz-carousel trigger='click' :requestData='moduleData.data'>
         <cz-carousel-item v-for='item in moduleData.data.imageList' :key='item.imageUrl'>
-            <img :src='item.imageUrl' />
+            <img :src='item.imageUrl' draggable="false"/>
         </cz-carousel-item>
     </cz-carousel>
+    
 </div>
     
 </template>
-
 <script>
     export default {
         data() {
