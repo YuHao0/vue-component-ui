@@ -79,7 +79,6 @@
           console.log('falshSaleView:', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.flashSaleView, this.moduleData);
           this.width = this.$refs.flashSaleView.offsetWidth;
-
           var timer = window.setInterval(() => {
             var nowTime = (new Date()).getTime();
             if (nowTime > this.moduleData.endTime) {
