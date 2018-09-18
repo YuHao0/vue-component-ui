@@ -29,9 +29,6 @@
 <script>
 import util from '../../_common/util.js';
 import publicConfig from '../../_common/publicConfig.js';
-import vuescroll from 'src/utils/scroll/vuescroll';
-import 'src/utils/scroll/vuescroll.css';
-console.log(vuescroll);
 export default {
   name: 'cz-closetView',
   props: {
