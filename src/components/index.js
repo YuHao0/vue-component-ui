@@ -5,6 +5,7 @@ import CarouselItem from './carousel/src/item'
 import GridLayout from './gridLayout'
 import MixGridLayout from './mixGridLayout'
 import ClosetView from './closetView'
+import FlashSaleView from './flashSaleView'
 import GoodsView from './goodsView'
 import GoodsHorizontalView from './goodsHorizontalView'
 const components = [
@@ -15,6 +16,7 @@ const components = [
   GridLayout,
   MixGridLayout,
   ClosetView,
+  FlashSaleView,
   GoodsView,
   GoodsHorizontalView
 ];

@@ -54,6 +54,10 @@
           {
             "path": "/closetView",
             "title": "壁橱模块"
+          },
+          {
+            "path": "/flashSaleView",
+            "title": "限时抢购模块"
           }
         ]
       },

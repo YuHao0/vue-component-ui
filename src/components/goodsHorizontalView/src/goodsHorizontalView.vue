@@ -90,7 +90,7 @@ export default {
 
   mounted() {
     util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
-    console.log('goodsHorizontalData:', this.goodsData);
+    // console.log('goodsHorizontalData:', this.goodsData);
     this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
     this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
     this.itemStyle.marginBottom = this.goodsData.rowSpacing / window.fontSize + 'rem';
