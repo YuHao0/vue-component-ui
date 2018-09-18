@@ -90,6 +90,7 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+
 .cz-closetView {
   ::-webkit-scrollbar {
     width: 0;
