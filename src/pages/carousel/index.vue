@@ -25,7 +25,7 @@
                         ],
                         proportion: 1.35,
                         padding: '10,10,10,10',
-                        duration: 3000,
+                        duration: 30000,
                         dividerHeight: 5,
                         dividerColor: 'blue',
                         indicatorNormalColor: '#0000FF',

@@ -62,6 +62,10 @@
           {
             "path": "/scrollPageView",
             "title": "滚动翻页模块"
+          },
+          {
+            "path": "/galleryView",
+            "title": "画廊组件"
           }
         ]
       },

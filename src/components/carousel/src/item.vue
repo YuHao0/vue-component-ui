@@ -8,7 +8,8 @@
     }" @click="handleItemClick" :style="{
       msTransform: `translateX(${ translate }px) scale(${ scale })`,
       webkitTransform: `translateX(${ translate }px) scale(${ scale })`,
-      transform: `translateX(${ translate }px) scale(${ scale })`
+      transform: `translateX(${ translate }px) scale(${ scale })`,
+      width: $parent.type === 'card' ? cardData.maxItemWidthProportion*100 + '%' : ''
     }">
     <div v-if="$parent.type === 'card'" v-show="!active" class="el-carousel__mask">
     </div>
@@ -19,7 +20,7 @@
 </template>
 
 <script>
-  const CARD_SCALE = 0.83;
+  var CARD_SCALE = 0.8;
   export default {
     name: 'CzCarouselItem',
     props: {
@@ -38,7 +39,8 @@
         active: false,
         ready: false,
         inStage: false,
-        animating: false
+        animating: false,
+        cardData: {}
       };
     },
 
@@ -65,18 +67,35 @@
         }
         return index;
       },
-
       calculateTranslate(index, activeIndex, parentWidth) {
+        // if (this.inStage) {
+        //   return parentWidth * ((2 - CARD_SCALE) * (index - activeIndex) + 1) / 4;
+        // } else if (index < activeIndex) {
+        //   return -(1 + CARD_SCALE) * parentWidth / 4;
+        // } else {
+        //   return (3 + CARD_SCALE) * parentWidth / 4;
+        // }
+        // console.log(this.inStage, arguments);
         if (this.inStage) {
-          return parentWidth * ((2 - CARD_SCALE) * (index - activeIndex) + 1) / 4;
+          var activeTranslateX = parentWidth * (1 - this.cardData.maxItemWidthProportion) / 2;
+          if (index === activeIndex) {
+            return activeTranslateX;
+          } 
+          var paddingList = this.cardData.padding.split(',');
+          var itemWidth = (parentWidth - paddingList[0] - paddingList[2]) * this.cardData.maxItemWidthProportion;
+          var baseTransform = itemWidth * (1 + CARD_SCALE) / 2;
+          return activeTranslateX + (baseTransform + this.cardData.columnSpacing) * (index - activeIndex);
         } else if (index < activeIndex) {
-          return -(1 + CARD_SCALE) * parentWidth / 4;
+          return parentWidth * -2;
+          // return -(1 + CARD_SCALE) * parentWidth / 4;
         } else {
-          return (3 + CARD_SCALE) * parentWidth / 4;
+          return parentWidth * 2;
+          // return (3 + CARD_SCALE) * parentWidth / 4;
         }
       },
 
       translateItem(index, activeIndex, oldIndex) {
+        console.log(this.$parent);
         const parentWidth = this.$parent.$el.offsetWidth;
         const length = this.$parent.items.length;
         if (this.$parent.type !== 'card' && oldIndex !== undefined) {
@@ -107,12 +126,16 @@
     },
 
     created() {
-      this.$parent && this.$parent.updateItems();
+      if (this.$parent) {
+        this.cardData = this.$parent.$props.requestData;
+        CARD_SCALE = this.cardData.scale;
+        this.$parent.updateItems();
+      }
     },
 
     mounted() {
       this.$nextTick(() => {
-        
+          console.log(this.cardData);
       });
   },
 

@@ -7,6 +7,7 @@ import MixGridLayout from './mixGridLayout';
 import ClosetView from './closetView';
 import FlashSaleView from './flashSaleView';
 import SrollPageView from './scrollPageView';
+import GalleryView from './galleryView';
 import GoodsView from './goodsView';
 import GoodsHorizontalView from './goodsHorizontalView';
 // 第三方组件库
@@ -33,6 +34,7 @@ const components = [
   ClosetView,
   FlashSaleView,
   SrollPageView,
+  GalleryView,
   GoodsView,
   GoodsHorizontalView
 ];
@@ -58,6 +60,7 @@ export default {
   ClosetView,
   FlashSaleView,
   SrollPageView,
+  GalleryView,
   GoodsView,
   GoodsHorizontalView
 };
