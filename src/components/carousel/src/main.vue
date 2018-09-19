@@ -38,7 +38,7 @@
       class="el-carousel__indicators"
       ref="carouselIndicators"
       v-if="indicatorPosition !== 'none'"
-      :class="{ 'el-carousel__indicators--labels': hasLabel, 'el-carousel__indicators--outside': indicatorPosition === 'outside' || type === 'card' }">
+      :class="{ 'el-carousel__indicators--labels': hasLabel, 'el-carousel__indicators--outside': indicatorPosition === 'outside' }">
       <li
         v-for="(item, index) in items"
         class="el-carousel__indicator"
@@ -289,10 +289,5 @@ export default {
   .el-carousel__button{
     width: 12px;
   }
-  .el-carousel__button_circle{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    opacity: 1;
-  }
+  
 </style>

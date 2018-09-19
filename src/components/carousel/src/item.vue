@@ -5,7 +5,7 @@
       'is-in-stage': inStage,
       'is-hover': hover,
       'is-animating': animating
-    }" @click="handleItemClick" :style="{
+    }" :style="{
       msTransform: `translateX(${ translate }px) scale(${ scale })`,
       webkitTransform: `translateX(${ translate }px) scale(${ scale })`,
       transform: `translateX(${ translate }px) scale(${ scale })`,
@@ -47,7 +47,7 @@
     methods: {
       swipeLeft() {
         const parent = this.$parent;
-        const index = parent.items.indexOf(this);
+        var index = parent.items.indexOf(this);
         parent.setActiveItem(index + 1);
       },
       swipeRight() {
@@ -95,7 +95,6 @@
       },
 
       translateItem(index, activeIndex, oldIndex) {
-        console.log(this.$parent);
         const parentWidth = this.$parent.$el.offsetWidth;
         const length = this.$parent.items.length;
         if (this.$parent.type !== 'card' && oldIndex !== undefined) {
@@ -135,7 +134,7 @@
 
     mounted() {
       this.$nextTick(() => {
-          console.log(this.cardData);
+          // console.log(this.cardData);
       });
   },
 
