@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <div class="page-component__nav">
-      <side-nav :data="navsData" base=""></side-nav>
+      <vue-scroll :ops="scrollOption">
+        <side-nav :data="navsData" base=""></side-nav>
+      </vue-scroll>
     </div>
     <div class="page-component__content">
-      <router-view></router-view>
+        <router-view></router-view>
     </div>
   </div>
 </template>
@@ -21,7 +23,17 @@ export default {
       hover: false,
       showBackToTop: false,
       scrollTop: 0,
-      showHeader: true
+      showHeader: true,
+      scrollOption: {
+        vuescroll: {
+            mode: 'native'
+        },
+        scrollPanel: {
+            scrollingX: false
+        },
+        rail: {},
+        bar: {}
+      }
     }
   },
   methods: {
@@ -63,12 +75,15 @@ export default {
     }
   }
   .page-component__content {
-    padding-top: 60px;
-    padding-left: 270px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-right: 50px;
+    top: 50px;
+    left: 270px;
+    right: 0;
+    bottom: 50px;
+    min-height: 900px;
     box-sizing: border-box;
-    position: relative;
+    position: fixed;
+    overflow: auto
   }
   .content {
     padding-top: 50px;

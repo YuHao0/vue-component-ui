@@ -2,7 +2,7 @@
   <div class="cz-flashSaleView" ref='flashSaleView'>
     <div class="flashSaleHeader">
       <p>限时抢购</p>
-      <span class="timeBox">
+      <span class="timeBox" v-if="stage">
         <span v-if="stage == 1">距离开场</span>
         <span v-if="stage == 2">本场仅剩</span>
         <span v-if="stage == 3">已结束</span>
@@ -50,7 +50,7 @@
       return {
         moduleData: {},
         width: '',
-        stage: 1, // 阶段: 1活动未开始,2活动进行中,3活动已结束
+        stage: 0, // 阶段: 1活动未开始,2活动进行中,3活动已结束
         hours: '00',
         minutes: '00',
         seconds: '00',
@@ -79,33 +79,37 @@
           console.log('falshSaleView:', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.flashSaleView, this.moduleData);
           this.width = this.$refs.flashSaleView.offsetWidth;
-          var timer = window.setInterval(() => {
-            var nowTime = (new Date()).getTime();
-            if (nowTime > this.moduleData.endTime) {
-              this.hours = '00';
-              this.minutes = '00';
-              this.seconds = '00';
-              this.stage = 3;
-              window.clearInterval(timer);
-            } else if (nowTime < this.moduleData.startTime) {
-              var boforeTime = this.leftTimer(nowTime, this.moduleData.startTime);
-              this.hours = boforeTime.hours;
-              this.minutes = boforeTime.minutes;
-              this.seconds = boforeTime.seconds;
-              this.stage = 1;
-            } else {
-              var onTime = this.leftTimer(nowTime, this.moduleData.endTime);
-              this.hours = onTime.hours;
-              this.minutes = onTime.minutes;
-              this.seconds = onTime.seconds;
-              this.stage = 2;
-            }
+          this.timerFn();
+          this.timer = window.setInterval(() => {
+            this.timerFn();
           }, 1000);
       });
     },
 
     methods: {
-      leftTimer: function(startTime, endTime) { 
+      timerFn() {
+        var nowTime = (new Date()).getTime();
+        if (nowTime > this.moduleData.endTime) {
+          this.hours = '00';
+          this.minutes = '00';
+          this.seconds = '00';
+          this.stage = 3;
+          window.clearInterval(this.timer);
+        } else if (nowTime < this.moduleData.startTime) {
+          var boforeTime = this.leftTimer(nowTime, this.moduleData.startTime);
+          this.hours = boforeTime.hours;
+          this.minutes = boforeTime.minutes;
+          this.seconds = boforeTime.seconds;
+          this.stage = 1;
+        } else {
+          var onTime = this.leftTimer(nowTime, this.moduleData.endTime);
+          this.hours = onTime.hours;
+          this.minutes = onTime.minutes;
+          this.seconds = onTime.seconds;
+          this.stage = 2;
+        }
+      },
+      leftTimer(startTime, endTime) { 
         var leftTime = endTime - startTime; // 计算剩余的毫秒数
         var hours = parseInt(leftTime / 1000 / 60 / 60 % 24, 10); // 计算剩余的小时 
         var minutes = parseInt(leftTime / 1000 / 60 % 60, 10);// 计算剩余的分钟 
@@ -119,7 +123,7 @@
           seconds: seconds
         }
       },
-      checkTime: function(i) { // 将0-9的数字前面加上0，例1变为01 
+      checkTime(i) { // 将0-9的数字前面加上0，例1变为01 
         if (i < 10) { 
           i = '0' + i; 
         } 
@@ -143,7 +147,6 @@
         padding-left: 0.6rem;
       }
       .timeBox{
-        display: inline-block;
         float: right;
         padding-top: 0.75rem;
         padding-right: 0.6rem;

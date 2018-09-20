@@ -4,10 +4,9 @@
       <p>限时抢购</p>
       <span>{{activeTab}}/{{moduleData.imageList.length}}</span>
     </div>
-    <vue-scroll :ops="scrollOption" ref="vs" @handle-scroll="handleScroll" @handle-scroll-complete="handleComplete">
+    <vue-scroll :ops="scrollOption" ref="vs" @handle-scroll="handleScroll">
       <div class="scrollPageBox">
-        <div class="scrollPageItem" ref='scrollPageItem' :style='scrollPageItemStyle'
-          v-for='(item,index) in moduleData.imageList' :key='index'>
+        <div class="scrollPageItem" ref='scrollPageItem' :style='scrollPageItemStyle' v-for='(item,index) in moduleData.imageList' :key='index'>
           <img :src="item.imageUrl" draggable="false" />
         </div>
       </div>
@@ -30,7 +29,6 @@ export default {
     return {
       moduleData: {},
       fontSizeRadio: window.fontSize,
-      scrollCompleted: false,
       scrollPageItemStyle: {
         width: '',
         height: '',
@@ -40,15 +38,23 @@ export default {
       itemWidth: 0,
       scrollOption: {
         vuescroll: {
-            mode: 'slide'
+          mode: 'slide',
+          scroller: {
+            bouncing: false,
+            penetrationDeceleration: 0,
+            penetrationAcceleration: 0
+          },
+          snapping: {
+            enable: true,
+            width: 100
+          }
         },
         scrollPanel: {
             scrollingY: false
         },
         rail: {
           size: 0
-        },
-        bar: {}
+        }
       }
     }
   },
@@ -65,15 +71,13 @@ export default {
         this.scrollPageItemStyle.width = this.itemWidth + 'px';
         this.scrollPageItemStyle.height = this.itemWidth / this.moduleData.proportion + 'px';
         this.scrollPageItemStyle.paddingRight = this.moduleData.columnSpacing / window.fontSize + 'rem';
+        this.scrollOption.vuescroll.snapping.width = this.itemWidth;
         this.$refs['vs'].refresh();
     });
   },
 
   methods: {
     handleScroll(v, horizontal) {
-      if (this.scrollCompleted) {
-        return
-      }
       var tab = Math.round(horizontal.scrollLeft / this.itemWidth) + 1;
       if (tab > this.moduleData.imageList.length) {
         tab = this.moduleData.imageList.length
@@ -82,40 +86,26 @@ export default {
         tab = 1;
       }
       this.activeTab = tab;
-    },
-    handleComplete(v, horizontal) {
-      if (this.scrollCompleted) {
-        this.scrollCompleted = false;
-        return
-      }
-      this.scrollCompleted = true;
-      setTimeout(() => {
-        this.$refs['vs'].scrollTo({
-                    x: (this.activeTab - 1) * this.itemWidth,
-                    y: 0
-                });
-      });
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.cz-scrollPageView{
-  .scrollPageHeader{
+.cz-scrollPageView {
+  .scrollPageHeader {
     height: 2.5rem;
     background: #fff;
     text-align: left;
     padding-right: 0.6rem;
-    p{
+    p {
       display: inline-block;
       font-size: 0.7rem;
       line-height: 2.5rem;
       color: #262626;
       padding-left: 0.6rem;
     }
-    span{
-      display: inline-block;
+    span {
       font-size: 0.7rem;
       float: right;
       height: 0.95rem;
@@ -127,11 +117,11 @@ export default {
       border-radius: 0.5rem;
     }
   }
-  .scrollPageBox{
+  .scrollPageBox {
     white-space: nowrap;
-    .scrollPageItem{
+    .scrollPageItem {
       display: inline-block;
-      img{
+      img {
         width: 100%;
         height: 100%;
         display: block;
