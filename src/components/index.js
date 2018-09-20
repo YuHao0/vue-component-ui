@@ -10,6 +10,7 @@ import SrollPageView from './scrollPageView';
 import GalleryView from './galleryView';
 import GoodsView from './goodsView';
 import GoodsHorizontalView from './goodsHorizontalView';
+import Category from './category';
 // 第三方组件库
 import Vue from 'vue';
 import VueTouch from 'src/utils/directive/touch';
@@ -36,7 +37,8 @@ const components = [
   SrollPageView,
   GalleryView,
   GoodsView,
-  GoodsHorizontalView
+  GoodsHorizontalView,
+  Category
 ];
 
 const install = function(Vue, opts = {}) {
@@ -62,5 +64,6 @@ export default {
   SrollPageView,
   GalleryView,
   GoodsView,
-  GoodsHorizontalView
+  GoodsHorizontalView,
+  Category
 };

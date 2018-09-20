@@ -1,0 +1,4058 @@
+[
+  {
+    "categories": [
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 70006,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/0b0e6c387dfbf545c81f93240f3eedb5.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$女士单肩包热门分类$m$4$",
+            "name": "女士单肩包",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 80001,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/9e3ae8888b8c1b81934299427e942bb4.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$女士手提包热门分类$m$4$",
+            "name": "女士手提包",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 20022,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/da571fe0014c67420fd47b384a5aa82e.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$面膜热门分类$m$4$",
+            "name": "面膜",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 30026,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/6390f17b3967c3b00e1a11bf789c3e03.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$口红热门分类$m$4$",
+            "name": "口红",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 380007,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/15f5a5dab63e78cf4ca8c5569d689a32.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$护肤热门分类$m$4$",
+            "name": "护肤套装",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 30002,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/ca48019d44c7b3cdefa390cb558eec0f.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$热门女士手表$m$4$",
+            "name": "女士手表",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 30004,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/d0a8da8458d57f9b85079ef4a21e9499.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$热门男士手表$m$4$",
+            "name": "男士手表",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 30010,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/bb8969c5930a93d76edc43d0d8e683ce.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$女士香水热门分类$m$4$",
+            "name": "女士香水",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 400001,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/e90b5009bd07d69fcd831c96f482f9f0.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$精华热门分类$m$4$",
+            "name": "精华",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 580002,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/af8b382cd49990ccf96a5118eb821f05.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$乳液热门分类$m$4$",
+            "name": "乳液/面霜",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 500006,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/058d182d1f720408a35754f324ec0e91.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$短筒靴热门分类$m$4$",
+            "name": "短筒靴",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 180002,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/1da6de9aad2e8e9e6b88c24e7b0aaf6d.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$配方奶粉$m$4$",
+            "name": "配方奶粉",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 50011,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/86a181a0d0b40292d3292f75134406c1.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$男士篮球鞋热门分类$m$4$",
+            "name": "男士篮球鞋",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 50002,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/d9b770d8e8b353e056fe3ff118d53d70.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$眼部护理热门分类$m$4$",
+            "name": "眼部护理",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 70004,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/64384dfa05f500c8a1e543fe85bf371b.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$外套热门分类$m$4$",
+            "name": "厚款外套",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 90019,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/5f13de1308346346ee3cdb13818422ce.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$化妆水热门分类$m$4$",
+            "name": "化妆水",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 70014,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/8fef4e93053e96183c8718987cf9920d.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$底妆热门分类$m$4$",
+            "name": "底妆",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 40032,
+            "disableFrame": true,
+            "img": "http://res.zhefengle.com/a4ffa17387f05709d9faf2508f22d73c.png?imageView2/3/w/240/h/240",
+            "maskKey": "k$休闲运动鞋热门分类$m$4$",
+            "name": "休闲运动鞋",
+            "parentCategoryId": 0
+          }
+        ],
+        "img": "http://res.zhefengle.com/5350c5f43cf6cd8bb4136905528cc707.png?imageView2/3/w/240/h/240",
+        "name": "热门分类",
+        "proportion": 7.36
+      }
+    ],
+    "name": "为您推荐"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 3,
+        "childCategories": [
+          {
+            "childCategoryId": 23,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/2c7b17634d5bdcf3be3a771d08b31591.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Of$m$1$",
+            "name": "精华",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8ff1155e7c87941f223e58d14c472e36.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7NW$m$1$",
+            "name": "乳液/面霜",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/51445c67fc2e52d3fbaff7df32bee506.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7O7$m$1$",
+            "name": "护肤套装",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 24,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c691fc5ce6cbbb2f1753c6c2461a09d9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Og$m$1$",
+            "name": "磨砂/去角质",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/309125440c5c249edbeecb8301323eba.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7NU$m$1$",
+            "name": "面膜",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d931e7c75201791a2b51e5180e9f4c17.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7NV$m$1$",
+            "name": "眼部护理",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/43896e869393f05d4555e668541d4f53.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7NX$m$1$",
+            "name": "化妆水",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b3186afb92b0410c0932824c86082e75.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7NT$m$1$",
+            "name": "洁面",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 10,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a74eaa75273c225074dc3fa77e3bab3d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7O2$m$1$",
+            "name": "隔离/防晒",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/744aa6035177d4a031ece3499f20de59.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Ob$m$1$",
+            "name": "BB/CC霜",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/58406eac4158ecd9280b27b4b1d6f513.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7O8$m$1$",
+            "name": "卸妆",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5d01918d5ab8137984b1d05e3ea447a4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7O0$m$1$",
+            "name": "润唇膏",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 25,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/33ab6bd6abd4c40afb27d0adfa8bf8b5.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Oh$m$1$",
+            "name": "美容仪",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 26,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/cfc54525e7fe1c5f92b97c9683e9a281.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Oi$m$1$",
+            "name": "洁面仪",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a6a931f3ed6f7584237f5310f6ab7804.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$7Oe$m$1$",
+            "name": "护肤工具",
+            "parentCategoryId": 3,
+            "parentCategoryName": "基础护肤"
+          }
+        ],
+        "maskKey": "c$7NS$m$1$",
+        "name": "基础护肤",
+        "proportion": 0
+      },
+      {
+        "categoryId": 4,
+        "childCategories": [
+          {
+            "childCategoryId": 32,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3858915be3cc93f41f90000b0eda8285.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apG$m$1$",
+            "name": "口红",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 33,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/894983d9ac709eb6f2871308153e2009.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apH$m$1$",
+            "name": "遮瑕",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 34,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/e877e55eea954e848669f1aca10bab8e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apI$m$1$",
+            "name": "底妆",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 35,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1b01ab883383afdafa81072041616338.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apJ$m$1$",
+            "name": "妆前乳",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/db110896db2efe22777deb211d8fc1be.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apf$m$1$",
+            "name": "眼影",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 24,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a2667e2cee286e65c0e28ef2b6d327bd.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apy$m$1$",
+            "name": "彩妆套装",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 31,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/77b5dcd9a77e858124ac6de0bab40cf2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apF$m$1$",
+            "name": "唇彩/唇釉",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5ca970a2e64847beccf1b8a95b7e3a27.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apv$m$1$",
+            "name": "彩妆工具",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 36,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/488105448a28214a747fc5e5663aa91d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apK$m$1$",
+            "name": "腮红",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 37,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0f7e1fca7878de682cc0a6f7b437f477.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apL$m$1$",
+            "name": "修容/高光",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8fd702ddbd815fb196598e9deee96b4a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apg$m$1$",
+            "name": "粉饼",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 28,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1f5244597f12fd20be4ddad84010f4fb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apC$m$1$",
+            "name": "散粉/蜜粉",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/aaf246ff13d39d318e6942fdbb28ba51.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$aph$m$1$",
+            "name": "睫毛膏",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6450c7a305709c210360de7a9ea7f5cc.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apw$m$1$",
+            "name": "眼线",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/57cad54978e1aebd07093c8af76f6889.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apr$m$1$",
+            "name": "眉笔/眉粉",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/dcf1f799db1300daf1490719f1a9e1b6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$apt$m$1$",
+            "name": "美甲",
+            "parentCategoryId": 4,
+            "parentCategoryName": "魅力彩妆"
+          }
+        ],
+        "maskKey": "c$apa$m$1$",
+        "name": "魅力彩妆",
+        "proportion": 0
+      },
+      {
+        "categoryId": 22,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/efafb473d172a7f918ca5c0c1e7b55bd.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Vep$m$1$",
+            "name": "面部护肤",
+            "parentCategoryId": 22,
+            "parentCategoryName": "男士护理"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f6200ff13e90bea64e38b0735c8a57b1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Ves$m$1$",
+            "name": "身体护理",
+            "parentCategoryId": 22,
+            "parentCategoryName": "男士护理"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/cd0b4a288227b3fd2cb280ff5ebd3edd.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Veq$m$1$",
+            "name": "剃须护理",
+            "parentCategoryId": 22,
+            "parentCategoryName": "男士护理"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/242fa8877e6bde1d5cfb0190fddf41e7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Vet$m$1$",
+            "name": "剃须刀",
+            "parentCategoryId": 22,
+            "parentCategoryName": "男士护理"
+          }
+        ],
+        "maskKey": "c$Veo$m$1$",
+        "name": "男士护理",
+        "proportion": 0
+      },
+      {
+        "categoryId": 23,
+        "childCategories": [
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/31e735af720fcc598c37971662d96dde.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPI$m$1$",
+            "name": "护发",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1b4829102a25785f3dcbdfbffe180ea0.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPH$m$1$",
+            "name": "洗发水",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/859d2747c0dbf46f93d309f598957714.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPK$m$1$",
+            "name": "烫染用品",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/32a5d7de5bf7474fc5a7dafb0fac828c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPL$m$1$",
+            "name": "头发造型",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/355e55e56d70614a39d7f606fc7f8d57.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPM$m$1$",
+            "name": "美发工具",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/11e61b85871e8316f7541cb70540fe53.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPN$m$1$",
+            "name": "美发器",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/038d3b866a55d726cb0099a1f6afbe6e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPO$m$1$",
+            "name": "电吹风",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/37a9560ccb46006c96c4dcb20271ccfa.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$XPJ$m$1$",
+            "name": "洗护套装",
+            "parentCategoryId": 23,
+            "parentCategoryName": "美发护发"
+          }
+        ],
+        "maskKey": "c$XPG$m$1$",
+        "name": "美发护发",
+        "proportion": 0
+      },
+      {
+        "categoryId": 21,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/099ecf4f6e1289c6ea8563c30ceb5272.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SD7$m$1$",
+            "name": "身体保养",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5a5089776c3600613f8177e8920739c2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SDc$m$1$",
+            "name": "脱毛",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/44ef9971b8d9d9f43ccd8db28a077cfe.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SDb$m$1$",
+            "name": "精油香薰",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b3d8abf22b121ee53e7ed63c9a64c1d1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SD8$m$1$",
+            "name": "手足护理",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d259bd5de9f74fbd4d934f747ed329ab.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SD9$m$1$",
+            "name": "沐浴",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b7689895eff5e8177ae37ffddc0bb3bb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$SDa$m$1$",
+            "name": "止汗香体",
+            "parentCategoryId": 21,
+            "parentCategoryName": "身体护理"
+          }
+        ],
+        "maskKey": "c$SD6$m$1$",
+        "name": "身体护理",
+        "proportion": 0
+      },
+      {
+        "categoryId": 19,
+        "childCategories": [
+          {
+            "childCategoryId": 35,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ef6f3a083252d49096c3ee3bccbf4036.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Nr5$m$1$",
+            "name": "女士香水",
+            "parentCategoryId": 19,
+            "parentCategoryName": "香水"
+          },
+          {
+            "childCategoryId": 34,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f3d8ecb4da02f29c2bf024d69ed7ae19.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Nr4$m$1$",
+            "name": "男士香水",
+            "parentCategoryId": 19,
+            "parentCategoryName": "香水"
+          },
+          {
+            "childCategoryId": 37,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c4e8803164200729fe1638b173f48dc8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Nr7$m$1$",
+            "name": "香水套装",
+            "parentCategoryId": 19,
+            "parentCategoryName": "香水"
+          },
+          {
+            "childCategoryId": 36,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/47f21ca87dea836e8d52c78828b0dd91.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Nr6$m$1$",
+            "name": "中性香水",
+            "parentCategoryId": 19,
+            "parentCategoryName": "香水"
+          }
+        ],
+        "maskKey": "c$Nqw$m$1$",
+        "name": "香水",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/ea336a1d-d1bf-4c4b-9e31-8962bed52eda.png",
+            "maskKey": "b$f7$m$2$",
+            "name": "Estee Lauder",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/f80e94ed-d97f-4226-9c56-b7ae5691eb5e.png",
+            "maskKey": "b$f9$m$2$",
+            "name": "Lancome",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/cda7e787-e813-4337-a1bf-754e18f735b2.png",
+            "maskKey": "b$4n3$m$2$",
+            "name": "Clinique",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/f87069b6-905d-44f4-94f6-d59c0f980f77.png",
+            "maskKey": "b$g6$m$2$",
+            "name": "Clarins",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/27af0297-47c8-431e-8c64-d898f8e35eb5.png",
+            "maskKey": "b$bUJ$m$2$",
+            "name": "Sulwhasoo",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/872b9739ec02654d2b243fa092899284.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$jVv$m$2$",
+            "name": "La Mer",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/844fa1da-8cd9-480a-8ffe-0afce425559a.png",
+            "maskKey": "b$3Ch$m$2$",
+            "name": "Origins",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9c29a5c6-0118-4632-9f00-bdf45d2e6415.png",
+            "maskKey": "b$g4$m$2$",
+            "name": "Fresh",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/f74457b7-616e-48e2-930c-16c4aaaef6df.png",
+            "maskKey": "b$fG$m$2$",
+            "name": "SK-II",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/4deac160-5d63-4aeb-a490-34756d67629e.png",
+            "maskKey": "b$6Dj$m$2$",
+            "name": "SHISEIDO",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/198c6e32-47c4-4d55-aad5-de7976ce8221.png",
+            "maskKey": "b$XZ$m$2$",
+            "name": "Tom Ford",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/7e7f32c2-cd42-47c5-bbb1-b0f3726616db.png",
+            "maskKey": "b$fc$m$2$",
+            "name": "Dior",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/ca329943-c10a-4a22-84f0-26846f98a237.png",
+            "maskKey": "b$12M$m$2$",
+            "name": "Giorgio Armani",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/683003e8-c78b-4f24-9b3e-d4186b9b2763.png",
+            "maskKey": "b$3dQ$m$2$",
+            "name": "Jurlique",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/dca64f7f-70a2-4024-8c9b-805d4db670bc.png",
+            "maskKey": "b$XO$m$2$",
+            "name": "Crabtree & Evelyn",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/2262a756-aa6e-4d7c-982e-42c908ad17a8.jpg",
+            "maskKey": "b$4rS$m$2$",
+            "name": "L'Occitane",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/f052e232a66ccbc174ec39e490db4370.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$2w2v$m$2$",
+            "name": "butter LONDON",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/ed904203-e233-4ef7-8cd3-f49d87814381.jpg",
+            "maskKey": "b$8CW$m$2$",
+            "name": "Maybelline",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/e654a385191b9df2346c26a8f4206e56.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$6gK$m$2$",
+            "name": "L'Oreal Paris",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "美妆护肤"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 8,
+        "childCategories": [
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0ef15962e7b97635df2a0aa5cdf1dda5.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOB$m$1$",
+            "name": "外套/夹克",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 23,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/76809c7e889ec134af178b909f580b47.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOH$m$1$",
+            "name": "马甲",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d992496a0bb8ad907dd7f4b8cb764894.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOl$m$1$",
+            "name": "T恤/背心",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 28,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a49d609a057637956321a8708d2568f7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOM$m$1$",
+            "name": "Polo衫",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0da3fe38e7dbe71d5b0b6ffb280f4bcf.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOz$m$1$",
+            "name": "牛仔裤",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1fc73b45dfbb076d6c6f516a4ff5a09d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOA$m$1$",
+            "name": "正装",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/032f7d86aade2b61ca9ea316409793b2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOt$m$1$",
+            "name": "针织衫/卫衣",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9f71174ceae0febbea2aec02370e255e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOm$m$1$",
+            "name": "衬衫",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/415c30526b937e7d991ef83dda7eab03.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOE$m$1$",
+            "name": "休闲裤",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 14,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ffd0291e0e445d7f99e329a7132805ae.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOy$m$1$",
+            "name": "短裤/中裤",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          },
+          {
+            "childCategoryId": 40,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/2192db767aee85f3ce574cdf2de44dbc.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$kOY$m$1$",
+            "name": "泳裤",
+            "parentCategoryId": 8,
+            "parentCategoryName": "男装"
+          }
+        ],
+        "maskKey": "c$kOk$m$1$",
+        "name": "男装",
+        "proportion": 0
+      },
+      {
+        "categoryId": 1,
+        "childCategories": [
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9774f2399eaf56aad5801e09e2773ce2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BC$m$1$",
+            "name": "外套/夹克",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 46,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/271b1d63723e77575f252bbc280e6d54.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2C2$m$1$",
+            "name": "马甲",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 34,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b86a89cbeca7db0c9b29fc4ec2f2b65b.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BQ$m$1$",
+            "name": "半身裙",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 38,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/845b9cfa639de4cfad56d9a89f1bd0f8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BU$m$1$",
+            "name": "连衣裙",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7c2a9b3a63fea6979caa124f4d4e4b2a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BB$m$1$",
+            "name": "T恤/背心",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 49,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/61923accfa67556aba7dc863ff1a0364.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2C5$m$1$",
+            "name": "Polo衫",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6e2448e93a9d140fb4aea6a49b263dda.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2By$m$1$",
+            "name": "休闲裤",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7dc8caea9f0cdf13957bd15c597776c7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BE$m$1$",
+            "name": "针织衫/卫衣",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 10,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c2080e19f493bd2a5e4e07274fba137f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2Bs$m$1$",
+            "name": "牛仔裤",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 41,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8abea7339271ed5a49d86229c4f2d2d4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BX$m$1$",
+            "name": "连体衣",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5e8fab50a864c4729ac59d9e21d69240.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2BD$m$1$",
+            "name": "衬衫",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 11,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/10b5b3b36756387392a2de205180eebb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2Bt$m$1$",
+            "name": "短裤/中裤",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 13,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9311483f970e9c73c6af4772cc45a1ba.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2Bv$m$1$",
+            "name": "正装",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          },
+          {
+            "childCategoryId": 50,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/80a07dcede89e2b89012839d2f497603.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2C6$m$1$",
+            "name": "泳装",
+            "parentCategoryId": 1,
+            "parentCategoryName": "女装"
+          }
+        ],
+        "maskKey": "c$2Bi$m$1$",
+        "name": "女装",
+        "proportion": 0
+      },
+      {
+        "categoryId": 6,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/86443db40467054b9871cd8407863c60.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fBL$m$1$",
+            "name": "文胸",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 14,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6763ad67a3615c20c36814323b134ab9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fBY$m$1$",
+            "name": "女士内裤",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7d7c250218c8cb6d8014503564d0900d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fBZ$m$1$",
+            "name": "男士内裤",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/2e79136e120cc14a2bfaad571f0c533f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fC0$m$1$",
+            "name": "运动内衣",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/20703390862299cef201317d9005d6aa.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fC1$m$1$",
+            "name": "男士睡衣",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6e7212b61a5a74b375a3e3b6c1e7557d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fC5$m$1$",
+            "name": "女士睡衣",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 29,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/25f12b2016cc64be8828888cca0f9a21.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fCd$m$1$",
+            "name": "女士保暖内衣",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5b7644f781d6f4fd6bca76a9a2d8f5ed.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fBM$m$1$",
+            "name": "情趣内衣",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 32,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c3a6d356b37046f81ef1a44f73b21d3d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fCg$m$1$",
+            "name": "男士袜子",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 33,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b4d72a579fb976076d0254ead0856c66.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fCh$m$1$",
+            "name": "女士袜子",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          },
+          {
+            "childCategoryId": 36,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/16fefec243afe583502511cf2be3ec9d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$fCk$m$1$",
+            "name": "打底裤",
+            "parentCategoryId": 6,
+            "parentCategoryName": "内衣"
+          }
+        ],
+        "maskKey": "c$fBK$m$1$",
+        "name": "内衣",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/fd3b4aa4-2df0-41bb-8f3b-0dbbf89675fe.png",
+            "maskKey": "b$fo$m$2$",
+            "name": "Adidas",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0371b186-a319-446a-a9f6-e53bd1be9476.png",
+            "maskKey": "b$fp$m$2$",
+            "name": "NIKE",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d8b3d876-f897-4dc7-8bc3-b92c87a44099.png",
+            "maskKey": "b$XQ$m$2$",
+            "name": "Under Armour",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/e9bf9945-a86b-412c-9609-32258b1ef532.png",
+            "maskKey": "b$12Z$m$2$",
+            "name": "Lacoste",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/56b0d58c-ed20-4b94-83c8-273ba9379048.png",
+            "maskKey": "b$ov$m$2$",
+            "name": "GAP",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9ed7b637-4675-4769-a622-3224c517b410.png",
+            "maskKey": "b$oC$m$2$",
+            "name": "Nautica",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/fa727f22-3fe9-483c-bae5-6b45628b59d7.png",
+            "maskKey": "b$11C$m$2$",
+            "name": "Cole Haan",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/40ad6595-00aa-4706-a16b-12c974cecf7d.png",
+            "maskKey": "b$fO$m$2$",
+            "name": "Ralph Lauren",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9f94b2db-abab-4fdf-a1b3-23aa10032a45.png",
+            "maskKey": "b$fh$m$2$",
+            "name": "Calvin Klein",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/c155c7c0-fef0-43ca-b236-5b9caf8cda9b.jpg",
+            "maskKey": "b$1fW$m$2$",
+            "name": "Tommy Hilfiger",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/251bea80ef8d48bba21ffb407e3ed129.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$J2B$m$2$",
+            "name": "Brooks Brother",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9b6bb98c-70fe-4b72-9ccf-448b19ddf151.png",
+            "maskKey": "b$12U$m$2$",
+            "name": "Gucci",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/4227bd1d-7515-489a-9e0e-ad44ed533116.png",
+            "maskKey": "b$14U$m$2$",
+            "name": "Prada",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/c52c9aa5-48a0-4d62-9511-9b1f71208c6d.png",
+            "maskKey": "b$10p$m$2$",
+            "name": "BULOVA",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/722ce77f-7e8a-4522-a1d3-a5f34d5c8557.png",
+            "maskKey": "b$fu$m$2$",
+            "name": "Levi's",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "服装服饰"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 18,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d5f620872b1a7a2c4eb82df611c740b6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$KPf$m$1$",
+            "name": "男表",
+            "parentCategoryId": 18,
+            "parentCategoryName": "手表"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/fa8ef4324729bce94fa51e68a44036ac.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$KPg$m$1$",
+            "name": "女表",
+            "parentCategoryId": 18,
+            "parentCategoryName": "手表"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c3dbe16d07cb8a85d1a3114c37200a2c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$KPh$m$1$",
+            "name": "智能表",
+            "parentCategoryId": 18,
+            "parentCategoryName": "手表"
+          },
+          {
+            "childCategoryId": 14,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/defd4e7cc47f10a7d855e2149734704a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$KPs$m$1$",
+            "name": "手表配件",
+            "parentCategoryId": 18,
+            "parentCategoryName": "手表"
+          }
+        ],
+        "maskKey": "c$KPe$m$1$",
+        "name": "手表",
+        "proportion": 0
+      },
+      {
+        "categoryId": 7,
+        "childCategories": [
+          {
+            "childCategoryId": 14,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/4614e58effe1929df39a00e49768af96.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idg$m$1$",
+            "name": "项链",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b7b9caff6a7180ec1af02653d7087886.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$ide$m$1$",
+            "name": "耳饰",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9e5efd82c1026d5e98be244520e6071a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idi$m$1$",
+            "name": "太阳镜",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7f1033583d634f1196780a2fbb408143.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idh$m$1$",
+            "name": "手链",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/27ce1f1b5698ffd47cb336662f47d79c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$id6$m$1$",
+            "name": "皮带",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5f297674ad6aec7942c5b9e040d3f8d1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idl$m$1$",
+            "name": "围巾",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/910cc226fa4d179273692680f0c2296f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$id8$m$1$",
+            "name": "帽子",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/659aa2e475f579d6433e80b1562cc637.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idm$m$1$",
+            "name": "小配饰",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 13,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1126fddac1d955b9dfbe9ec7e7966f60.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idf$m$1$",
+            "name": "戒指",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7e924d5e2339dbc0d0903d51b675cc64.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idk$m$1$",
+            "name": "套装",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9f9e9db85cb6a36a41eccf4351a9a7f5.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idn$m$1$",
+            "name": "手套",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 11,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d5e6edcb7b9ecda98a2f1b6d6ee9abcb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$idd$m$1$",
+            "name": "头饰",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c12f512377995f46400a141b15bc2678.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$id7$m$1$",
+            "name": "领带",
+            "parentCategoryId": 7,
+            "parentCategoryName": "配饰"
+          }
+        ],
+        "maskKey": "c$id2$m$1$",
+        "name": "配饰",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/8147178d-9e22-47e1-bca6-60ba0c14a767.jpg",
+            "maskKey": "b$f3T$m$2$",
+            "name": "Daniel Wellington",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/00b09708-6426-42af-952f-ac0bf2c726b9.png",
+            "maskKey": "b$Zt$m$2$",
+            "name": "RADO",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/66c48569-5edc-4558-9f5a-4020d6ac154c.png",
+            "maskKey": "b$15e$m$2$",
+            "name": "Skagen",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9f94b2db-abab-4fdf-a1b3-23aa10032a45.png",
+            "maskKey": "b$fh$m$2$",
+            "name": "Calvin Klein",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/3b63e9c3-f7e4-4945-b34e-81b345fe737b.png",
+            "maskKey": "b$Wp$m$2$",
+            "name": "Anne Klein",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/42dc52ea-71cd-41c3-a66a-a664f5680b20.png",
+            "maskKey": "b$g3$m$2$",
+            "name": "Tissot",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/7a3463f4-a711-4a9e-91f3-15ce3d7d104b.png",
+            "maskKey": "b$fC$m$2$",
+            "name": "Citizen",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a2a63326-ca23-410d-ab79-db9a695ae2e7.jpg",
+            "maskKey": "b$91c$m$2$",
+            "name": "Movado",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/21207367-a6d1-4899-b052-81612441c5ec.png",
+            "maskKey": "b$11j$m$2$",
+            "name": "Casio",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/3e91d9d3-2489-482b-978d-b4bdb17e4189.png",
+            "maskKey": "b$g2$m$2$",
+            "name": "Timex",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/b9de7c2b-2e85-4a41-b98b-4746a7ee8c9a.png",
+            "maskKey": "b$fB$m$2$",
+            "name": "Seiko",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/50c54138-745a-4741-bac1-7480c2698b72.png",
+            "maskKey": "b$drU$m$2$",
+            "name": "Marc Jacobs",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/c52c9aa5-48a0-4d62-9511-9b1f71208c6d.png",
+            "maskKey": "b$10p$m$2$",
+            "name": "BULOVA",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/7dce5a0f-6342-4488-aebd-87f6b6f31846.png",
+            "maskKey": "b$11l$m$2$",
+            "name": "Hamilton",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/7e876f7c-83f0-46bc-b8ec-9698efd7a307.png",
+            "maskKey": "b$12y$m$2$",
+            "name": "Fossil",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a6784ca2-5dbe-458c-96ee-2d2a9bcc74d6.png",
+            "maskKey": "b$dwK$m$2$",
+            "name": "MIDO",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "手表配饰"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 9,
+        "childCategories": [
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c406f7dc489e40acca00b0843b14d43e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npF$m$1$",
+            "name": "休闲鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 14,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/32670a9d9aba8b32111993f41b36bfde.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npQ$m$1$",
+            "name": "皮鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c8c796ece6beac3770c2efda09abd86d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npS$m$1$",
+            "name": "靴子",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d55277fb7e2faf30c86ea0521c4b0583.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npV$m$1$",
+            "name": "休闲运动鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/06955dc359799cb60cf63d94f481b166.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npU$m$1$",
+            "name": "雨鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/359ace5662d0052fe3ad304e0f45af76.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npW$m$1$",
+            "name": "乐福鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7479fe062864d7640c780a2f2dd72fbe.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npX$m$1$",
+            "name": "凉鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ce7aa273b1be2a5f9eb8333be5f26189.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$npY$m$1$",
+            "name": "拖鞋",
+            "parentCategoryId": 9,
+            "parentCategoryName": "男鞋"
+          }
+        ],
+        "maskKey": "c$npC$m$1$",
+        "name": "男鞋",
+        "proportion": 0
+      },
+      {
+        "categoryId": 2,
+        "childCategories": [
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a0a3aae8c75d376b298711f4ba33c018.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cF$m$1$",
+            "name": "休闲鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b7e36c36f79b281e5c45bba46011d8c2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cR$m$1$",
+            "name": "休闲运动鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ddfa963c5f4678faf81099e91d4c16c8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cS$m$1$",
+            "name": "乐福鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3e0025497c89df629d41fcafa95e5db3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cT$m$1$",
+            "name": "穆勒鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/02067db00700e14a99d8db1fa3ddeef0.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cU$m$1$",
+            "name": "牛津鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/78c3f4dc6e14ed85711bada9bf844876.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cB$m$1$",
+            "name": "高跟鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/09879631351d9d0f66466020de15632f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cC$m$1$",
+            "name": "平底鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/cf2bd9a6dfc29fdc6fc2f62cc8935be4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cQ$m$1$",
+            "name": "雨鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/47b2662d682cf3479fe7601634f78138.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cW$m$1$",
+            "name": "凉鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 23,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/784218dfdd0bffc8952cd2383803fde4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cX$m$1$",
+            "name": "拖鞋",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          },
+          {
+            "childCategoryId": 24,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/756051632f07c11bf12fc7953e5a9e22.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$5cY$m$1$",
+            "name": "女士靴子",
+            "parentCategoryId": 2,
+            "parentCategoryName": "女鞋"
+          }
+        ],
+        "maskKey": "c$5cA$m$1$",
+        "name": "女鞋",
+        "proportion": 0
+      },
+      {
+        "categoryId": 5,
+        "childCategories": [
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/31a110770a49f339bc0faadf139e6b44.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0u$m$1$",
+            "name": "女士手提包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 11,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6fa417bf7e17c1780ee56e62f6f8fe41.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0D$m$1$",
+            "name": "女士单肩包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/609a10531b11d742f00f1d01aeea27e2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0x$m$1$",
+            "name": "女士双肩包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9f5dc6b4534a8bd359b992dece1a4a62.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0w$m$1$",
+            "name": "女士钱包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a5bc0a4dc4ce99e7ec56fd5b736716b2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0H$m$1$",
+            "name": "男士钱包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/27c607d7a645e46dd004c59d834443db.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0K$m$1$",
+            "name": "男士公文包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0db990188853fc8c9c6efc1ab1adaab8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0y$m$1$",
+            "name": "女士手拿包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3dc85e630c449a7bf4ad0241cb0b3155.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0I$m$1$",
+            "name": "男士双肩包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 13,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/88b03644b2e53e794d2068ee47f66f8e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0F$m$1$",
+            "name": "行李包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/674917cfa7d9227d7ae9457ddaf13399.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0E$m$1$",
+            "name": "旅行箱",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b4090f361f99f42a0c4695a4c18888ad.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0M$m$1$",
+            "name": "卡包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/02cd0732d831c2fd5523086de52396ed.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0O$m$1$",
+            "name": "沙滩包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/67ce2ee01a2e27b4d17b084f3724c571.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0L$m$1$",
+            "name": "男士单肩包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 23,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f13c43b2447d4c56dec3a253003ff8c1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0P$m$1$",
+            "name": "男士手提包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7a3e9f25c1afe676b02669577c6306e4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0N$m$1$",
+            "name": "儿童书包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f0239ddc8d57417be17661de9b3be365.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0J$m$1$",
+            "name": "男士手拿包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a29cca7617f02973dd93042aa4b19e46.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$d0A$m$1$",
+            "name": "电脑包",
+            "parentCategoryId": 5,
+            "parentCategoryName": "箱包"
+          }
+        ],
+        "maskKey": "c$d0s$m$1$",
+        "name": "箱包",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0371b186-a319-446a-a9f6-e53bd1be9476.png",
+            "maskKey": "b$fp$m$2$",
+            "name": "NIKE",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/fd3b4aa4-2df0-41bb-8f3b-0dbbf89675fe.png",
+            "maskKey": "b$fo$m$2$",
+            "name": "Adidas",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a9972a8e-4815-438c-88f3-23c380de689c.png",
+            "maskKey": "b$14x$m$2$",
+            "name": "New Balance",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/e7aa526e-fd52-46e5-8ac4-af0c297d6312.png",
+            "maskKey": "b$XM$m$2$",
+            "name": "Converse",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/bcb33dcf-6cd0-4405-a0c2-a491df0cbbe5.png",
+            "maskKey": "b$g8$m$2$",
+            "name": "Asics",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/528895a4-8bf7-460f-89af-6daa9386e830.png",
+            "maskKey": "b$3IP$m$2$",
+            "name": "Vans",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/70cb3178-67fa-475b-8b2b-19f3a928c8ef.png",
+            "maskKey": "b$12b$m$2$",
+            "name": "ECCO",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/cdbe5f26-4ecb-41ad-a54f-8e834f3e2272.png",
+            "maskKey": "b$15l$m$2$",
+            "name": "Saucony",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/2d720269-9acc-47e8-8b0c-1b873623bbdb.png",
+            "maskKey": "b$mC$m$2$",
+            "name": "Reebok",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/ab25749c-4f7b-4d1a-957d-a68ac63b8345.png",
+            "maskKey": "b$11A$m$2$",
+            "name": "Clarks",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/9b6bb98c-70fe-4b72-9ccf-448b19ddf151.png",
+            "maskKey": "b$12U$m$2$",
+            "name": "Gucci",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/27bb649a-ae95-4907-8c0e-8159fa9bfa5d.png",
+            "maskKey": "b$14M$m$2$",
+            "name": "PUMA",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/598f9240-2ef6-479f-adc7-2bf03bced5dc.png",
+            "maskKey": "b$188$m$2$",
+            "name": "Crocs",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a6e39895-8edc-487b-8577-8a790b491d65.png",
+            "maskKey": "b$fn$m$2$",
+            "name": "UGG",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a1d07d5d-8d15-44eb-aea3-0e6e4d9b0b26.png",
+            "maskKey": "b$3xt$m$2$",
+            "name": "ASH",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0bda835d-a1a7-420a-a09a-ca0a7b3f1918.png",
+            "maskKey": "b$fv$m$2$",
+            "name": "Coach",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d951af54-f558-44e1-a37b-620f2f575dd2.png",
+            "maskKey": "b$1yg$m$2$",
+            "name": "Keds",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/97fb7cd1-dcd3-429e-a6b1-26da5dfe17d5.png",
+            "maskKey": "b$14k$m$2$",
+            "name": "Minnetonka",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/8b902a1a-e54e-4c00-a67a-50c4b20e88de.png",
+            "maskKey": "b$14j$m$2$",
+            "name": "Michael Kors",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/cb33b68c-5579-49a4-b38d-317d2ac88a67.png",
+            "maskKey": "b$YG$m$2$",
+            "name": "Salvatore Ferragamo",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/3d0dfcf9-f783-487c-96d2-044781cbb595.png",
+            "maskKey": "b$12s$m$2$",
+            "name": "Fendi",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/2d027a77-ce64-4c51-99a6-528cca9c637b.png",
+            "maskKey": "b$oD$m$2$",
+            "name": "NINE WEST",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/f123a4fb-cbdc-4ca9-bad9-fcd3e0b56dbe.png",
+            "maskKey": "b$p2$m$2$",
+            "name": "Skechers",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/339fa55b-3a20-4af4-9030-8b1347cab496.png",
+            "maskKey": "b$128$m$2$",
+            "name": "Dr.Martens",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "鞋靴箱包"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 11,
+        "childCategories": [
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/cf915162de53b3419249d83e2736b7c7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$sCr$m$1$",
+            "name": "女幼童服饰",
+            "parentCategoryId": 11,
+            "parentCategoryName": "婴幼服饰"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d162f698b613678963615e6c7910431b.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$sCx$m$1$",
+            "name": "男幼童服饰",
+            "parentCategoryId": 11,
+            "parentCategoryName": "婴幼服饰"
+          },
+          {
+            "childCategoryId": 26,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b7114441e1f182b4c19856c80d6a348a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$sCC$m$1$",
+            "name": "女婴服饰",
+            "parentCategoryId": 11,
+            "parentCategoryName": "婴幼服饰"
+          },
+          {
+            "childCategoryId": 33,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/dc8db5f4b7bed5c6b836f6904e721f8d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$sCJ$m$1$",
+            "name": "男婴服饰",
+            "parentCategoryId": 11,
+            "parentCategoryName": "婴幼服饰"
+          }
+        ],
+        "maskKey": "c$sCc$m$1$",
+        "name": "婴幼服饰",
+        "proportion": 0
+      },
+      {
+        "categoryId": 45,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1ffdf7d87bce233959f6df67a9bdeb6d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T45$m$1$",
+            "name": "儿童上衣",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/275a887a303f2e9e89d4030d74a19c0c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T48$m$1$",
+            "name": "儿童外套",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d0e58c6f0096d35218b08481346e225a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T46$m$1$",
+            "name": "儿童下装",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/48e9c16cfe52c83e5e44f0f0a9ffc5e6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T47$m$1$",
+            "name": "儿童套装",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/70a664d1a900b7982f5ef20c51150c58.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4b$m$1$",
+            "name": "儿童睡衣",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6c9d39c14d7e16a2f44ba090b0f34e8a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4l$m$1$",
+            "name": "儿童泳衣",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/e088a8abc9e0675e67625e62b6cd03f1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4c$m$1$",
+            "name": "儿童袜子",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 10,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d1ad270dc7480abe3dc980c0617732ca.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4e$m$1$",
+            "name": "儿童内衣裤",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/57a55cad925d2a9f48f714dc975cf83d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4a$m$1$",
+            "name": "儿童连体衣",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f69264e972c2627f27da96f42bda0634.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1T4d$m$1$",
+            "name": "儿童配饰",
+            "parentCategoryId": 45,
+            "parentCategoryName": "儿童服装"
+          }
+        ],
+        "maskKey": "c$1T44$m$1$",
+        "name": "儿童服装",
+        "proportion": 0
+      },
+      {
+        "categoryId": 46,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b22719d4e119efcca5090a993e9a59b3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1VFn$m$1$",
+            "name": "男童鞋",
+            "parentCategoryId": 46,
+            "parentCategoryName": "儿童鞋靴"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/35afb8c1366d5b6e77b9ba665fb1c6e9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1VFo$m$1$",
+            "name": "女童鞋",
+            "parentCategoryId": 46,
+            "parentCategoryName": "儿童鞋靴"
+          }
+        ],
+        "maskKey": "c$1VFm$m$1$",
+        "name": "儿童鞋靴",
+        "proportion": 0
+      },
+      {
+        "categoryId": 42,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/4b5bfa23c5d06f945a00976123bc5bb9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1Lgd$m$1$",
+            "name": "洗发沐浴",
+            "parentCategoryId": 42,
+            "parentCategoryName": "洗护清洁"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/71cac17088812df3a54d15c6ef108435.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1Lge$m$1$",
+            "name": "护肤用品",
+            "parentCategoryId": 42,
+            "parentCategoryName": "洗护清洁"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5ac93b708805110e1683ab02cab42e43.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1Lgf$m$1$",
+            "name": "日用护理",
+            "parentCategoryId": 42,
+            "parentCategoryName": "洗护清洁"
+          }
+        ],
+        "maskKey": "c$1Lgc$m$1$",
+        "name": "洗护清洁",
+        "proportion": 0
+      },
+      {
+        "categoryId": 41,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/63a98245c1ea7963119b1113677e6400.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IEV$m$1$",
+            "name": "奶瓶用品",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/75febf2b5d1c355dbcedc3fc0e0ffead.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IEW$m$1$",
+            "name": "杯具餐具",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8f345874d13841335680a107340d3fbb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IEY$m$1$",
+            "name": "牙胶/磨牙棒",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c4c53e987d1b84d9a04c8340ba9bc841.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IEX$m$1$",
+            "name": "口水巾/罩衣",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/df6aac55eb54c84c5bd54aaa1d73c637.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IEZ$m$1$",
+            "name": "辅食料理器",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c7ec8ebf45f1634cb233347ea665445c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IF0$m$1$",
+            "name": "纸尿裤",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6009ae5acd0cf63e993e8d4579a69419.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IF1$m$1$",
+            "name": "哺乳用品",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/34addd36525d5ff235b9b7e4a6b687c2.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IF2$m$1$",
+            "name": "孕产用品",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/fe13bbf5d1c08d43ca1816e63c2de2d3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1IF3$m$1$",
+            "name": "儿童益生菌",
+            "parentCategoryId": 41,
+            "parentCategoryName": "哺育喂养"
+          }
+        ],
+        "maskKey": "c$1IEU$m$1$",
+        "name": "哺育喂养",
+        "proportion": 0
+      },
+      {
+        "categoryId": 40,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/34e4554f62719644d9d904db851eb9f0.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1G3D$m$1$",
+            "name": "配方奶粉",
+            "parentCategoryId": 40,
+            "parentCategoryName": "奶粉辅食"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/2649b380e393dceafd9b77eff65c0005.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1G3F$m$1$",
+            "name": "营养辅食",
+            "parentCategoryId": 40,
+            "parentCategoryName": "奶粉辅食"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1fd7ef7d11f24dfd22181957116a1f96.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1G3G$m$1$",
+            "name": "宝宝零食",
+            "parentCategoryId": 40,
+            "parentCategoryName": "奶粉辅食"
+          }
+        ],
+        "maskKey": "c$1G3C$m$1$",
+        "name": "奶粉辅食",
+        "proportion": 0
+      },
+      {
+        "categoryId": 48,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a93f889ca4a130302a339bef2537ddc6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$20RX$m$1$",
+            "name": "毛绒安抚",
+            "parentCategoryId": 48,
+            "parentCategoryName": "益智玩具"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3a52433827dc5c840fbc52feee9973de.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$20RZ$m$1$",
+            "name": "积木拼插",
+            "parentCategoryId": 48,
+            "parentCategoryName": "益智玩具"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/e49d2a147e201cd10cce70edfd60730c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$20S1$m$1$",
+            "name": "益智早教",
+            "parentCategoryId": 48,
+            "parentCategoryName": "益智玩具"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/40d70c652519f58cfb86e6641789f1ea.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$20RY$m$1$",
+            "name": "推拉玩具/学步车",
+            "parentCategoryId": 48,
+            "parentCategoryName": "益智玩具"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/184fb9959ecc0d567f0231a3f65f572b.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$20S0$m$1$",
+            "name": "声音玩具",
+            "parentCategoryId": 48,
+            "parentCategoryName": "益智玩具"
+          }
+        ],
+        "maskKey": "c$20RW$m$1$",
+        "name": "益智玩具",
+        "proportion": 0
+      },
+      {
+        "categoryId": 57,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/86736beef672a49d410d727b2f16f76d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2ohz$m$1$",
+            "name": "儿童安全座椅",
+            "parentCategoryId": 57,
+            "parentCategoryName": "婴幼儿出行"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ce37773b203cf10d37f4d733df216b90.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2ohA$m$1$",
+            "name": "童车推车",
+            "parentCategoryId": 57,
+            "parentCategoryName": "婴幼儿出行"
+          }
+        ],
+        "maskKey": "c$2ohy$m$1$",
+        "name": "婴幼儿出行",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/62de5ad2-90f7-4c9d-aa06-6ddfbab93791.png",
+            "maskKey": "b$1lp$m$2$",
+            "name": "Dr. Brown's",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/f59820cd-5d33-4ec1-a2f4-f1bb0bd4e74e.png",
+            "maskKey": "b$107$m$2$",
+            "name": "BabyBjorn",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/9a0a729cb088c121b9c746d12843392c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$2vUf$m$2$",
+            "name": "Philips Avent",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a9fbc417-b319-43cf-a0ed-9009adb83f97.png",
+            "maskKey": "b$14o$m$2$",
+            "name": "Munchkin",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/c569ec60-351f-49cf-938c-20a7c91c0936.png",
+            "maskKey": "b$14t$m$2$",
+            "name": "NUK",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/b6e6214f-69c2-472e-9aa7-12efb87a21a8.png",
+            "maskKey": "b$fA$m$2$",
+            "name": "Comotomo",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/2714a1fb-768e-4c24-871d-2c834b3a8850.png",
+            "maskKey": "b$fY$m$2$",
+            "name": "California Baby",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/872d92c2-eec6-459e-a6b5-07ca48b5dab5.png",
+            "maskKey": "b$3Gp$m$2$",
+            "name": "Babyganics",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/40ec1fea-1ef1-479c-a89f-6c5e8251cc8d.jpg",
+            "maskKey": "b$eo1$m$2$",
+            "name": "Earth Mama Angel Baby",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/d67b5c85c9d5d908c86da50e6a2fa066.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$86tf$m$2$",
+            "name": "Kao（ロリエ）",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/a4c0b816277f432341374acb1a95d577.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$8OM$m$2$",
+            "name": "Pampers",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/03ab4dfe20df2e105947b07c5cd359b1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$97V7$m$2$",
+            "name": "Maxi-Cosi",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/7cc18cf20b431b04e8132a7abf78b640.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$iMx$m$2$",
+            "name": "Ddrops",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/5fc5e6f9-e156-4e9e-8b2b-283c119a6dfb.jpg",
+            "maskKey": "b$54O$m$2$",
+            "name": "Nordic Naturals",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/b5533502db72593045e8dbecaa71a505.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$56b$m$2$",
+            "name": "Culturelle",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/73ba7e38-1b8a-4bdf-bf79-588e3ea8d419.jpg",
+            "maskKey": "b$6Hg$m$2$",
+            "name": "Nature Made",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0a17279c-943f-41cc-bc1f-f676993995cc.png",
+            "maskKey": "b$fs$m$2$",
+            "name": "Gymboree",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/56b0d58c-ed20-4b94-83c8-273ba9379048.png",
+            "maskKey": "b$ov$m$2$",
+            "name": "GAP",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/4862ebeb-eac6-40f6-9606-90459d31eb02.png",
+            "maskKey": "b$oj$m$2$",
+            "name": "Carter's",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "妈咪宝贝"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 17,
+        "childCategories": [
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f9a22d8d7bc754d145daa6c71e7f5cd9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Ief$m$1$",
+            "name": "眼药水/护理液",
+            "parentCategoryId": 17,
+            "parentCategoryName": "眼部护理"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/104d5b6d689454d300c19236dd93ae7f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$Ieg$m$1$",
+            "name": "眼罩/眼部按摩",
+            "parentCategoryId": 17,
+            "parentCategoryName": "眼部护理"
+          }
+        ],
+        "maskKey": "c$IdW$m$1$",
+        "name": "眼部护理",
+        "proportion": 0
+      },
+      {
+        "categoryId": 24,
+        "childCategories": [
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d82e769cd4a075f0150a2d7ead0daef0.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$10r4$m$1$",
+            "name": "电动牙刷",
+            "parentCategoryId": 24,
+            "parentCategoryName": "口腔护理"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f3a2118ea3a99fdb06c9d35bb68a5d65.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$10r5$m$1$",
+            "name": "洗牙器/水牙线",
+            "parentCategoryId": 24,
+            "parentCategoryName": "口腔护理"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a88d2d0061b9f5cc071ace7384eeaf7a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$10r0$m$1$",
+            "name": "牙膏",
+            "parentCategoryId": 24,
+            "parentCategoryName": "口腔护理"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/057629972e6f07d642f299b250d18d2c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$10qZ$m$1$",
+            "name": "牙刷",
+            "parentCategoryId": 24,
+            "parentCategoryName": "口腔护理"
+          }
+        ],
+        "maskKey": "c$10qY$m$1$",
+        "name": "口腔护理",
+        "proportion": 0
+      },
+      {
+        "categoryId": 25,
+        "childCategories": [
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/cba4691f37c66c71c21fa461212d0529.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$132k$m$1$",
+            "name": "女士洗液",
+            "parentCategoryId": 25,
+            "parentCategoryName": "女士卫生护理"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9ae725672befe7076f55407c743bcd55.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$132h$m$1$",
+            "name": "卫生巾/棉条",
+            "parentCategoryId": 25,
+            "parentCategoryName": "女士卫生护理"
+          }
+        ],
+        "maskKey": "c$132g$m$1$",
+        "name": "女士卫生护理",
+        "proportion": 0
+      },
+      {
+        "categoryId": 26,
+        "childCategories": [
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9692fa71c15820421d32d10941afb3db.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$15DH$m$1$",
+            "name": "医药护理",
+            "parentCategoryId": 26,
+            "parentCategoryName": "个护保健"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/84ae105c76a73e77bb27b3b4c60927c8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$15DG$m$1$",
+            "name": "成人用品",
+            "parentCategoryId": 26,
+            "parentCategoryName": "个护保健"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/4e2705ea0acdcbba408d3594f3af6285.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$15DO$m$1$",
+            "name": "保健护具",
+            "parentCategoryId": 26,
+            "parentCategoryName": "个护保健"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8165102b78d7553235a334d3cc345180.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$15Dz$m$1$",
+            "name": "口罩",
+            "parentCategoryId": 26,
+            "parentCategoryName": "个护保健"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f722f64b58b1c51cb1eb4efeae99245a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$15DF$m$1$",
+            "name": "按摩仪",
+            "parentCategoryId": 26,
+            "parentCategoryName": "个护保健"
+          }
+        ],
+        "maskKey": "c$15Dy$m$1$",
+        "name": "个护保健",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d1627161-67a1-4236-90f2-2c489c420475.png",
+            "maskKey": "b$17E$m$2$",
+            "name": "Braun",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/de5956de-e058-45f8-9aa2-ea01fa85ae76.png",
+            "maskKey": "b$7c3$m$2$",
+            "name": "Philips",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/95179cb8-aa7e-40e0-8e25-ce64c58fce4b.png",
+            "maskKey": "b$18x$m$2$",
+            "name": "Sensodyne",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/e57cdbc9-8d31-4e4b-8ae2-7d343e580533.png",
+            "maskKey": "b$470$m$2$",
+            "name": "Foreo",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/ff710c3a-0512-44d7-816e-dce88a8c322d.png",
+            "maskKey": "b$18h$m$2$",
+            "name": "Oral-B",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d751d01c-e548-49df-b503-bd0ce36acc1a.png",
+            "maskKey": "b$3hM$m$2$",
+            "name": "Clarisonic",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/3e4f3b52-c69f-4507-a92d-bdd0cc68a700.png",
+            "maskKey": "b$3Gy$m$2$",
+            "name": "Panasonic",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/d67b5c85c9d5d908c86da50e6a2fa066.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$86tf$m$2$",
+            "name": "Kao（ロリエ）",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "个护健康"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 28,
+        "childCategories": [
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/bf6b5c51a24461e3727b4d5c87fefa72.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQa$m$1$",
+            "name": "冲调饮品",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c0a1442d044b2b3ba34d84fd903ab3d6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQ9$m$1$",
+            "name": "趣味零食",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/56c7a44508db160b383c0d55906def9c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQc$m$1$",
+            "name": "糖果巧克力",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/2ea2fb17975857319ca8434a8f037968.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQb$m$1$",
+            "name": "糕点饼干",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/358bfcae309b5d5687181ac012392499.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQh$m$1$",
+            "name": "能量食品",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/7f425ac909547e30ce7f4ff2a02222b1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1aQg$m$1$",
+            "name": "红酒",
+            "parentCategoryId": 28,
+            "parentCategoryName": "美味食品"
+          }
+        ],
+        "maskKey": "c$1aQ8$m$1$",
+        "name": "美味食品",
+        "proportion": 0
+      },
+      {
+        "categoryId": 12,
+        "childCategories": [
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/98fd8efd729dc47335d080fd646885ab.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vdB$m$1$",
+            "name": "滋补免疫",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/fba2cd5837f940772a3c73a6698c74bf.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vdG$m$1$",
+            "name": "美容养颜",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/91d1c25746101ab0ba84ce966be333ed.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vdL$m$1$",
+            "name": "膳食补充",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 22,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8113e1f0ac8adbb5b5334274acca89d3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vdQ$m$1$",
+            "name": "调节内分泌",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 27,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1de558d24ba4ad5dd1b88cad9dc1c116.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vdV$m$1$",
+            "name": "心脑血管",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 32,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/e22e9374475a7fe7c9cec9785067b05a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$ve0$m$1$",
+            "name": "安神助眠",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 36,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3173569407f675d068705b261682a308.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$ve4$m$1$",
+            "name": "护眼明目",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 40,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/11375f8dcec0aaf4bbf26cb9b543baec.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$ve8$m$1$",
+            "name": "强健骨骼",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 45,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/47a79fe92487a553edf0ccc6212df248.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$ved$m$1$",
+            "name": "性功能保健",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 49,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/41aaa486d6219892aed748d9e0d8c6f3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$veh$m$1$",
+            "name": "清肝利胆",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 53,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f9d0dc9616ebaad31d1e206635013b88.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vel$m$1$",
+            "name": "肠胃消化",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 57,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/390b3edbae19ce07b3ddb8f6444f7f63.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vep$m$1$",
+            "name": "养肺护肾",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 61,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9820e56f6b3a249a4bfad55edd022c05.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vet$m$1$",
+            "name": "维生素",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 66,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/9266c931088ffb6aff2f091cf3e3fef9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$vey$m$1$",
+            "name": "功能保健",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 71,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5d97efc941d5819d8681e492765bd162.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$veD$m$1$",
+            "name": "钙镁锌铁",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 76,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5a4c3485ff09b29f9e93636cc7fb9e73.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$veI$m$1$",
+            "name": "孕妇营养",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          },
+          {
+            "childCategoryId": 80,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/b8964b23681503651af2eada3961235b.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$veM$m$1$",
+            "name": "益生菌",
+            "parentCategoryId": 12,
+            "parentCategoryName": "营养保健"
+          }
+        ],
+        "maskKey": "c$vdu$m$1$",
+        "name": "营养保健",
+        "proportion": 0
+      },
+      {
+        "categoryId": 58,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1d1df4feb2a2353f34419964a61973e3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2qSR$m$1$",
+            "name": "丰胸",
+            "parentCategoryId": 58,
+            "parentCategoryName": "纤体塑身"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/3cb980d08bffccf033e17b7b3005e5d3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2qSS$m$1$",
+            "name": "瘦身",
+            "parentCategoryId": 58,
+            "parentCategoryName": "纤体塑身"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/070bf0954b8999c652e3259972559d24.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2qSV$m$1$",
+            "name": "酵素代餐",
+            "parentCategoryId": 58,
+            "parentCategoryName": "纤体塑身"
+          }
+        ],
+        "maskKey": "c$2qSQ$m$1$",
+        "name": "纤体塑身",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/845119ea-8ac7-4586-a924-f09fafec4548.png",
+            "maskKey": "b$fV$m$2$",
+            "name": "GNC",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/1a64be76-7d04-4e4f-a9d0-df94e72215ae.jpg",
+            "maskKey": "b$7LC$m$2$",
+            "name": "New Chapter",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/73b72372a41c072ece530675ca61bef4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$7La$m$2$",
+            "name": "NOW Foods",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/ae2df6c34993f4865c489a73f76a6c14.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$ew1$m$2$",
+            "name": "Vitacost",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/73ba7e38-1b8a-4bdf-bf79-588e3ea8d419.jpg",
+            "maskKey": "b$6Hg$m$2$",
+            "name": "Nature Made",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/67cc580b3c28a4f6b99a75dd253c99ed.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$6H7$m$2$",
+            "name": "Nature's Way",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/48d1f553-9ac2-4a9c-a9fa-20e5ffdbba72.jpg",
+            "maskKey": "b$7LF$m$2$",
+            "name": "Schiff",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/8f44a0c5-d15a-49af-9693-b1788bad4a98.png",
+            "maskKey": "b$17p$m$2$",
+            "name": "Nature's Bounty",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "食品保健"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 56,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1c046f12fef15d119e3ad1aadb131eb9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGh$m$1$",
+            "name": "电子书",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/64b8ea7477b16d095ef84e736e1cb788.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGi$m$1$",
+            "name": "耳机",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 3,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5345c371473cba35353add6f7e3f08e7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGj$m$1$",
+            "name": "手机壳",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/6d09eeab0a7332c76036c945170c6254.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGk$m$1$",
+            "name": "音响",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 5,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/aa2c7be9ebf5cbac8c3f0943f96a0655.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGl$m$1$",
+            "name": "智能手环",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ae0b00e2aa5c46aec47e8bdbe1ef5471.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGo$m$1$",
+            "name": "模型手办",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/74aa26389a7e66aa4a9d808310f1767c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGp$m$1$",
+            "name": "笔",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/37bd3d978fb19b7060359cac24bfd64f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2lGs$m$1$",
+            "name": "手账记事",
+            "parentCategoryId": 56,
+            "parentCategoryName": "文娱数码"
+          }
+        ],
+        "maskKey": "c$2lGg$m$1$",
+        "name": "文娱数码",
+        "proportion": 0
+      },
+      {
+        "categoryId": 38,
+        "childCategories": [
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/4a793ea39fd067b26a4fc42fef23433d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1AR9$m$1$",
+            "name": "水杯水瓶",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/a6fe427e072acf9498fdc13963d055e4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1ARa$m$1$",
+            "name": "电饭煲/压力锅",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          },
+          {
+            "childCategoryId": 2,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5e57286598ab75311a4b1f939a1103b6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1AR4$m$1$",
+            "name": "枕头",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          },
+          {
+            "childCategoryId": 10,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/36330e3e8a7dce5acfb6c7b0a45325a3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1ARc$m$1$",
+            "name": "扫地机器人",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5307c625f25727a51dfea49bffd89eac.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1ARh$m$1$",
+            "name": "洗衣剂",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0fdb71ea97773ce1b7415c2f6092a3de.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$1ARi$m$1$",
+            "name": "除臭剂",
+            "parentCategoryId": 38,
+            "parentCategoryName": "生活日用"
+          }
+        ],
+        "maskKey": "c$1AR2$m$1$",
+        "name": "生活日用",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/a608c37e1241b567dadf8b9d7774ed04.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$87iS$m$2$",
+            "name": "Petmate",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/bfdc7175607a42a3adcb9032f8d49bed.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$fJP$m$2$",
+            "name": "Zojirushi",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/820e622443701128bad0ab6d7a5dfdd9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$80j0$m$2$",
+            "name": "TIGER（タイガー魔法瓶(TIGER)）",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/88568db2e6773d115830122fa20b47fc.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$9ewS$m$2$",
+            "name": "BRITA（BRITA (ブリタ)）",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/de5956de-e058-45f8-9aa2-ea01fa85ae76.png",
+            "maskKey": "b$7c3$m$2$",
+            "name": "Philips",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d1627161-67a1-4236-90f2-2c489c420475.png",
+            "maskKey": "b$17E$m$2$",
+            "name": "Braun",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/24a26f31675f6e1f4ae3741556a50c16.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$IJL$m$2$",
+            "name": "iRobot",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/753f540c-db0c-4696-a81f-c4043c97b7b5.png",
+            "maskKey": "b$3li$m$2$",
+            "name": "Thermos",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/cc582038995cb658e18917bafd5ee55b.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$CIkZ$m$2$",
+            "name": "Morphy Richards",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "生活数码"
+  },
+  {
+    "categories": [
+      {
+        "categoryId": 50,
+        "childCategories": [
+          {
+            "childCategoryId": 6,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d71b718c5376690415853e0de15eccc7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264C$m$1$",
+            "name": "男士跑步鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/8cecc232d8f2b4bd719a5febdeb70828.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264D$m$1$",
+            "name": "女士跑步鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/0300a538c20558474bb91d0ca0de128a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264E$m$1$",
+            "name": "男士篮球鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/894f2f4b67811cea5871351667a397e1.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264F$m$1$",
+            "name": "女士篮球鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 10,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/59c880d55f8171cf456f9ce498f066af.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264G$m$1$",
+            "name": "男士综合训练鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 11,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/bd84e7768b42cb10c24274ca784e8a52.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264H$m$1$",
+            "name": "女士综合训练鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/68e4ecbe9e394039c29f769d7a67006c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264I$m$1$",
+            "name": "男士登山鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/61620676faab420e394ba42cf78d40c4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264L$m$1$",
+            "name": "女士登山鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d4e63549492dc3c5078266fea6394f18.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264O$m$1$",
+            "name": "男士涉水鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 19,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c4e4a2a69f6d44ec5b76a973b4ffda64.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264P$m$1$",
+            "name": "女士涉水鞋",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 20,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/212887d61aea86525cde3663b4666f3a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264Q$m$1$",
+            "name": "女士户外靴",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5f9464223a7c13029f3da30a0229567d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$264R$m$1$",
+            "name": "男士户外靴",
+            "parentCategoryId": 50,
+            "parentCategoryName": "户外鞋靴"
+          }
+        ],
+        "maskKey": "c$264w$m$1$",
+        "name": "户外鞋靴",
+        "proportion": 0
+      },
+      {
+        "categoryId": 49,
+        "childCategories": [
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/22285bb10eed5999f56e1765b6ce4ca4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23ti$m$1$",
+            "name": "运动裤/短裤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/4fa956ee38c50365fa857cf601c29ca6.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tq$m$1$",
+            "name": "男士运动裤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1c2961ab98eeb52a03b24ed349442223.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tt$m$1$",
+            "name": "女士运动裤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/5c91f83ac9ac0f354f4dcd416cd5cd2e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tw$m$1$",
+            "name": "男士运动外套",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 21,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/853555054fa76c1ebe3233e687376059.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tz$m$1$",
+            "name": "女士运动外套",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 24,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/35ea4dc2999f8eb269e110a198e923b9.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tC$m$1$",
+            "name": "男士压缩/紧身衣",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 25,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/652b51840e4a30ce253f8aac8c450cf4.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tD$m$1$",
+            "name": "男士压缩/紧身裤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 26,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/088bb5e9d0c06aaaac7396f3e92ef257.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tE$m$1$",
+            "name": "女士压缩/紧身衣",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 27,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/628098bb6ff495ccae31d06df24177b3.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tF$m$1$",
+            "name": "女士压缩/紧身裤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 28,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/99b318d3aa7f37adaafd3e0eb80ddcf5.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tG$m$1$",
+            "name": "男士运动背心/T恤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 31,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/e37377be8ce1eaee7f2ae877f1527b2a.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tJ$m$1$",
+            "name": "女士运动背心/T恤",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/ae88a34efc67e539fb9417f64761162c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tf$m$1$",
+            "name": "运动袜",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 34,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/59450d2ce7836cdb0026ab41b9c6e366.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tM$m$1$",
+            "name": "男士运动袜",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          },
+          {
+            "childCategoryId": 35,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/1f2765da4afdfa0cce3253e6eff589eb.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$23tN$m$1$",
+            "name": "女士运动袜",
+            "parentCategoryId": 49,
+            "parentCategoryName": "运动服"
+          }
+        ],
+        "maskKey": "c$23te$m$1$",
+        "name": "运动服",
+        "proportion": 0
+      },
+      {
+        "categoryId": 55,
+        "childCategories": [
+          {
+            "childCategoryId": 1,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/36bdbdd703feb605b160df876a4f4447.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j4Z$m$1$",
+            "name": "男士冲锋衣",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          },
+          {
+            "childCategoryId": 4,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/535d39e446dddf1217e2456862ab7a4c.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j52$m$1$",
+            "name": "女士冲锋衣",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          },
+          {
+            "childCategoryId": 7,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/29cbaa384bc11854ee318c2dbde56834.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j55$m$1$",
+            "name": "男士冲锋裤",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          },
+          {
+            "childCategoryId": 8,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/59056be32f23286c1472da65e46f562e.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j56$m$1$",
+            "name": "女士冲锋裤",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          },
+          {
+            "childCategoryId": 9,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/07cd752e3b1d14722af5ee8c95b34e8f.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j57$m$1$",
+            "name": "男士保暖装",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          },
+          {
+            "childCategoryId": 13,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/012645f430214a8cd219ebaa7346f8c8.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2j5b$m$1$",
+            "name": "女士保暖装",
+            "parentCategoryId": 55,
+            "parentCategoryName": "户外服饰"
+          }
+        ],
+        "maskKey": "c$2j4Y$m$1$",
+        "name": "户外服饰",
+        "proportion": 0
+      },
+      {
+        "categoryId": 52,
+        "childCategories": [
+          {
+            "childCategoryId": 11,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c1830dc7c7dd73aa05785f8c0d0fdc50.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bhh$m$1$",
+            "name": "帐篷",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          },
+          {
+            "childCategoryId": 12,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/d811cbbe43736a5e23a463f150e34fac.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bhi$m$1$",
+            "name": "睡袋",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          },
+          {
+            "childCategoryId": 15,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/99b51c2b058ef3ea5959efba5d677549.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bhl$m$1$",
+            "name": "男士运动眼镜",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          },
+          {
+            "childCategoryId": 16,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/af3fa2ce2b0c1236c945c6b291a1a97d.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bhm$m$1$",
+            "name": "女士运动眼镜",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          },
+          {
+            "childCategoryId": 17,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/f14d12959de05dd2fa1a679ef2a4d3c7.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bhn$m$1$",
+            "name": "登山包",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          },
+          {
+            "childCategoryId": 18,
+            "disableFrame": true,
+            "img": "http://img.zhefengle.com/c31bf079822e595132ce861e0722cbab.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "c$2bho$m$1$",
+            "name": "运动配件",
+            "parentCategoryId": 52,
+            "parentCategoryName": "户外装备"
+          }
+        ],
+        "maskKey": "c$2bh6$m$1$",
+        "name": "户外装备",
+        "proportion": 0
+      },
+      {
+        "categoryId": 0,
+        "childCategories": [
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/fbb643d1-96e5-4349-b717-e808521341c1.png",
+            "maskKey": "b$14O$m$2$",
+            "name": "Patagonia",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/af892d49-02a4-45bc-8e48-649d453dd4c4.png",
+            "maskKey": "b$3IN$m$2$",
+            "name": "The North Face",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d2f25b84-11a9-43c5-ae4b-ffe56c4d846b.png",
+            "maskKey": "b$143$m$2$",
+            "name": "Marmot",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0118910c-db83-42a1-9ac5-3e86f0eb018e.png",
+            "maskKey": "b$fw$m$2$",
+            "name": "Columbia",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0d9d4dee-2dd6-4098-9f08-3e02dc814ba8.png",
+            "maskKey": "b$fP$m$2$",
+            "name": "Victoria's Secret",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/d8b3d876-f897-4dc7-8bc3-b92c87a44099.png",
+            "maskKey": "b$XQ$m$2$",
+            "name": "Under Armour",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/fd3b4aa4-2df0-41bb-8f3b-0dbbf89675fe.png",
+            "maskKey": "b$fo$m$2$",
+            "name": "Adidas",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/bcb33dcf-6cd0-4405-a0c2-a491df0cbbe5.png",
+            "maskKey": "b$g8$m$2$",
+            "name": "Asics",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/cdbe5f26-4ecb-41ad-a54f-8e834f3e2272.png",
+            "maskKey": "b$15l$m$2$",
+            "name": "Saucony",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/63fd3886-115b-44ad-bbeb-4dd9c0b647b2.jpg",
+            "maskKey": "b$ekJ$m$2$",
+            "name": "Onitsuka Tiger",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/6c0c9c01-fc8e-49b7-a1eb-ff07ad9af71a.png",
+            "maskKey": "b$3xL$m$2$",
+            "name": "Arc'Teryx",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/c58ece78-0d97-4e12-824a-bf96e51c59e1.png",
+            "maskKey": "b$3zf$m$2$",
+            "name": "Mountain Hardwear",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/fa5350ad7b6bf44d46b1724e40693912.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$8SP$m$2$",
+            "name": "Skins",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://img.zhefengle.com/d0d26ec96a6eeae2da5a6cf20dabaf25.jpg?imageView2/3/w/240/h/240",
+            "maskKey": "b$5pz$m$2$",
+            "name": "CW-X",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/0371b186-a319-446a-a9f6-e53bd1be9476.png",
+            "maskKey": "b$fp$m$2$",
+            "name": "NIKE",
+            "parentCategoryId": 0
+          },
+          {
+            "childCategoryId": 0,
+            "disableFrame": false,
+            "img": "http://7u2fm4.com1.z0.glb.clouddn.com/a9972a8e-4815-438c-88f3-23c380de689c.png",
+            "maskKey": "b$14x$m$2$",
+            "name": "New Balance",
+            "parentCategoryId": 0
+          }
+        ],
+        "name": "热门品牌",
+        "proportion": 0
+      }
+    ],
+    "name": "运动户外"
+  }
+]
