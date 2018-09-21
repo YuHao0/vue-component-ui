@@ -13,7 +13,7 @@
         <div class="itemContent">
           <div class="goodsItem" v-for="(goods, goodsIndex) in item.childCategories" :key="goodsIndex">
             <div class="goodsImg">
-              <img :src="goods.img" />
+              <img :src="goods.img" draggable="false" />
             </div>
             <h4 class="goodsName">{{goods.name}}</h4>
           </div>

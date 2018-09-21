@@ -11,6 +11,7 @@ import GalleryView from './galleryView';
 import GoodsView from './goodsView';
 import GoodsHorizontalView from './goodsHorizontalView';
 import Category from './category';
+import Search from './search';
 // 第三方组件库
 import Vue from 'vue';
 import VueTouch from 'src/utils/directive/touch';
@@ -38,7 +39,8 @@ const components = [
   GalleryView,
   GoodsView,
   GoodsHorizontalView,
-  Category
+  Category,
+  Search
 ];
 
 const install = function(Vue, opts = {}) {
@@ -65,5 +67,6 @@ export default {
   GalleryView,
   GoodsView,
   GoodsHorizontalView,
-  Category
+  Category,
+  Search
 };

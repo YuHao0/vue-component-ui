@@ -83,6 +83,10 @@
           {
             "path": "/category",
             "title": "分类组件"
+          },
+          {
+            "path": "/search",
+            "title": "搜索组件"
           }
         ]
       }
