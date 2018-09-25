@@ -12,6 +12,7 @@ import GoodsView from './goodsView';
 import GoodsHorizontalView from './goodsHorizontalView';
 import Category from './category';
 import Search from './search';
+import ShopCart from './shopCart';
 // 第三方组件库
 import Vue from 'vue';
 import VueTouch from 'src/utils/directive/touch';
@@ -40,7 +41,8 @@ const components = [
   GoodsView,
   GoodsHorizontalView,
   Category,
-  Search
+  Search,
+  ShopCart
 ];
 
 const install = function(Vue, opts = {}) {
@@ -68,5 +70,6 @@ export default {
   GoodsView,
   GoodsHorizontalView,
   Category,
-  Search
+  Search,
+  ShopCart
 };

@@ -87,6 +87,10 @@
           {
             "path": "/search",
             "title": "搜索组件"
+          },
+          {
+            "path": "/shopCart",
+            "title": "购物车组件"
           }
         ]
       }
