@@ -32,6 +32,23 @@
         </div>
       </div>
     </div>
+    <div class="settle">
+      <div class="settleItem">
+        <span>小记</span>
+        <span class="settleNum">¥18888</span>
+        <span class="right">
+          总计
+          <span class="settleNum">¥18888</span>
+        </span>
+      </div>
+      <div class="settleItem">
+        <span>配送</span>
+        <span class="settleNum">0.00</span>
+        <span class="right">(价格已包含关税)</span>
+      </div>
+      <button class="settleBtn">去结算</button>
+    </div>
+    <div class="blank"></div>
   </div>
 </template>
 
@@ -68,6 +85,7 @@ export default {
 <style lang="scss" scoped>
 .shopCart{
   background: #F5F5F5;
+  position: relative;
   .cartItem{
     font-size: 0;
     .itemTitle{
@@ -231,6 +249,48 @@ export default {
         }
       }
     }
+  }
+  .settle{
+    height: 6rem;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0.6rem 0.6rem;
+    .settleItem{
+      margin-bottom: 0.5rem;
+      text-align: left;
+      span{
+        font-size: 0.6rem;
+        color: #999999;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .settleNum{
+        color: #262626;
+        padding-left: 0.35rem;
+        font-weight: bold;
+      }
+      .right{
+        float: right;
+        .settleNum{
+          font-size: 0.8rem;
+          vertical-align: text-bottom;
+        }
+      }
+    }
+    .settleBtn{
+      width: 100%;
+      height: 2.2rem;
+      background: #262626;
+      color: #fff;
+      font-size: 0.8rem;
+      border-radius: 4px;
+    }
+  }
+  .blank{
+    height: 6.5rem;
   }
 }
 </style>

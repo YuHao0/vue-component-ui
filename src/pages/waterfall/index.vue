@@ -1,11 +1,17 @@
 <template>
-  <cz-goodsView :requestData='goodsData.data'></cz-goodsView>
+  <div class="waterfall">
+    <cz-filter :requestData='waterfallData'></cz-filter>
+    <cz-goodsView :requestData='goodsData.data'></cz-goodsView>
+  </div>
 </template>
 
 <script>
+import waterfallData from './data.json';
+
 export default {
   data() {
     return {
+      waterfallData: waterfallData,
       goodsData: {
         type: 5,
         data: {
@@ -88,11 +94,15 @@ export default {
         }
       }
     }
-  },
-  methods: {
-
   }
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.waterfall{
+  width: 750px;
+  max-height: 1334px;
+  overflow: auto;
+  position: relative;
+}
+</style>

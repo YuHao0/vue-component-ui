@@ -1,0 +1,563 @@
+{
+  "brandList": [],
+  "categoryList": [
+    {
+      "firstCateId": 0,
+      "firstCateIndex": 0,
+      "firstCateName": "热门",
+      "img": "http://res.zhefengle.com/da571fe0014c67420fd47b384a5aa82e.png",
+      "secondCateId": 20022,
+      "secondCateIndex": 0,
+      "secondCateName": "面膜"
+    },
+    {
+      "firstCateId": 0,
+      "firstCateIndex": 0,
+      "firstCateName": "热门",
+      "img": "http://res.zhefengle.com/86a181a0d0b40292d3292f75134406c1.png",
+      "secondCateId": 50011,
+      "secondCateIndex": 1,
+      "secondCateName": "男士篮球鞋"
+    },
+    {
+      "firstCateId": 0,
+      "firstCateIndex": 0,
+      "firstCateName": "热门",
+      "img": "http://res.zhefengle.com/d9b770d8e8b353e056fe3ff118d53d70.png",
+      "secondCateId": 50002,
+      "secondCateIndex": 2,
+      "secondCateName": "眼部护理"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 0,
+      "secondCateIndex": -1,
+      "secondCateName": "全部男装"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80017,
+      "secondCateIndex": 0,
+      "secondCateName": "外套/夹克"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80001,
+      "secondCateIndex": 6,
+      "secondCateName": "T恤/背心"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80015,
+      "secondCateIndex": 10,
+      "secondCateName": "牛仔裤"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80009,
+      "secondCateIndex": 16,
+      "secondCateName": "针织衫/卫衣"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80002,
+      "secondCateIndex": 21,
+      "secondCateName": "衬衫"
+    },
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 7,
+      "firstCateName": "男装",
+      "secondCateId": 80020,
+      "secondCateIndex": 24,
+      "secondCateName": "休闲裤"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 0,
+      "secondCateIndex": -1,
+      "secondCateName": "全部女装"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10020,
+      "secondCateIndex": 0,
+      "secondCateName": "外套/夹克"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10034,
+      "secondCateIndex": 7,
+      "secondCateName": "半身裙"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10038,
+      "secondCateIndex": 11,
+      "secondCateName": "连衣裙"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10019,
+      "secondCateIndex": 14,
+      "secondCateName": "T恤/背心"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10016,
+      "secondCateIndex": 18,
+      "secondCateName": "休闲裤"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10022,
+      "secondCateIndex": 20,
+      "secondCateName": "针织衫/卫衣"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10010,
+      "secondCateIndex": 25,
+      "secondCateName": "牛仔裤"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10041,
+      "secondCateIndex": 26,
+      "secondCateName": "连体衣"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10021,
+      "secondCateIndex": 29,
+      "secondCateName": "衬衫"
+    },
+    {
+      "firstCateId": 1,
+      "firstCateIndex": 8,
+      "firstCateName": "女装",
+      "secondCateId": 10011,
+      "secondCateIndex": 30,
+      "secondCateName": "短裤/中裤"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 11,
+      "firstCateName": "配饰",
+      "secondCateId": 0,
+      "secondCateIndex": -1,
+      "secondCateName": "全部配饰"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 11,
+      "firstCateName": "配饰",
+      "secondCateId": 70004,
+      "secondCateIndex": 13,
+      "secondCateName": "皮带"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 11,
+      "firstCateName": "配饰",
+      "secondCateId": 70019,
+      "secondCateIndex": 16,
+      "secondCateName": "围巾"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 11,
+      "firstCateName": "配饰",
+      "secondCateId": 70006,
+      "secondCateIndex": 19,
+      "secondCateName": "帽子"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 11,
+      "firstCateName": "配饰",
+      "secondCateId": 70013,
+      "secondCateIndex": 35,
+      "secondCateName": "戒指"
+    },
+    {
+      "firstCateId": 2,
+      "firstCateIndex": 13,
+      "firstCateName": "女鞋",
+      "secondCateId": 0,
+      "secondCateIndex": -1,
+      "secondCateName": "全部女鞋"
+    },
+    {
+      "firstCateId": 2,
+      "firstCateIndex": 13,
+      "firstCateName": "女鞋",
+      "secondCateId": 20022,
+      "secondCateIndex": 10,
+      "secondCateName": "凉鞋"
+    },
+    {
+      "firstCateId": 2,
+      "firstCateIndex": 13,
+      "firstCateName": "女鞋",
+      "secondCateId": 20024,
+      "secondCateIndex": 12,
+      "secondCateName": "女士靴子"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 0,
+      "secondCateIndex": -1,
+      "secondCateName": "全部箱包"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 50002,
+      "secondCateIndex": 0,
+      "secondCateName": "女士手提包"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 50011,
+      "secondCateIndex": 1,
+      "secondCateName": "女士单肩包"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 50004,
+      "secondCateIndex": 3,
+      "secondCateName": "女士钱包"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 50006,
+      "secondCateIndex": 6,
+      "secondCateName": "女士手拿包"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 14,
+      "firstCateName": "箱包",
+      "secondCateId": 50023,
+      "secondCateIndex": 13,
+      "secondCateName": "男士手提包"
+    }
+  ],
+  "euSizeList": [],
+  "hotBrandList": [],
+  "hotCategoryList": [
+    {
+      "firstCateId": 8,
+      "firstCateIndex": 0,
+      "firstCateName": "男装",
+      "secondCateId": 80001,
+      "secondCateIndex": 0,
+      "secondCateName": "T恤/背心"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 0,
+      "firstCateName": "配饰",
+      "secondCateId": 70004,
+      "secondCateIndex": 0,
+      "secondCateName": "皮带"
+    },
+    {
+      "firstCateId": 7,
+      "firstCateIndex": 0,
+      "firstCateName": "配饰",
+      "secondCateId": 70006,
+      "secondCateIndex": 0,
+      "secondCateName": "帽子"
+    },
+    {
+      "firstCateId": 2,
+      "firstCateIndex": 0,
+      "firstCateName": "女鞋",
+      "secondCateId": 20022,
+      "secondCateIndex": 0,
+      "secondCateName": "凉鞋"
+    },
+    {
+      "firstCateId": 5,
+      "firstCateIndex": 0,
+      "firstCateName": "箱包",
+      "secondCateId": 50002,
+      "secondCateIndex": 0,
+      "secondCateName": "女士手提包"
+    }
+  ],
+  "hotEuSizeList": [],
+  "hotShopList": [
+    {
+      "shopId": 11501,
+      "shopName": "Farfetch美国官网"
+    },
+    {
+      "shopId": 11001,
+      "shopName": "Forzieri美国官网"
+    },
+    {
+      "shopId": 14201,
+      "shopName": "Harrods英国官网"
+    },
+    {
+      "shopId": 14301,
+      "shopName": "mytheresa德国官网"
+    },
+    {
+      "shopId": 6101,
+      "shopName": "NORDSTROM诺德斯特龙官网"
+    }
+  ],
+  "hotUsSizeList": [],
+  "priceList": [
+    {
+      "maxPrice": 199.0,
+      "minPrice": 0.0,
+      "title": "200以下"
+    },
+    {
+      "maxPrice": 499.0,
+      "minPrice": 200.0,
+      "title": "200-499"
+    },
+    {
+      "maxPrice": 999.0,
+      "minPrice": 500.0,
+      "title": "500-999"
+    },
+    {
+      "maxPrice": 1999.0,
+      "minPrice": 1000.0,
+      "title": "1000-1999"
+    },
+    {
+      "maxPrice": -1.0,
+      "minPrice": 2000.0,
+      "title": "2000以上"
+    }
+  ],
+  "sexList": [
+    {
+      "title": "全部",
+      "value": 0
+    },
+    {
+      "title": "男",
+      "value": 1
+    },
+    {
+      "title": "女",
+      "value": 2
+    }
+  ],
+  "shopList": [
+    {
+      "key": "B",
+      "keyId": 2,
+      "shops": [
+        {
+          "shopId": 10601,
+          "shopName": "Bergdorfgoodman美国官网"
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "keyId": 6,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 11501,
+          "shopName": "Farfetch美国官网"
+        },
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 11001,
+          "shopName": "Forzieri美国官网"
+        }
+      ]
+    },
+    {
+      "key": "H",
+      "keyId": 8,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 14201,
+          "shopName": "Harrods英国官网"
+        }
+      ]
+    },
+    {
+      "key": "M",
+      "keyId": 13,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 14301,
+          "shopName": "mytheresa德国官网"
+        }
+      ]
+    },
+    {
+      "key": "N",
+      "keyId": 14,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 6101,
+          "shopName": "NORDSTROM诺德斯特龙官网"
+        }
+      ]
+    },
+    {
+      "key": "S",
+      "keyId": 19,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 5571,
+          "shopName": "Saksfifthavenue第五大道美国官网"
+        },
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 14101,
+          "shopName": "Selfridge英国官网"
+        },
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 5909,
+          "shopName": "Shopbop烧包美国官网"
+        }
+      ]
+    },
+    {
+      "key": "Y",
+      "keyId": 25,
+      "shops": [
+        {
+          "labels": [
+            {
+              "height": 46,
+              "imgUrl": "http://img.zhefengle.com/lb_hot.png",
+              "left": 2,
+              "top": 5,
+              "width": 62
+            }
+          ],
+          "shopId": 14701,
+          "shopName": "意大利奢侈品直邮"
+        }
+      ]
+    }
+  ],
+  "usSizeList": []
+}

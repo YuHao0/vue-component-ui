@@ -12,6 +12,7 @@ import GoodsView from './goodsView';
 import GoodsHorizontalView from './goodsHorizontalView';
 import Category from './category';
 import Search from './search';
+import Filter from './filter';
 import ShopCart from './shopCart';
 // 第三方组件库
 import Vue from 'vue';
@@ -42,6 +43,7 @@ const components = [
   GoodsHorizontalView,
   Category,
   Search,
+  Filter,
   ShopCart
 ];
 
@@ -71,5 +73,6 @@ export default {
   GoodsHorizontalView,
   Category,
   Search,
+  Filter,
   ShopCart
 };

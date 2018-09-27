@@ -89,6 +89,10 @@
             "title": "搜索组件"
           },
           {
+            "path": "/waterfall",
+            "title": "瀑布流"
+          },
+          {
             "path": "/shopCart",
             "title": "购物车组件"
           }

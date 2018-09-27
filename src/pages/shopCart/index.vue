@@ -17,6 +17,6 @@ export default {
 <style lang="scss" scoped>
 .shopCart{
   width: 750px;
-  min-height: 1334px;
+  max-height: 1334px;
 }
 </style>
