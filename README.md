@@ -2,6 +2,8 @@
 
 > chengzi-ui
 
+> 封装可复用的移动端业务组件，输入vue组件其它vue移动端项目可引用
+
 ## Build Setup
 
 ``` bash
