@@ -8,6 +8,14 @@
     "href": "http://www.buylabel.com/"
   },
   {
+    "name": "API联盟 管理端",
+    "href": "https://at.apiunion.com/"
+  },
+  {
+    "name": "API联盟 采购端",
+    "href": "http://pctest.apiunion.com/"
+  },
+  {
     "name": "开发指南",
     "children": []
   },
