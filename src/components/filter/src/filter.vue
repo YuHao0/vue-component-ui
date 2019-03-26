@@ -32,18 +32,17 @@
 <script>
 export default {
   name: 'cz-filter',
-
   props: {
+    initShow: Boolean,
     requestData: Object
   },
-
   data() {
     return {
-      showFilter: true
+      showFilter: false
     }
   },
-
   created() {
+    this.showFilter = this.initShow;
     console.log('waterfallData:', this.requestData);
   },
 
@@ -92,14 +91,15 @@ export default {
     width: calc(100% - 3.25rem);
     z-index: 20;
     .title{
-      line-height: 2.2rem;
+      position: relative;
       padding: 0 0.75rem;
+      line-height: 2.2rem;
       color: #262626;
       font-size: 0.8rem;
-      position: relative;
+      text-align: center;
       img{
-        width: 18px;
-        height: 32px;
+        width: 0.45rem;
+        height: 0.8rem;
         position: absolute;
         left: 0.75rem;
         top: 0.7rem;
