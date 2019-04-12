@@ -1,6 +1,6 @@
 <template>
   <div class='goodsContainer' ref='goodsContainer' :style='[containerStyle]'>
-    <div class='goodsItem' ref='goodsItem' 
+    <div class='goodsItem' ref='goodsItem' @click="clickItem(item)"
       v-for='(item, index) in goodsData.goodsList' :key='index'
       :style="[itemStyle]">
       <div class='itemImg'>
@@ -28,11 +28,10 @@ import publicConfig from '../../_common/publicConfig.js';
 
 export default {
   name: 'cz-goodsView',
-
   props: {
-    requestData: Object
+    requestData: Object,
+    handelClick: Function
   },
-
   data() {
     return {
       goodsData: {},
@@ -81,7 +80,11 @@ export default {
       }
     };
   },
-
+  methods: {
+    clickItem(item) {
+      this.handelClick(item);
+    }
+  },
   mounted() {
     util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
     console.log('goodsData:', this.goodsData);

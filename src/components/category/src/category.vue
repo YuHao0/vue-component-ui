@@ -11,7 +11,7 @@
           <h2>{{item.name}}</h2>
         </div>
         <div class="itemContent">
-          <div class="goodsItem" v-for="(goods, goodsIndex) in item.childCategories" :key="goodsIndex">
+          <div class="goodsItem" @click="clickItem(goods)" v-for="(goods, goodsIndex) in item.childCategories" :key="goodsIndex">
             <div class="goodsImg">
               <img :src="goods.img" draggable="false" />
             </div>
@@ -28,7 +28,8 @@ export default {
   name: 'cz-category',
 
   props: {
-    requestData: Array
+    requestData: Array,
+    handelClick: Function
   },
 
   data() {
@@ -49,6 +50,9 @@ export default {
   },
 
   methods: {
+    clickItem(item) {
+      this.handelClick(item);
+    },
     clickNav(item) {
       this.activeNav = item;
     }

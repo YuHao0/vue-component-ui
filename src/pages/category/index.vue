@@ -1,5 +1,5 @@
 <template>
-  <cz-category :requestData="categoryData"></cz-category>
+  <cz-category :requestData="categoryData" :handelClick="handelClick"></cz-category>
 </template>
 
 <script>
@@ -10,6 +10,11 @@ export default {
     return {
       categoryData: categoryData
     }
+  },
+  methods: {
+    handelClick(item) {
+      console.log(item);
+    }
   }
 }
 </script>
@@ -19,3 +24,4 @@ export default {
   width: 750px;
 }
 </style>
++

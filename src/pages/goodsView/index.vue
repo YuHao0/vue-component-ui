@@ -1,5 +1,5 @@
 <template>
-  <cz-goodsView :requestData='goodsData.data'></cz-goodsView>
+  <cz-goodsView :requestData='goodsData.data' :handelClick="handelClick"></cz-goodsView>
 </template>
 
 <script>
@@ -90,7 +90,9 @@ export default {
     }
   },
   methods: {
-
+    handelClick(item) {
+      console.log(item);
+    }
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="waterfall">
     <cz-filter :requestData='waterfallData'></cz-filter>
-    <cz-goodsView :requestData='goodsData.data'></cz-goodsView>
+    <cz-goodsView :requestData='goodsData.data' :handelClick="handelClick"></cz-goodsView>
   </div>
 </template>
 
@@ -93,6 +93,11 @@ export default {
           ]
         }
       }
+    }
+  },
+  methods: {
+    handelClick(item) {
+      console.log(item);
     }
   }
 }
