@@ -24,4 +24,3 @@ export default {
   width: 750px;
 }
 </style>
-+

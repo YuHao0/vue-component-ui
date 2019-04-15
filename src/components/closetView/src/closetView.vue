@@ -1,7 +1,7 @@
 <template>
   <div class="cz-closetView" ref='closetView'>
     <div class="cz-closetView_headImg" ref="headImg">
-      <img :src="moduleData.headerImg.imageUrl" draggable="false"/>
+      <img :src="moduleData.headerImage.url" draggable="false"/>
     </div>
     <div ref="scrollContent">
       <vue-scroll :ops="scrollOption" :style="{marginTop:-moduleData.offset/fontSizeRadio + 'rem'}" :class="{contentShadow:moduleData.showShadow}">
@@ -12,13 +12,13 @@
               background:moduleData.goodsFillColor,
               border:"1px solid " + moduleData.goodsStrokeColor
             }' 
-            v-for='(item,index) in moduleData.goodsList' :key='index'>
+            v-for='(item,index) in moduleData.itemList' :key='index'>
             <div class="img-wrap" ref="itemImg">
-              <img :src="item.goodsImage.imageUrl" draggable="false">
+              <img :src="item.image.url" draggable="false">
             </div>
             <div class="good-content">
-              <div class="good-name" :style="{color:moduleData.goodsNameColor}">{{item.goodsName}}</div>
-              <div class="good-price" :style="{color:moduleData.goodsPriceColor}">￥{{item.curPrice}}</div>
+              <div class="good-name" :style="{color:moduleData.itemStyle.nameStyle.foreground}">{{item.name}}</div>
+              <div class="good-price" :style="{color:moduleData.itemStyle.priceStyle.foreground}">{{item.price}}</div>
             </div>
           </div>
         </div>
@@ -38,7 +38,10 @@ export default {
     return {
       width: '',
       height: '',
-      moduleData: {},
+      moduleData: {
+        goodsItemWidth:210,
+        goodsImgProportion:1
+      },
       fontSizeRadio: window.fontSize,
       scrollOption: {
         vuescroll: {
@@ -71,7 +74,7 @@ export default {
         var style = publicConfig.dealPublicAttr(this.$refs.closetView, this.moduleData);
         publicConfig.dealHeight(this.$refs.headImg, {
           padding: this.moduleData.headerPadding,
-          proportion: this.moduleData.headerImg.proportion
+          proportion: this.moduleData.headerImage.proportion
         });
         publicConfig.dealHeight(this.$refs.scrollContent, {
           padding: this.moduleData.footerPadding
@@ -79,7 +82,8 @@ export default {
         this.width = this.$refs.closetView.offsetWidth;
         this.$refs.itemImg.forEach((item)=>{
            publicConfig.dealHeight(item, {
-            padding: this.moduleData.goodsImgPadding
+            padding: this.moduleData.goodsImgPadding,
+            proportion:this.moduleData.goodsImgProportion
           });
         });
     });

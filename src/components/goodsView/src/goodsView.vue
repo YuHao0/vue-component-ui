@@ -4,18 +4,18 @@
       v-for='(item, index) in goodsData.goodsList' :key='index'
       :style="[itemStyle]">
       <div class='itemImg'>
-        <img :src='item.goodsImage.imageUrl' draggable="false"/>
+        <img :src='item.image.url' draggable="false"/>
       </div>
       <vue-scroll :ops="scrollOption" class="vueScroll">
         <div class="labelBox">
           <span v-for='label in item.textLabelList' :key='label' :style="[itemStyle.goodsLabelStyle]">{{label}}</span>
         </div>
       </vue-scroll>
-      <h2 :style="[itemStyle.goodsNameStyle]">{{item.goodsName}}</h2>
-      <h4 :style="[itemStyle.goodsSourceStyle]">{{item.goodsSource}}</h4>
+      <h2 :style="[itemStyle.goodsNameStyle]">{{item.name}}</h2>
+      <h4 :style="[itemStyle.goodsSourceStyle]">{{item.brandName}}</h4>
       <div class="priceBox">
-        <span class="curPrice" :style="[itemStyle.curPriceStyle]">{{item.curPrice}}</span>
-        <span class="discount" :style="[itemStyle.discountStyle]">{{item.discount}}</span>
+        <span class="curPrice" :style="[itemStyle.curPriceStyle]">{{item.price}}</span>
+        <span class="discount" :style="[itemStyle.discountStyle]">{{item.originalPrice}}</span>
         <span class="stock" :style="[itemStyle.stockStyle]">{{item.stock}}</span>
       </div>
     </div>
