@@ -20,7 +20,6 @@
 </template>
 
 <script>
-  var CARD_SCALE = 0.8;
   export default {
     name: 'CzCarouselItem',
     props: {
@@ -69,11 +68,11 @@
       },
       calculateTranslate(index, activeIndex, parentWidth) {
         // if (this.inStage) {
-        //   return parentWidth * ((2 - CARD_SCALE) * (index - activeIndex) + 1) / 4;
+        //   return parentWidth * ((2 - this.cardData.scale) * (index - activeIndex) + 1) / 4;
         // } else if (index < activeIndex) {
-        //   return -(1 + CARD_SCALE) * parentWidth / 4;
+        //   return -(1 + this.cardData.scale) * parentWidth / 4;
         // } else {
-        //   return (3 + CARD_SCALE) * parentWidth / 4;
+        //   return (3 + this.cardData.scale) * parentWidth / 4;
         // }
         // console.log(this.inStage, arguments);
         if (this.inStage) {
@@ -83,14 +82,14 @@
           } 
           var paddingList = this.cardData.padding.split(',');
           var itemWidth = (parentWidth - paddingList[0] - paddingList[2]) * this.cardData.maxItemWidthProportion;
-          var baseTransform = itemWidth * (1 + CARD_SCALE) / 2;
+          var baseTransform = itemWidth * (1 + this.cardData.scale) / 2;
           return activeTranslateX + (baseTransform + this.cardData.columnSpacing) * (index - activeIndex);
         } else if (index < activeIndex) {
           return parentWidth * -2;
-          // return -(1 + CARD_SCALE) * parentWidth / 4;
+          // return -(1 + this.cardData.scale) * parentWidth / 4;
         } else {
           return parentWidth * 2;
-          // return (3 + CARD_SCALE) * parentWidth / 4;
+          // return (3 + this.cardData.scale) * parentWidth / 4;
         }
       },
 
@@ -107,7 +106,7 @@
           this.inStage = Math.round(Math.abs(index - activeIndex)) <= 1;
           this.active = index === activeIndex;
           this.translate = this.calculateTranslate(index, activeIndex, parentWidth);
-          this.scale = this.active ? 1 : CARD_SCALE;
+          this.scale = this.active ? 1 : this.cardData.scale;
         } else {
           this.active = index === activeIndex;
           this.translate = parentWidth * (index - activeIndex);
@@ -127,14 +126,13 @@
     created() {
       if (this.$parent) {
         this.cardData = this.$parent.$props.requestData;
-        CARD_SCALE = this.cardData.scale;
         this.$parent.updateItems();
       }
     },
 
     mounted() {
       this.$nextTick(() => {
-          // console.log(this.cardData);
+
       });
   },
 

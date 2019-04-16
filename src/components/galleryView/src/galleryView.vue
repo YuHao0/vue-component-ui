@@ -20,14 +20,14 @@
           
       },
       created() {
-          this.moduleData = util.extend({
-            proportion: 2.2,
-            padding: '10,10,10,10',
-            columnSpacing: 10,
-            maxItemWidthProportion: 0.7,
-            scale: 0.6,
-            dividerHeight: 5
-          },this.requestData)
+        util.extend(this.moduleData, {
+        proportion: 2.2,
+        padding: '10,10,10,10',
+        columnSpacing: 10,
+        maxItemWidthProportion: 0.7,
+        scale: 0.6,
+        dividerHeight: 5
+        }, this.requestData);
       }
     }
 </script>

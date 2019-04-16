@@ -1,8 +1,6 @@
 <template>
-<div style='width: 800px'>
-     
+<div style='width: 750px'>
     <cz-galleryView trigger='click' :requestData='moduleData.data'></cz-galleryView>
-    
 </div>
     
 </template>
