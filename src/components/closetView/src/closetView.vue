@@ -39,8 +39,8 @@ export default {
       width: '',
       height: '',
       moduleData: {
-        goodsItemWidth:210,
-        goodsImgProportion:1
+        goodsItemWidth: 210,
+        goodsImgProportion: 1
       },
       fontSizeRadio: window.fontSize,
       scrollOption: {
@@ -83,7 +83,7 @@ export default {
         this.$refs.itemImg.forEach((item)=>{
            publicConfig.dealHeight(item, {
             padding: this.moduleData.goodsImgPadding,
-            proportion:this.moduleData.goodsImgProportion
+            proportion: this.moduleData.goodsImgProportion
           });
         });
     });

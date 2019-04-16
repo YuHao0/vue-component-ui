@@ -95,9 +95,7 @@ export default {
       hover: false,
       height: '150px',
       interval: 3000,
-      moduleData: {
-        data: {}
-      }
+      moduleData: {}
     };
   },
 
@@ -253,7 +251,7 @@ export default {
     this.$nextTick(() => {
       var style = publicConfig.dealPublicAttr(this.$refs.carouselBox, this.moduleData);
       this.height = style.height;
-      this.interval = this.moduleData.duration;
+      this.interval = this.moduleData.duration || 3000;
       this.$refs.carouselIndicators.style.bottom = (style.paddingBottom + this.moduleData.dividerHeight + 0) + 'px';  // 0为indicators距离底部距离,可配置
       this.$refs.carouselButton.forEach((item, index) => {
         if (this.activeIndex === index) {

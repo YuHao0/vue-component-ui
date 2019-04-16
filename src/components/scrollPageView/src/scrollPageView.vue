@@ -1,13 +1,14 @@
 <template>
   <div class="cz-scrollPageView" ref='scrollPageView'>
-    <div class="scrollPageHeader">
+    <!-- <div class="scrollPageHeader">
       <p>限时抢购</p>
       <span>{{activeTab}}/{{moduleData.imageList.length}}</span>
-    </div>
+    </div> -->
     <vue-scroll :ops="scrollOption" ref="vs" @handle-scroll="handleScroll">
       <div class="scrollPageBox">
-        <div class="scrollPageItem" ref='scrollPageItem' :style='scrollPageItemStyle' v-for='(item,index) in moduleData.imageList' :key='index'>
-          <img :src="item.imageUrl" draggable="false" />
+        <div class="scrollPageItem" ref='scrollPageItem' :style='scrollPageItemStyle' 
+        v-for='(item,index) in moduleData.imageList' :key='index'>
+          <img :src="item.url" draggable="false" />
         </div>
       </div>
     </vue-scroll>

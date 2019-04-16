@@ -1,11 +1,12 @@
 <template>
-  <cz-carousel trigger='click' type="card" :requestData='requestData'>
-      <cz-carousel-item v-for='item in requestData.imageList' :key='item.imageUrl'>
-          <img :src='item.imageUrl' draggable="false"/>
+  <cz-carousel trigger='click' type="card" :requestData='moduleData'>
+      <cz-carousel-item v-for='item in requestData.imageList' :key='item.url'>
+          <img :src='item.url' draggable="false"/>
       </cz-carousel-item>
   </cz-carousel>
 </template>
 <script>
+    import util from '../../_common/util.js';
     export default {
       props: {
         requestData: Object
@@ -19,8 +20,14 @@
           
       },
       created() {
-      },
-      mounted() {
+          this.moduleData = util.extend({
+            proportion: 2.2,
+            padding: '10,10,10,10',
+            columnSpacing: 10,
+            maxItemWidthProportion: 0.7,
+            scale: 0.6,
+            dividerHeight: 5
+          },this.requestData)
       }
     }
 </script>
