@@ -26,12 +26,12 @@
         this.titleText = this.titleData.titleText;
         this.$refs.header.style.height = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
         this.$refs.header.style.lineHeight = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
-        if (this.titleData.titleGravity === 2) {
-          this.$refs.header.style.textAlign = 'right';
-        } else if (this.titleData.titleGravity === 1) {
+        if (this.titleData.titleStyle.align.horizontalAlign == 2) {
           this.$refs.header.style.textAlign = 'center';
-        } else {
+        } else if (this.titleData.titleStyle.align.horizontalAlign == 1) {
           this.$refs.header.style.textAlign = 'left';
+        } else if(this.titleData.titleStyle.align.horizontalAlign == 3) {
+          this.$refs.header.style.textAlign = 'right';
         }
         this.$refs.header.style.color = this.titleData.titleTextColor;
         this.$refs.header.style.fontSize = this.titleData.titleTextSize / window.fontSize + 'rem';
@@ -50,7 +50,7 @@
   }
 </script>
 
-<style lang="less" scoped>
+<style lang="less">
   .cz-header{
     width: 100%;
     background-size: 100%; 

@@ -1,7 +1,7 @@
 <template>
   <div class="cz-closetView" ref='closetView'>
     <div class="cz-closetView_headImg" ref="headImg">
-      <img :src="moduleData.headerImage.url" draggable="false"/>
+      <img :src="moduleData.headerImage.url" :jump="JSON.stringify(moduleData.headerImage.jump)" draggable="false"/>
     </div>
     <div ref="scrollContent">
       <vue-scroll :ops="scrollOption" :style="{marginTop:-moduleData.offset/fontSizeRadio + 'rem'}" :class="{contentShadow:moduleData.showShadow}">
@@ -14,7 +14,7 @@
             }' 
             v-for='(item,index) in moduleData.itemList' :key='index'>
             <div class="img-wrap" ref="itemImg">
-              <img :src="item.image.url" draggable="false">
+              <img :src="item.image.url" draggable="false" :jump="JSON.stringify(item.image.jump)">
             </div>
             <div class="good-content">
               <div class="good-name" :style="{color:moduleData.itemStyle.nameStyle.foreground}">{{item.name}}</div>

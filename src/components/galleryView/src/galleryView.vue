@@ -1,7 +1,7 @@
 <template>
   <cz-carousel trigger='click' type="card" :requestData='moduleData'>
       <cz-carousel-item v-for='item in requestData.imageList' :key='item.url'>
-          <img :src='item.url' draggable="false"/>
+          <img :src='item.url' draggable="false" :jump="JSON.stringify(item.jump)"/>
       </cz-carousel-item>
   </cz-carousel>
 </template>
@@ -26,7 +26,6 @@
         columnSpacing: 10,
         maxItemWidthProportion: 0.7,
         scale: 0.6,
-        dividerHeight: 5
         }, this.requestData);
       }
     }
