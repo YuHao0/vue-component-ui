@@ -1,5 +1,5 @@
 <template>
-  <div class='goodsContainer' ref='goodsContainer' :style='[containerStyle]'>
+  <div class='goodsContainer' ref='goodsContainer' :style='[containerStyle]' v-if="goodsData.goodsList">
     <div class='goodsItem' ref='goodsItem' @click="clickItem(item)"
       v-for='(item, index) in goodsData.goodsList' :key='index'
       :style="[itemStyle]">
