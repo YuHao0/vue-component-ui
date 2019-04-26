@@ -40,7 +40,10 @@ export default {
       height: '',
       moduleData: {
         goodsItemWidth: 210,
-        goodsImgProportion: 1
+        goodsImgProportion: 1,
+        itemStyle:{
+          nameStyle:{foreground: '#000'}
+        }
       },
       fontSizeRadio: window.fontSize,
       scrollOption: {
@@ -67,6 +70,11 @@ export default {
 
   created() {
       util.extend(this.moduleData, publicConfig.modulePublic, this.requestData);
+      if(!this.moduleData.itemStyle.nameStyle){
+          this.moduleData.itemStyle.nameStyle = {
+            foreground: '#000'
+          }
+      }
   },
   
   mounted() {
@@ -79,7 +87,9 @@ export default {
         publicConfig.dealHeight(this.$refs.scrollContent, {
           padding: this.moduleData.footerPadding
         });
-        this.width = this.$refs.closetView.offsetWidth;
+        if(this.$refs.closetView){
+          this.width = this.$refs.closetView.offsetWidth;
+        }
         this.$refs.itemImg.forEach((item)=>{
            publicConfig.dealHeight(item, {
             padding: this.moduleData.goodsImgPadding,
