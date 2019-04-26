@@ -20,7 +20,9 @@ function dealPublicAttr(node, moduleData) {
   node.style.paddingBottom = paddingList[3] / unit.radio + unit.name;
   // node.style.borderBottom = moduleData.dividerHeight / unit.radio + unit.name + ' solid ' + moduleData.dividerColor;
   node.style.marginBottom = moduleData.dividerHeight / unit.radio + unit.name;
-  node.style.background = `${moduleData.backgroundStyle.color} url(${moduleData.backgroundStyle.imageUrl}) no-repeat center top`;
+  if (moduleData.backgroundStyle) {
+    node.style.background = `${moduleData.backgroundStyle.color} url(${moduleData.backgroundStyle.imageUrl}) no-repeat center top`;
+  }
   node.style.backgroundSize = '100% 100%';
   
   if (moduleData.proportion) {

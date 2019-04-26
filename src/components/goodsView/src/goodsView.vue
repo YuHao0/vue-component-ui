@@ -86,8 +86,7 @@ export default {
     }
   },
   mounted() {
-    util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
-    console.log('goodsData:', this.goodsData);
+    this.goodsData = util.extend(publicConfig.modulePublic, this.requestData);
     this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
     this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
     this.itemStyle.border = `1px solid ${this.goodsData.itemStrokeColor}`;

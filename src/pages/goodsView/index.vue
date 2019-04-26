@@ -29,62 +29,7 @@ export default {
           labelCorner: 2,
           dividerHeight: 10,
           dividerColor: '#f5f5f5',
-          goodsList: [{
-              goodsImage: {
-                imageUrl: 'http://img.zhefengle.com/eb0f4f25d462300bc37280416f98d11c.jpg?imageView2/2/w/300/interlace/1/q/93/format/webp'
-              },
-              goodsName: '商品名称商品名称',
-              curPrice: '¥ 594',
-              discount: '4.5折',
-              goodsSource: '海外直邮',
-              stock: '库存：20',
-              textLabelList: ['M', 'L', 'X', 'XL', 'XXL', 'XXXL', 'XXXXL', 'XXXXXL']
-            },
-            {
-              goodsImage: {
-                imageUrl: 'http://img.zhefengle.com/d7899b0074bc9a0f0aa4bc108d359907.jpg'
-              },
-              goodsName: '商品名称商品名称商品名称商品',
-              curPrice: '¥ 594',
-              discount: '4.5折',
-              goodsSource: '海外直邮',
-              stock: '库存：20',
-              textLabelList: ['四色可选']
-            },
-            {
-              goodsImage: {
-                imageUrl: 'http://img.zhefengle.com/43f0605ed6ba22a2f170a087260c3c63.jpg'
-              },
-              goodsName: '商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称',
-              curPrice: '¥ 594',
-              discount: '4.5折',
-              goodsSource: '海外直邮',
-              stock: '库存：20',
-              textLabelList: ['小号', '中号', '大号']
-            },
-            {
-              goodsImage: {
-                imageUrl: 'http://img.zhefengle.com/4162ed4df1e0ef8c830cf072bb11c530.jpg'
-              },
-              goodsName: '商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称',
-              curPrice: '¥ 594',
-              discount: '4.5折',
-              goodsSource: '海外直邮',
-              stock: '库存：20',
-              textLabelList: ['small', 'middle', 'large']
-            },
-            {
-              goodsImage: {
-                imageUrl: 'http://img.zhefengle.com/b0801e96ab916f9e9a99a949c6b874f9.png'
-              },
-              goodsName: '商品名称商品名称商品名称商品',
-              curPrice: '¥ 594',
-              discount: '4.5折',
-              goodsSource: '海外直邮',
-              stock: '库存：20',
-              textLabelList: ['型号1', '型号2', '型号3']
-            }
-          ]
+          goodsList: JSON.parse('[{"image":{"url":"http://timg.apiunion.com/i/89a1eab2b3d7a499a0040ff989a1575d_400X400_iW"},"brandName":"我是测试","originalPrice":"¥100","price":"¥50","name":"aape","stock":"库存 17807","jump":{"jumpType":6,"jumpData":"7307"}},{"image":{"url":"http://timg.apiunion.com/i/1ddc797497e7e241c94036271c7999f4_500X500_aW"},"brandName":"我是测试","originalPrice":"¥1,999","price":"¥1,399","name":"红色托特包","stock":"库存 262","jump":{"jumpType":6,"jumpData":"7303"}},{"image":{"url":"http://timg.apiunion.com/i/95f055bd3dfce436fd3fe44ae580be7c_750X500_1qW"},"brandName":"我是测试","originalPrice":"¥8,999","price":"¥7,888","name":"aj1-北卡蓝","stock":"库存 7977","jump":{"jumpType":6,"jumpData":"7310"}},{"image":{"url":"http://timg.apiunion.com/i/7462d03e0bef8ddb923ed5003fa6460a_800X800_3uW"},"brandName":"泸州老窖果酒","originalPrice":"¥318","price":"¥300","name":"泸州老窖2018桃花醉 青瓶500ml顽味香水","stock":"库存 584","jump":{"jumpType":6,"jumpData":"7401"}},{"image":{"url":"http://timg.apiunion.com/i/cd0022775dd994f271a0e7eef61f2656_750X499_kW"},"brandName":"我是测试","originalPrice":"¥3,999","price":"¥2,999","name":"AJ1","stock":"库存 7986","jump":{"jumpType":6,"jumpData":"7309"}},{"image":{"url":"http://timg.apiunion.com/i/b81103b9b501017cf6e19e6abcee6afa_1920X1200_4E"},"brandName":"我是测试","originalPrice":"¥231","price":"¥123","name":"流星雨又来临","stock":"库存 125144","jump":{"jumpType":6,"jumpData":"7305"}},{"image":{"url":"http://timg.apiunion.com/i/5dc4c931501b8908c351d6c60fd6ef6e_533X300_lW"},"brandName":"我是测试","originalPrice":"¥100","price":"¥70","name":"小埋抱枕","stock":"库存 5989","jump":{"jumpType":6,"jumpData":"7311"}},{"image":{"url":"http://timg.apiunion.com/i/6d57622dd71de6f96774d54b1687db8d_500X313_nW"},"brandName":"泸州老窖果酒","originalPrice":"¥1,000","price":"¥800","name":"四川妹子","stock":"库存 1399","jump":{"jumpType":6,"jumpData":"7312"}},{"image":{"url":"http://timg.apiunion.com/i/786cb41baf4a8fd6fc87b9728eae9294_628X626_20W"},"brandName":"我是测试","originalPrice":"¥10","price":"¥5","name":"asdasd","stock":"库存 40","jump":{"jumpType":6,"jumpData":"7314"}}]')
         }
       }
     }
