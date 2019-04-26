@@ -1,0 +1,108 @@
+{
+  "backgroundStyle": {
+    "color": "#FB0404",
+    "imageUrl": "http://timg.apiunion.com/i/b81103b9b501017cf6e19e6abcee6afa_1920X1200_4E"
+  },
+  "column": 4,
+  "displayTemplate": 9,
+  "divider": { "color": "#FFC0CB", "height": 10 },
+  "hideDividers": 0,
+  "id": 627,
+  "magicItems": [
+    {
+      "endX": 4,
+      "endY": 1,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/519c2d8121aeaa0577a8cd6f93cbea9e_750X750_11W"
+      },
+      "startX": 3,
+      "startY": 0
+    },
+    {
+      "endX": 4,
+      "endY": 4,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/6d57622dd71de6f96774d54b1687db8d_500X313_nW"
+      },
+      "startX": 3,
+      "startY": 1
+    },
+    {
+      "endX": 3,
+      "endY": 3,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/5628b6337e2f1fd00f49833cbec46b0f_533X300_kW"
+      },
+      "startX": 2,
+      "startY": 0
+    },
+    {
+      "endX": 3,
+      "endY": 4,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/5628b6337e2f1fd00f49833cbec46b0f_533X300_kW"
+      },
+      "startX": 2,
+      "startY": 3
+    },
+    {
+      "endX": 2,
+      "endY": 4,
+      "image": {
+        "jump": { "jumpData": "58", "jumpType": 26 },
+        "url": "http://timg.apiunion.com/i/0aaed13ac4f2ece73be3977c9987d109_500X669_tW"
+      },
+      "startX": 1,
+      "startY": 0
+    },
+    {
+      "endX": 1,
+      "endY": 4,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/5dc4c931501b8908c351d6c60fd6ef6e_533X300_lW"
+      },
+      "startX": 0,
+      "startY": 3
+    },
+    {
+      "endX": 1,
+      "endY": 3,
+      "image": {
+        "jump": { "jumpData": "", "jumpType": 0 },
+        "url": "http://timg.apiunion.com/i/5dc4c931501b8908c351d6c60fd6ef6e_533X300_lW"
+      },
+      "startX": 0,
+      "startY": 2
+    },
+    {
+      "endX": 1,
+      "endY": 2,
+      "image": {
+        "jump": { "jumpData": "57", "jumpType": 26 },
+        "url": "http://timg.apiunion.com/i/5dc4c931501b8908c351d6c60fd6ef6e_533X300_lW"
+      },
+      "startX": 0,
+      "startY": 1
+    },
+    {
+      "endX": 1,
+      "endY": 1,
+      "image": {
+        "jump": { "jumpData": "58", "jumpType": 26 },
+        "url": "http://timg.apiunion.com/i/5dc4c931501b8908c351d6c60fd6ef6e_533X300_lW"
+      },
+      "startX": 0,
+      "startY": 0
+    }
+  ],
+  "padding": "100,100,10,10",
+  "row": 4,
+  "scaleType": 0,
+  "spacing": 10,
+  "titleStyle": { "align": { "horizontalAlign": 3 } }
+}

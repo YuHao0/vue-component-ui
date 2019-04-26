@@ -2,6 +2,7 @@ import Button from './button';
 import Header from './header';
 import Carousel from './carousel';
 import CarouselItem from './carousel/src/item';
+import Cube from './cube/src/cube';
 import GridLayout from './gridLayout';
 import MixGridLayout from './mixGridLayout';
 import ClosetView from './closetView';
@@ -33,6 +34,7 @@ const components = [
   Header,
   Carousel,
   CarouselItem,
+  Cube,
   GridLayout,
   MixGridLayout,
   ClosetView,
@@ -63,6 +65,7 @@ export default {
   Header,
   Carousel,
   CarouselItem,
+  Cube,
   GridLayout,
   MixGridLayout,
   ClosetView,

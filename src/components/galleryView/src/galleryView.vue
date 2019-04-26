@@ -25,7 +25,7 @@
         padding: '10,10,10,10',
         columnSpacing: 10,
         maxItemWidthProportion: 0.7,
-        scale: 0.6,
+        scale: 0.6
         }, this.requestData);
       }
     }

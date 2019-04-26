@@ -74,6 +74,10 @@
           {
             "path": "/galleryView",
             "title": "画廊组件"
+          },
+          {
+            "path": "/cube",
+            "title": "混合排列"
           }
         ]
       },

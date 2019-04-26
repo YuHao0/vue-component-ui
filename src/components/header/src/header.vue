@@ -26,11 +26,11 @@
         this.titleText = this.titleData.titleText;
         this.$refs.header.style.height = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
         this.$refs.header.style.lineHeight = (this.$refs.header.offsetWidth / this.titleData.titleProportion) / window.fontSize + 'rem';
-        if (this.titleData.titleStyle.align.horizontalAlign == 2) {
+        if (this.titleData.titleStyle.align.horizontalAlign === 2) {
           this.$refs.header.style.textAlign = 'center';
-        } else if (this.titleData.titleStyle.align.horizontalAlign == 1) {
+        } else if (this.titleData.titleStyle.align.horizontalAlign === 1) {
           this.$refs.header.style.textAlign = 'left';
-        } else if(this.titleData.titleStyle.align.horizontalAlign == 3) {
+        } else if (this.titleData.titleStyle.align.horizontalAlign === 3) {
           this.$refs.header.style.textAlign = 'right';
         }
         this.$refs.header.style.color = this.titleData.titleTextColor;

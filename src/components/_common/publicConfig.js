@@ -18,8 +18,9 @@ function dealPublicAttr(node, moduleData) {
   node.style.paddingTop = paddingList[1] / unit.radio + unit.name;
   node.style.paddingRight = paddingList[2] / unit.radio + unit.name;
   node.style.paddingBottom = paddingList[3] / unit.radio + unit.name;
-  node.style.borderBottom = moduleData.dividerHeight / unit.radio + unit.name + ' solid ' + moduleData.dividerColor;
-  node.style.background = `${moduleData.backgroundColor} url(${moduleData.backgroundImg}) no-repeat center top`;
+  // node.style.borderBottom = moduleData.dividerHeight / unit.radio + unit.name + ' solid ' + moduleData.dividerColor;
+  node.style.marginBottom = moduleData.dividerHeight / unit.radio + unit.name;
+  node.style.background = `${moduleData.backgroundStyle.color} url(${moduleData.backgroundStyle.imageUrl}) no-repeat center top`;
   node.style.backgroundSize = '100% 100%';
   
   if (moduleData.proportion) {
