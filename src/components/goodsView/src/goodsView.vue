@@ -80,6 +80,11 @@ export default {
       }
     };
   },
+  computed:{
+    goodsData:function(){
+      return util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
+    }
+  },
   methods: {
     clickItem(item) {
       this.handelClick(item);
