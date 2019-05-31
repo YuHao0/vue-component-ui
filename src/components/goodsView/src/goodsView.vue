@@ -34,7 +34,6 @@ export default {
   },
   data() {
     return {
-      goodsData: {},
       containerStyle: {
         gridColumnGap: '',
         gridRowGap: ''
@@ -65,7 +64,6 @@ export default {
           borderRadius: 0
         }
       },
-      
       scrollOption: {
         vuescroll: {
           mode: 'slide'
@@ -80,35 +78,42 @@ export default {
       }
     };
   },
+  watch:{
+    goodsData:function(){
+      this.dealData();
+    }
+  },
   computed:{
     goodsData:function(){
-      return util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
+      return util.extend(publicConfig.modulePublic, this.requestData);
     }
   },
   methods: {
     clickItem(item) {
       this.handelClick(item);
+    },
+    dealData(){
+      this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
+      this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
+      this.itemStyle.border = `1px solid ${this.goodsData.itemStrokeColor}`;
+      this.itemStyle.backgroundColor = this.goodsData.itemBackgroundColor;
+      this.itemStyle.goodsNameStyle.color = this.goodsData.goodsNameColor;
+      this.itemStyle.goodsSourceStyle.color = this.goodsData.goodsSourceColor;
+      this.itemStyle.curPriceStyle.color = this.goodsData.goodsPriceColor;
+      this.itemStyle.discountStyle.color = this.goodsData.goodsDiscountColor;
+      this.itemStyle.discountStyle.textDecoration = this.goodsData.isShowDiscountStrike ? 'line-through' : 'none';
+      this.itemStyle.stockStyle.color = this.goodsData.goodsStockColor;
+      this.itemStyle.goodsLabelStyle.color = this.goodsData.labelTextColor;
+      this.itemStyle.goodsLabelStyle.backgroundColor = this.goodsData.labelFillColor;
+      this.itemStyle.goodsLabelStyle.border = `1px solid ${this.goodsData.labelStrokeColor}`;
+      this.itemStyle.goodsLabelStyle.borderRadius = this.goodsData.labelCorner + 'px';
+      this.$nextTick(() => {
+        var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, this.goodsData);
+      });
     }
   },
   mounted() {
-    this.goodsData = util.extend(publicConfig.modulePublic, this.requestData);
-    this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
-    this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
-    this.itemStyle.border = `1px solid ${this.goodsData.itemStrokeColor}`;
-    this.itemStyle.backgroundColor = this.goodsData.itemBackgroundColor;
-    this.itemStyle.goodsNameStyle.color = this.goodsData.goodsNameColor;
-    this.itemStyle.goodsSourceStyle.color = this.goodsData.goodsSourceColor;
-    this.itemStyle.curPriceStyle.color = this.goodsData.goodsPriceColor;
-    this.itemStyle.discountStyle.color = this.goodsData.goodsDiscountColor;
-    this.itemStyle.discountStyle.textDecoration = this.goodsData.isShowDiscountStrike ? 'line-through' : 'none';
-    this.itemStyle.stockStyle.color = this.goodsData.goodsStockColor;
-    this.itemStyle.goodsLabelStyle.color = this.goodsData.labelTextColor;
-    this.itemStyle.goodsLabelStyle.backgroundColor = this.goodsData.labelFillColor;
-    this.itemStyle.goodsLabelStyle.border = `1px solid ${this.goodsData.labelStrokeColor}`;
-    this.itemStyle.goodsLabelStyle.borderRadius = this.goodsData.labelCorner + 'px';
-    this.$nextTick(() => {
-      var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, this.goodsData);
-    });
+    this.dealData();
   }
 };
 </script>
