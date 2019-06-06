@@ -21,13 +21,13 @@
             background:moduleData.goodsFillColor,
             border:"1px solid " + moduleData.goodsStrokeColor
           }' 
-          v-for='(item,index) in moduleData.goodsList' :key='index'>
+          v-for='(item,index) in moduleData.itemList' :key='index'>
           <div class="img-wrap" ref="itemImg">
-            <img :src="item.goodsImage.imageUrl" draggable="false">
+            <img :src="item.image.url" draggable="false" :jump="JSON.stringify(item.image.jump)">
           </div>
           <div class="good-content">
-            <div class="good-name" :style="{color:moduleData.goodsNameColor}">{{item.goodsName}}</div>
-            <div class="good-price" :style="{color:moduleData.goodsPriceColor}">￥{{item.curPrice}}</div>
+            <div class="good-name" :style="{color:moduleData.goodsNameColor}">{{item.name}}</div>
+            <div class="good-price" :style="{color:moduleData.goodsPriceColor}">{{item.price}}</div>
           </div>
         </div>
       </div>
@@ -78,6 +78,10 @@
       this.$nextTick(() => {
           console.log('falshSaleView:', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.flashSaleView, this.moduleData);
+          if(!this.moduleData.startTime){
+            this.moduleData.startTime = 0;
+          };
+          this.moduleData.endTime = (new Date(this.moduleData.endTime.replace(/-/g,'/'))).getTime();
           this.width = this.$refs.flashSaleView.offsetWidth;
           this.timerFn();
           this.timer = window.setInterval(() => {
@@ -184,11 +188,11 @@
           }
         }
         .good-content {
+          padding: 0.5rem 0;
           color: #262626;
           white-space: normal;
           .good-name {
             word-break: break-all;
-            height: 1.2rem;
             font-size: 0.55rem;
             line-height: 0.6rem;
             overflow: hidden;
@@ -200,6 +204,7 @@
           .good-price{
             margin-top: 0.25rem;
             font-size: 0.7rem;
+            color:rgb(248, 15, 15);
           }
         }
       }
