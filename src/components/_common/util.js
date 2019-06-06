@@ -63,9 +63,14 @@ function baseExtend(dst, objs, deep) {
   return dst;
 }
 
+function copy(obj){
+  return JSON.parse(JSON.stringify(obj));
+}
+
 export default {
   extend: extend,
   isObject: isObject,
   isNumber: isNumber,
-  isString: isString
+  isString: isString,
+  copy:copy
 };

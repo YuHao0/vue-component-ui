@@ -1,5 +1,8 @@
 <template>
-  <cz-goodsView :requestData='goodsData.data' :handelClick="handelClick"></cz-goodsView>
+  <div>
+    <button @click="changeData">更换数据</button>
+    <cz-goodsView :requestData='goodsData.data' :handelClick="handelClick"></cz-goodsView>
+  </div>
 </template>
 
 <script>
@@ -35,7 +38,10 @@ export default {
     }
   },
   methods: {
-    handelClick(item) {
+    changeData(item) {
+      this.goodsData.data.goodsList = [{"image":{"url":"http://timg.apiunion.com/i/89a1eab2b3d7a499a0040ff989a1575d_400X400_iW"},"brandName":"我是测试","originalPrice":"¥100","price":"¥50","name":"aape","stock":"库存 17807","jump":{"jumpType":6,"jumpData":"7307"}}];
+    },
+    handelClick(item){
       console.log(item);
     }
   }

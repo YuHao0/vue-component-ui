@@ -32,9 +32,9 @@ export default {
     requestData: Object,
     handelClick: Function
   },
+  
   data() {
     return {
-      goodsData: {},
       containerStyle: {
         gridColumnGap: '',
         gridRowGap: ''
@@ -65,7 +65,6 @@ export default {
           borderRadius: 0
         }
       },
-      
       scrollOption: {
         vuescroll: {
           mode: 'slide'
@@ -80,36 +79,41 @@ export default {
       }
     };
   },
-  computed:{
-    goodsData:function(){
-      return util.extend(this.goodsData, publicConfig.modulePublic, this.requestData);
+  computed: {
+    goodsData() {
+      let goodsData = util.extend(util.copy(publicConfig.modulePublic), this.requestData);
+      this.dealGoodsData(goodsData);
+      return goodsData;
     }
   },
   methods: {
     clickItem(item) {
       this.handelClick(item);
+    },
+    dealGoodsData(goodsData){
+      this.containerStyle.gridColumnGap = goodsData.columnSpacing / window.fontSize + 'rem';
+      this.containerStyle.gridRowGap = goodsData.rowSpacing / window.fontSize + 'rem';
+      this.itemStyle.border = `1px solid ${goodsData.itemStrokeColor}`;
+      this.itemStyle.backgroundColor = goodsData.itemBackgroundColor;
+      this.itemStyle.goodsNameStyle.color = goodsData.goodsNameColor;
+      this.itemStyle.goodsSourceStyle.color = goodsData.goodsSourceColor;
+      this.itemStyle.curPriceStyle.color = goodsData.goodsPriceColor;
+      this.itemStyle.discountStyle.color = goodsData.goodsDiscountColor;
+      this.itemStyle.discountStyle.textDecoration = goodsData.isShowDiscountStrike ? 'line-through' : 'none';
+      this.itemStyle.stockStyle.color = goodsData.goodsStockColor;
+      this.itemStyle.goodsLabelStyle.color = goodsData.labelTextColor;
+      this.itemStyle.goodsLabelStyle.backgroundColor = goodsData.labelFillColor;
+      this.itemStyle.goodsLabelStyle.border = `1px solid ${goodsData.labelStrokeColor}`;
+      this.itemStyle.goodsLabelStyle.borderRadius = goodsData.labelCorner + 'px';
+      this.$nextTick(() => {
+        var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, goodsData);
+      });
     }
   },
   mounted() {
-    this.goodsData = util.extend(publicConfig.modulePublic, this.requestData);
-    this.containerStyle.gridColumnGap = this.goodsData.columnSpacing / window.fontSize + 'rem';
-    this.containerStyle.gridRowGap = this.goodsData.rowSpacing / window.fontSize + 'rem';
-    this.itemStyle.border = `1px solid ${this.goodsData.itemStrokeColor}`;
-    this.itemStyle.backgroundColor = this.goodsData.itemBackgroundColor;
-    this.itemStyle.goodsNameStyle.color = this.goodsData.goodsNameColor;
-    this.itemStyle.goodsSourceStyle.color = this.goodsData.goodsSourceColor;
-    this.itemStyle.curPriceStyle.color = this.goodsData.goodsPriceColor;
-    this.itemStyle.discountStyle.color = this.goodsData.goodsDiscountColor;
-    this.itemStyle.discountStyle.textDecoration = this.goodsData.isShowDiscountStrike ? 'line-through' : 'none';
-    this.itemStyle.stockStyle.color = this.goodsData.goodsStockColor;
-    this.itemStyle.goodsLabelStyle.color = this.goodsData.labelTextColor;
-    this.itemStyle.goodsLabelStyle.backgroundColor = this.goodsData.labelFillColor;
-    this.itemStyle.goodsLabelStyle.border = `1px solid ${this.goodsData.labelStrokeColor}`;
-    this.itemStyle.goodsLabelStyle.borderRadius = this.goodsData.labelCorner + 'px';
-    this.$nextTick(() => {
-      var style = publicConfig.dealPublicAttr(this.$refs.goodsContainer, this.goodsData);
-    });
-  }
+    
+  },
+
 };
 </script>
 
