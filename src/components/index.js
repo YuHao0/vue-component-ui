@@ -7,6 +7,7 @@ import GridLayout from './gridLayout';
 import MixGridLayout from './mixGridLayout';
 import ClosetView from './closetView';
 import FlashSaleView from './flashSaleView';
+import GroupBuy from './groupBuy';
 import SrollPageView from './scrollPageView';
 import GalleryView from './galleryView';
 import GoodsView from './goodsView';
@@ -39,6 +40,7 @@ const components = [
   MixGridLayout,
   ClosetView,
   FlashSaleView,
+  GroupBuy,
   SrollPageView,
   GalleryView,
   GoodsView,
@@ -70,6 +72,7 @@ export default {
   MixGridLayout,
   ClosetView,
   FlashSaleView,
+  GroupBuy,
   SrollPageView,
   GalleryView,
   GoodsView,
