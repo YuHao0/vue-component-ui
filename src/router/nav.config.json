@@ -68,6 +68,10 @@
             "title": "限时抢购模块"
           },
           {
+            "path": "/groupBuy",
+            "title": "团购模块"
+          },
+          {
             "path": "/scrollPageView",
             "title": "滚动翻页模块"
           },
