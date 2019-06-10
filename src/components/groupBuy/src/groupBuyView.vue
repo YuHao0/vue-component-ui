@@ -1,7 +1,7 @@
 <template>
   <div class="cz-groupBuyView" ref='groupBuyView'>
     <div class="groupBuyHeader">团购专场</div>
-    <div class="itemBox" v-for='(item, index) in moduleData.itemInfoList' :key='index'>
+    <div class="itemBox" v-for='(item, index) in moduleData.itemInfoList' :key='index'  @click="clickItem(item)">
       <div class="item">
         <div class="left">
           <img :src="item.image.url">
@@ -10,11 +10,10 @@
           <h2 class="title">{{item.itemName}}</h2>
           <div class="groupBuyPrice">团购价 ￥<span>{{item.price}}</span></div>
           <div class="originPrice">原价 ￥<span>{{item.price}}</span></div>
-          <button class="buyBtn" @click="clickItem(item)">去抢购</button>
+          <button class="buyBtn">去抢购</button>
         </div>
       </div>
     </div>  
-    
   </div>
 </template>
 
@@ -49,17 +48,14 @@
 
     methods: {
       clickItem(item) {
-        this.handelClick(item);
+        this.handelClick(item.image);
       },
     }
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .cz-groupBuyView{
-    width:100vh;
-    height: 21rem;
-    overflow-y: auto;
     .groupBuyHeader{
       width:100%;
       height:2rem;
