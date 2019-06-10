@@ -99,6 +99,7 @@
             width:100%;
             font-size: 0.7rem;
             line-height: 0.8rem;
+            height: 2.4rem;
             text-align: left;
             color: #333;
             font-weight: 400;
