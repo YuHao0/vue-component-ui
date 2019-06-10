@@ -146,5 +146,8 @@
         
       }
     }
+    .itemBox:last-of-type .item{
+      border-bottom: 0
+    }
   }
 </style>
