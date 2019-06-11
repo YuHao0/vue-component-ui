@@ -2,7 +2,7 @@
   <div class="cz-groupBuyView" ref='groupBuyView'>
     <div class="groupBuyHeader">团购专场</div>
     <div class="itemBox" v-for='(item, index) in moduleData.itemInfoList' :key='index'>
-      <div class="item">
+      <div class="item" @click="clickItem(item)">
         <div class="left">
           <img :src="item.image.url">
         </div>
@@ -10,7 +10,7 @@
           <h2 class="title">{{item.itemName}}</h2>
           <div class="groupBuyPrice">团购价 ￥<span>{{item.price}}</span></div>
           <div class="originPrice">原价 ￥<span>{{item.price}}</span></div>
-          <button class="buyBtn" @click="clickItem(item)">去抢购</button>
+          <button class="buyBtn" >去抢购</button>
         </div>
       </div>
     </div>  
@@ -41,7 +41,7 @@
 
     mounted() {
       this.$nextTick(() => {
-          console.log('groupBuyView', this.moduleData);
+          // console.log('groupBuyView', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.groupBuyView, this.moduleData);
           // this.width = this.$refs.groupBuyView.offsetWidth;
       });
@@ -49,7 +49,7 @@
 
     methods: {
       clickItem(item) {
-        this.handelClick(item);
+        this.handelClick(item.image);
       },
     }
   }
@@ -57,9 +57,9 @@
 
 <style lang="scss" scoped>
   .cz-groupBuyView{
-    width:100vh;
-    height: 21rem;
-    overflow-y: auto;
+    // width:100vh;
+    // height: 21rem;
+    // overflow-y: auto;
     .groupBuyHeader{
       width:100%;
       height:2rem;

@@ -15,7 +15,7 @@
     </div>
     <vue-scroll :ops="scrollOption" :style="{marginTop:-moduleData.offset/fontSizeRadio + 'rem'}" :class="{contentShadow:moduleData.showShadow}">
       <div class="cz-flashSaleView_content" ref="content" :style="{width:width+'px'}">
-        <div class="content-img-item" ref="contentItem"
+        <div class="content-img-item" ref="contentItem" @click="clickItem(item)"
           :style='{
             width:moduleData.goodsItemWidth/fontSizeRadio + "rem",
             background:moduleData.goodsFillColor,
@@ -23,7 +23,7 @@
           }' 
           v-for='(item,index) in moduleData.itemList' :key='index'>
           <div class="img-wrap" ref="itemImg">
-            <img :src="item.image.url" draggable="false" :jump="JSON.stringify(item.image.jump)">
+            <img :src="item.image.url" draggable="false">
           </div>
           <div class="good-content">
             <div class="good-name" :style="{color:moduleData.goodsNameColor}">{{item.name}}</div>
@@ -43,7 +43,8 @@
     name: 'cz-flashSaleView',
 
     props: {
-      requestData: Object
+      requestData: Object,
+      handelClick: Function
     },
     
     data() {
@@ -132,7 +133,10 @@
           i = '0' + i; 
         } 
         return i; 
-      }
+      },
+       clickItem(item) {
+        this.handelClick(item.image);
+      },
     }
   }
 </script>
@@ -148,7 +152,7 @@
         font-size: 0.7rem;
         line-height: 2.5rem;
         color: #262626;
-        padding-left: 0.6rem;
+        // padding-left: 0.6rem;
       }
       .timeBox{
         float: right;
