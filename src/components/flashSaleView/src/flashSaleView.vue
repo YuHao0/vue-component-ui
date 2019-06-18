@@ -7,7 +7,7 @@
         <span v-if="stage == 2">本场仅剩</span>
         <span v-if="stage == 3">已结束</span>
         <span class="time">{{days}}</span>
-        <span>:</span>
+        <span>天</span>
         <span class="time">{{hours}}</span>
         <span>:</span>
         <span class="time">{{minutes}}</span>
