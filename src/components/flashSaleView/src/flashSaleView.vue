@@ -6,6 +6,8 @@
         <span v-if="stage == 1">距离开场</span>
         <span v-if="stage == 2">本场仅剩</span>
         <span v-if="stage == 3">已结束</span>
+        <span class="time">{{days}}</span>
+        <span>:</span>
         <span class="time">{{hours}}</span>
         <span>:</span>
         <span class="time">{{minutes}}</span>
@@ -52,6 +54,7 @@
         moduleData: {},
         width: '',
         stage: 0, // 阶段: 1活动未开始,2活动进行中,3活动已结束
+        days:'00',
         hours: '00',
         minutes: '00',
         seconds: '00',
@@ -77,7 +80,6 @@
 
     mounted() {
       this.$nextTick(() => {
-          console.log('falshSaleView:', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.flashSaleView, this.moduleData);
           if(!this.moduleData.startTime){
             this.moduleData.startTime = 0;
@@ -95,6 +97,7 @@
       timerFn() {
         var nowTime = (new Date()).getTime();
         if (nowTime > this.moduleData.endTime) {
+          this.days = '00';
           this.hours = '00';
           this.minutes = '00';
           this.seconds = '00';
@@ -102,12 +105,14 @@
           window.clearInterval(this.timer);
         } else if (nowTime < this.moduleData.startTime) {
           var boforeTime = this.leftTimer(nowTime, this.moduleData.startTime);
+          this.days = boforeTime.days;
           this.hours = boforeTime.hours;
           this.minutes = boforeTime.minutes;
           this.seconds = boforeTime.seconds;
           this.stage = 1;
         } else {
           var onTime = this.leftTimer(nowTime, this.moduleData.endTime);
+           this.days = onTime.days;
           this.hours = onTime.hours;
           this.minutes = onTime.minutes;
           this.seconds = onTime.seconds;
@@ -116,13 +121,16 @@
       },
       leftTimer(startTime, endTime) { 
         var leftTime = endTime - startTime; // 计算剩余的毫秒数
+        var days = parseInt(leftTime / 1000 / 60 / 60 / 24, 10); // 计算剩余的天数
         var hours = parseInt(leftTime / 1000 / 60 / 60 % 24, 10); // 计算剩余的小时 
         var minutes = parseInt(leftTime / 1000 / 60 % 60, 10);// 计算剩余的分钟 
         var seconds = parseInt(leftTime / 1000 % 60, 10);// 计算剩余的秒数 
+        days = this.checkTime(days); 
         hours = this.checkTime(hours); 
         minutes = this.checkTime(minutes); 
         seconds = this.checkTime(seconds); 
         return {
+          days:days,
           hours: hours,
           minutes: minutes,
           seconds: seconds
@@ -181,10 +189,12 @@
       .content-img-item {
         display: inline-block;
         vertical-align: top;
+        margin-right: 0.2rem;
         .img-wrap {
           display: flex;
           align-items: center;
           justify-content: center;
+          height: 5.25rem;
           img {
             max-width: 100%;
             max-height: 100%;
