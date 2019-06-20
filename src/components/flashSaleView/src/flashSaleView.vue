@@ -1,5 +1,5 @@
 <template>
-  <div class="cz-flashSaleView" ref='flashSaleView'>
+  <div class="cz-flashSaleView" ref='flashSaleView' v-if="moduleData.itemList">
     <div class="flashSaleHeader">
       <p>限时抢购</p>
       <span class="timeBox" v-if="stage">
@@ -84,6 +84,9 @@
           if(!this.moduleData.startTime){
             this.moduleData.startTime = 0;
           };
+          if(!this.moduleData.endTime){
+            this.moduleData.endTime = '0';
+          }
           this.moduleData.endTime = (new Date(this.moduleData.endTime.replace(/-/g,'/'))).getTime();
           this.width = this.$refs.flashSaleView.offsetWidth;
           this.timerFn();
