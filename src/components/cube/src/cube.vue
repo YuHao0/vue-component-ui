@@ -1,6 +1,6 @@
 <template>
-  <div class="cz-cube" ref='cube'>
-    <div class="cube-wrap" 
+  <div class="cz-cube" ref='cube' :style="{height:baseHeight + 'rem' }">
+    <div class="cube-wrap"
       :style="{
           left:(paddingList[0] - moduleData.spacing/2)/fontSizeRadio + 'rem',
           top:(paddingList[1] - moduleData.spacing/2)/fontSizeRadio + 'rem',
@@ -43,11 +43,17 @@
       let paddingList = this.moduleData.padding.split(',');
       this.paddingList = paddingList;
       this.baseWidth = (375 - paddingList[0] - paddingList[2] + this.moduleData.spacing) / this.fontSizeRadio;
-      this.baseHeight = (375 - paddingList[1] - paddingList[3] + this.moduleData.spacing) / this.fontSizeRadio;
+     
+      let height = 0
+      this.moduleData.magicItems.forEach(item=>{
+        if(item.endY > height){
+          height = item.endY
+        }
+      });
+      this.baseHeight = (375 - paddingList[1] - paddingList[3] + this.moduleData.spacing) / this.fontSizeRadio / 4 * height;
     },
     mounted() {
       this.$nextTick(() => {
-          console.log('cube:', this.moduleData);
           var style = publicConfig.dealPublicAttr(this.$refs.cube, this.moduleData);
       });
     },
@@ -67,6 +73,7 @@
     .cube-wrap{
       position: absolute;
       z-index: 1;
+      height: 100%;
     }
     .select-cube{
       position: absolute;
